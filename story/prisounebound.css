@@ -115,10 +115,7 @@ body {
     font-size: xx-large;
     padding: 14px 0;
     color: #ffffff;
-    text-shadow:
-    1px 1px 2px #ff8800,
-    0 0 1em #ff8800,
-    0 0 0.2em #ff8800;
+    text-shadow: 2px 2px 1px #ff8800;
 }
 
 #content {

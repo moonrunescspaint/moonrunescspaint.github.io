@@ -172,20 +172,22 @@ async function renderPage(pages) {
         div.append(link);
     }
     
-
     const footLinks = document.querySelector('.footlinks');
     footLinks.className = "footlinks";
     const logLink = document.createElement('a')
     logLink.href = `PBLog.html`
     logLink.textContent = `Story Log`;
     const goBack = document.createElement('a');
-    goBack.href = `prisounebound.html?p=${pageNum - 1}`
+    goBack.href = `prisounebound.html?p=${pageNum - 1}`;
     goBack.textContent = 'Go back';
     footLinks.append(logLink);
-    footLinks.append(' | ');
-    footLinks.append(goBack)
-
-    if (page === 1) {
-        goBack.href = "";
+    if (pageNum === 1) {
+        goBack.textContent = "";
+        footLinks.append('');
+    } else {
+        footLinks.append(' | ');
     }
+    footLinks.append(goBack);
+
+
 }
