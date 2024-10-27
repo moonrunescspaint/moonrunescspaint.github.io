@@ -1,0 +1,161 @@
+body {
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title {
+    border-style: solid;
+    border-color: rgb(255, 183, 0);
+    cursor: pointer;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'typostuck';
+    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/typostuck.ttf);
+    color: white;
+}
+
+#main {
+    width: 950px;
+    background-color: #000000;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    border-style: solid;
+    border-color: rgb(255, 183, 0);
+    width: 950px;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#slide {
+    width: 950px;
+}
+
+.box {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color: rgba(255, 183, 0, 0.662);
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(218, 165, 32, 0.205);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+}
+
+span.jobtitle {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    color: white;
+}
+
+span.name {
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.content {
+    border-style: solid;
+    border-color: rgb(255, 183, 0);
+    background-color: rgba(218, 165, 32, 0.205);
+    box-shadow: 5px 5px 0px rgba(218, 165, 32, 0.662);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 0px 10px 10px;
+    width: 670px;
+}
+.image {
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color: rgb(255, 183, 0);
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(218, 165, 32, 0.205);
+    box-shadow: 5px 5px 0px rgba(218, 165, 32, 0.662);
+}
+
+img {
+    display: table;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+span{
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.header {
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.MSPFA {
+    color: red;
+}
+
+.MSPFA:visited {
+    color: red;
+}
+.MERCH {
+    color: rgb(47, 133, 44);
+}
+.MERCH:visited {
+    color: rgb(47, 133, 44);
+}
+
+.DONATE {
+    color: rgb(0, 117, 163);
+}
+.DONATE:visited {
+    color: rgb(0, 117, 163);
+}

@@ -14,7 +14,6 @@ async function fetchData(){
         
         for (let i = 0; i < cover.length; i++){
             const image = cover[i];
-            const body = document.getElementById('body')
             renderCovers(image);
         }
         
