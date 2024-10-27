@@ -1,0 +1,237 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-image: url("https://file.garden/ZXENUjtcLzaPWMyp/bgpb1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main {
+  width: 950px;
+  background-color: #353433;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.pages1 {
+  background-color: #464443;
+  box-shadow: inset 0px 0px 10px black;
+  margin: 4px 4px 4px 4px;
+  padding: 10px 4px 10px 4px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+  height: 100%;
+}
+
+.pagesfoot {
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.pagescontainer1 {
+  float: left;
+  margin-left: 5px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #615A56;
+  width: 250px;
+}
+
+.pagesheader1 {
+  padding-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgb(255, 115, 0);
+}
+
+.pagescontainer {
+  display: inline-block;
+  background: linear-gradient(to bottom, #615A56, #353433);
+  width: 250px;
+}
+
+.pagesheader {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.arcontainer1 {
+  float: left;
+  margin-left: 5px;
+  vertical-align: top;
+  display: block;  
+  background-color: #615A56;
+  width: 250px;
+  margin-bottom: 7px;
+}
+
+.arheader1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgb(255, 115, 0);
+}
+
+.arp1 {
+  margin: 0 5px;
+}
+
+.pages {
+  padding: 4px 10px 4px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+
+
+
+.containerp1 {
+  display: inline-block;
+  background-color: #353433;
+  width: 600px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.containercustom {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #353433;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  background-color: #353433;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 7px;
+
+}
+
+.slide1 {
+  font-family: Courier;
+  font-weight: bold;
+  background-color: #615A56;
+  display: inline-block;
+    width: 600px;
+    padding: 0 5px;
+  margin: 7px 5px;
+}
+
+.slide {
+    display: table;
+    width: 600px;
+    max-width: 940px;
+    padding: 0 25px;
+    margin: 0 auto 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+    background-color: #615A56;
+}
+
+
+.command {
+  text-align: center;
+    font-size: xx-large;
+    padding: 14px 0;
+    color: #ffffff;
+    text-shadow:
+    1px 1px 2px #ff8800,
+    0 0 1em #ff8800,
+    0 0 0.2em #ff8800;
+}
+
+.content {
+  text-align: center;
+    margin-bottom: 14px;
+    font-size: 13px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.content1 {
+  text-align: center;
+    margin-bottom: 14px;
+    font-size: 13px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.foot {
+  padding-bottom: 14px;
+  font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+
+.links {
+  margin-top: 20px;
+    margin-bottom: 9px;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+#content img.major, 
+#content video.major, 
+#content iframe.major, 
+#content canvas.major, 
+#content object.major, 
+#content ruffle-object.major {
+  margin: 0 -25px;
+
+}
+
+.links>div::before {
+  content: "> ";
+}
+
+.header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: -5px;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titlecard {
+  margin-top: 0px;
+  vertical-align: top;
+  padding-bottom: -5px;
+}
+
+.log {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thick;
+  padding: 4px 4px 4px 15px;
+  background-color: #615A56;
+}
+
+.logtitle {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgb(255, 115, 0);
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 7px;
+  background-color: #615A56;
+}
