@@ -176,7 +176,7 @@ async function renderPage(pages) {
     const footLinks = document.querySelector('.footlinks');
     footLinks.className = "footlinks";
     const logLink = document.createElement('a')
-    logLink.href = `PBlog.html`
+    logLink.href = `PBLog.html`
     logLink.textContent = `Story Log`;
     const goBack = document.createElement('a');
     goBack.href = `prisounebound.html?p=${pageNum - 1}`

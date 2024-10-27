@@ -115,3 +115,29 @@ a {
     color: orange;
 }
 
+.MSPFA {
+    color: red;
+}
+
+.MSPFA:visited {
+    color: red;
+}
+.MERCH {
+    color: rgb(255, 221, 0);
+}
+.MERCH:visited {
+    color: rgb(255, 221, 0);
+}
+
+.DONATE {
+    color: skyblue;
+}
+.DONATE:visited {
+    color: skyblue;
+}
+.CREDITS {
+    color: indigo;
+}
+.CREDITS:visited {
+    color: indigo;
+}
