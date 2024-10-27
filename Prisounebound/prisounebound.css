@@ -193,6 +193,20 @@ body {
 }
 
 .spoiler {
+	border: 1px dashed gray;
+	padding: 1px;
+}
+
+.spoiler>div:last-child {
+	margin: 12px 5%;
+	padding: 3px;
+	text-align: left;
+}
+
+.spoiler.closed>div:last-child {
+	display: none;
+}
+.spoiler {
   background-color: white;
   border: 1px dashed gray;
   padding: 1px;
