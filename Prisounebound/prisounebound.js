@@ -144,7 +144,7 @@ async function renderPage(pages) {
         nextPage.c = "==>"
     }
 
-    if (nextPage?.c === "" ) {
+    if (nextPage?.c === "") {
         nextPage.c = "==>"
     }
 
