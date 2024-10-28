@@ -46,47 +46,51 @@ div.titlecard {
   background: linear-gradient(to top, #615A56, #353433, #000000);
   margin-left: auto;
   margin-right: auto;
-  padding: 7px 7px;
-  max-width: 940px;
+  padding: 7px 0;
 
 }
 
 /* ==================== Pages ======================= */
 
 #slide {
-    display: table;
-    width: 600px;
-    max-width: 940px;
-    padding: 0 20px;
-    margin: 0 auto 20px;
-    word-wrap: break-word;
-    word-break: break-word;
-    background-color: #615A56;
+  display: table;
+  width: 600px;
+  max-width: 940px;
+  padding: 0 25px;
+  margin: 7px auto 23px auto;
+  word-wrap: break-word;
+  word-break: break-word;
+  background-color: #615A56;
 }
 
 #command {
   text-align: center;
-    font-size: xx-large;
-    padding: 14px 0;
-    color: #ffffff;
-    text-shadow: 2px 2px 1px #ff8800;
+  font-size: xx-large;
+  padding: 14px 0;
+  color: #ffffff;
+  text-shadow: 2px 2px 1px #ff8800;
 }
 
 #content {
   text-align: center;
-    margin-bottom: 14px;
-    font-size: 13px;
-    display: block;
-    unicode-bidi: isolate;
+  margin-bottom: 14px;
+  font-size: 13px;
+  display: block;
+  unicode-bidi: isolate;
 }
 
-#content img.major, 
-#content video.major, 
-#content iframe.major, 
-#content canvas.major, 
-#content object.major, 
-#content ruffle-object.major {
+#content img:not(.spoiler img), 
+#content video,
+#content iframe,
+#content canvas, 
+#content object, 
+#content ruffle-object {
   margin: 0 -25px;
+  max-width: 940px;
+}
+
+#slide .spoiler img, #commentbox>.spoiler .spoiler img {
+  max-width: 100%;
 }
 
 /* ============================ footers =================================*/
