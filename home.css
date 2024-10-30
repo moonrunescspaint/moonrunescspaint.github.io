@@ -10,7 +10,8 @@ body{
 
 .titlediv{
     background-color: black;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: auto;
 }
 
@@ -23,13 +24,13 @@ svg[height='0'] { position: absolute }
 
 span.title{
     cursor: pointer;
-    display: block;
+    display: inline-block;
     padding-top: 15px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 150px;
     font-family: 'typostuck';
-    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/typostuck.ttf);
+    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.ttf);
     color: white;
     
     }
@@ -106,16 +107,19 @@ img:hover {
 }
 
 .footer{
-    left: 0;
-    right: 0;
-    position: fixed;
-    padding-bottom: 5px;
     bottom: 0;
     display: block;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
     color: white;
+    padding: 10px 10px;
+}
+
+span.foot {
+    background-color:#000000;
+    padding: 15px 15px;
+    border-radius: 25px;
 }
 
 a {
