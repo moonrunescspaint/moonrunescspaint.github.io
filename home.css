@@ -30,7 +30,8 @@ span.title{
     text-align: center;
     font-size: 150px;
     font-family: 'typostuck';
-    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.ttf);
+    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.ttf) format('truetype'),
+        url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.woff2) format('woff2');
     color: white;
     
     }
