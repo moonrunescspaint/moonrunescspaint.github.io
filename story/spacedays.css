@@ -1,10 +1,10 @@
 /*=========== body and main stuff ============*/
 
 body {
-  margin-top: 0px;
+  margin-top: 10px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  background-color: black;
+  background-image: url(https://file.garden/ZXENUjtcLzaPWMyp/website%20stuff/backgroundsd.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -13,39 +13,57 @@ body {
 .main {
   width: 600px;
   max-width: 940px;
-  background-color: #353433;
+  background-color: #000000;
   display: table;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #6DFF00;
+  box-shadow: 5px 5px 30px #6DFF00,
+    0px 0px 10px #6DFF00;
 
+}
+
+img.title {
+  margin-top: 10px;
 }
 
 div.titlecard {
   margin: auto;
   background-color: black;
   display: flex;
+  border-radius: 15px;
   justify-content: center;
 }
 
 /*=========== Header ============ */
 .header {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  margin-top: -5px;
-  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
   text-align: center;
   padding-top: 5px;
-  padding-bottom: 5px;
+  color: #6DFF00;
+}
+
+.headSpan {
+  background-color: #6DFF00;
+  color: black;
+  padding: 5px 25px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px #3f9100;
 }
 
 /* ================ Containters =============== */
 
 #container {
-  background: linear-gradient(to top, #615A56, #353433, #000000);
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 15px;
   padding: 7px 0;
 
 }
@@ -58,17 +76,18 @@ div.titlecard {
   max-width: 940px;
   padding: 0 25px;
   margin: 7px auto 23px auto;
+  border-radius: 15px;
   word-wrap: break-word;
   word-break: break-word;
-  background-color: #615A56;
+  background-color: #f3f3f3;
 }
 
 #command {
   text-align: center;
   font-size: xx-large;
   padding: 14px 0;
-  color: #ffffff;
-  text-shadow: 2px 2px 1px #ff8800;
+  color: #15ff00;
+  text-shadow: 2px 2px 1px #006e0d;
 }
 
 #content {
@@ -98,12 +117,11 @@ div.titlecard {
 .logtitle {
   text-align: center;
   font-size: 30px;
-  text-shadow: 1px 1px 1px rgb(255, 115, 0);
+  text-shadow: 1px 1px 1px #6DFF00;
   padding: 4px 4px 4px 4px;
   margin-bottom: 10px;
-  font-family: 'typostuck';
-  src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/typostuck.ttf);
-  background-color: #615A56;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
 }
 
 .footlinks {
@@ -125,11 +143,10 @@ div.titlecard {
 #log {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
-  border-style: solid;
-  border-width: thick;
-  padding: 4px 4px 15px 15px;
-  background-color: #615A56;
-  border-color: #ff8800;
+  padding: 10px 10px 15px 15px;
+  background-color: black;
+  border-radius: 15px;
+  color: #6DFF00;
 }
 
 .spoiler {
@@ -147,7 +164,6 @@ div.titlecard {
 	display: none;
 }
 .spoiler {
-  background-color: white;
   border: 1px dashed gray;
   padding: 1px;
 }

@@ -175,7 +175,7 @@ async function renderPage(pages) {
     const footLinks = document.querySelector('.footlinks');
     footLinks.className = "footlinks";
     const logLink = document.createElement('a')
-    logLink.href = `PBLog.html`
+    logLink.href = `SDlog.html`
     logLink.textContent = `Story Log`;
     const goBack = document.createElement('a');
     goBack.href = `spacedays.html?p=${pageNum - 1}`;
