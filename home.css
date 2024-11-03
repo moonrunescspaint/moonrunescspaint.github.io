@@ -8,6 +8,7 @@ body{
     margin: auto;
 }
 
+
 .titlediv{
     background-color: black;
     display: flex;
@@ -21,6 +22,7 @@ svg[height='0'] { position: absolute }
 	initial-value: 0;
 	inherits: false;
 }
+
 
 span.title{
     cursor: pointer;
@@ -70,16 +72,15 @@ span.title:hover{
     justify-content: center;
 }
 .box{
-    padding-top: 10px;
     width: 450px;
-    margin: 0 10px;
+    margin: 20px 15px;
     transition:0.5s;
     filter: none;
 }
 
 
 img {
-    -webkit-filter: brightness(50%);
+
     border-style: solid;
     display: block;
     width: 100%;
@@ -89,8 +90,7 @@ img {
 }
 
 img:hover {
-    -webkit-filter: brightness(100%);
-    
+
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -99,7 +99,7 @@ img:hover {
 }
 
 .box:hover{
-    transform:scale(1.1);
+    transform:scale(1.05);
     z-index:2;
 
     filter: drop-shadow(0px 0px 10px #ffc400);
