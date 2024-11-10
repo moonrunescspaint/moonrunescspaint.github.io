@@ -39,8 +39,7 @@ async function renderCovers(image){
     link.href = image.l;
     box.append(link)
     link.append(boxContent)
-    console.log(boxId)
-    
-
-    
 }
+
+
+
