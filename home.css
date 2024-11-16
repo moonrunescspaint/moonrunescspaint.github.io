@@ -11,7 +11,7 @@ body{
 .adsbygoogle {
     display: block;
     margin: auto;
-    text-align: center;
+    text-align: right;
     margin-bottom: 5px;
 }
 
@@ -19,7 +19,7 @@ body{
 .titlediv{
     background-color: black;
     display: flex;
-    justify-content: center;
+    
     margin: auto;
 }
 

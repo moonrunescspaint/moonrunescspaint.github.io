@@ -1,5 +1,11 @@
 /*=========== body and main stuff ============*/
 
+.adsbygoogle {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 body {
   margin-top: 10px;
   font-family: 'Courier New', Courier, monospace;
