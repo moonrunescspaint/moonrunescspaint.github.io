@@ -8,6 +8,12 @@ body{
     margin: auto;
 }
 
+.adsbygoogle {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 
 .titlediv{
     background-color: black;

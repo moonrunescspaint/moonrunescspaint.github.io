@@ -10,6 +10,12 @@ body {
   background-size: cover;
 }
 
+.adsbygoogle {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 .main {
   width: 600px;
   max-width: 940px;
