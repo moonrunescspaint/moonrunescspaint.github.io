@@ -9,10 +9,9 @@ body{
 }
 
 .adsbygoogle {
-    display: block;
-    margin: auto;
-    text-align: right;
-    margin-bottom: 5px;
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: center;
 }
 
 

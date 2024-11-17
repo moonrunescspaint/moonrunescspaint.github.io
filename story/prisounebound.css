@@ -11,9 +11,8 @@ body {
 }
 
 .adsbygoogle {
-  display: block;
-  margin: auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
