@@ -4,7 +4,7 @@ body {
   margin-top: 0px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  background-color: black;
+  background-color: #1d1c1c;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -32,9 +32,17 @@ div.titlecard {
   justify-content: center;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*=========== Header ============ */
 .header {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 12px;
   background-color: rgb(0, 0, 0);
   color: white;
@@ -48,11 +56,16 @@ div.titlecard {
 /* ================ Containters =============== */
 
 #container {
-  background: linear-gradient(to top, #615A56, #353433, #000000);
+  background-color:#353433;
   margin-left: auto;
   margin-right: auto;
   padding: 7px 0;
+}
 
+#commentSection {
+  background-color:#1d1c1c;
+  margin: 10px;
+  padding: 10px;
 }
 
 /* ==================== Pages ======================= */
@@ -97,6 +110,80 @@ div.titlecard {
 #slide .spoiler img, #commentbox>.spoiler .spoiler img {
   max-width: 100%;
 }
+
+/* ===================== COMMENTS ======================== */
+
+form {
+  display: table;
+  margin: auto;
+}
+
+.formArea {
+  border: 1px solid #918680;
+  background-color: #615A56;
+  margin: 5px;
+  padding: 10px;
+}
+
+textarea {
+  display: block;
+  min-width: 292px;
+}
+
+.uid {
+  min-width: 244px;
+}
+
+.commentSubmit {
+  margin: 2px;
+}
+
+.commentBox {
+  padding: 10px;
+  background-color: #615A56;
+  border: 1px solid #483931;
+  box-shadow: 2px 2px 0px#1d1c1c3c;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  display: table;
+  margin: 5px 5px;
+}
+
+.username {
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 5px;
+  color: #ff8800;
+}
+
+.commentDate {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+#uniqid {
+  display: inline-block;
+}
+
+.id {
+  text-decoration: none;
+  color: black;
+}
+
+.id:hover {
+  text-decoration: none;
+  color: #ff8800;
+}
+
+blockquote {
+margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+
 
 /* ============================ footers =================================*/
 
