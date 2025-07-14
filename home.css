@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(58, 55, 54);
+    background-color: #687a7a;
     margin: auto;
-    padding: 0px;
+    background-repeat: no-repeat;
 }
 .main {
     display: block;
@@ -22,15 +22,8 @@ body{
     margin: auto;
 }
 
-svg[height='0'] { position: absolute }
-@property --k {
-	syntax: '<number>';
-	initial-value: 0;
-	inherits: false;
-}
-
-
 span.title{
+    transition: 1s ease;
     cursor: pointer;
     display: inline-block;
     padding-top: 15px;
@@ -42,41 +35,53 @@ span.title{
         url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.woff2) format('woff2');
     color: white;
     
-    }
-
-span.title:hover{
-	--k: 0;
-	place-self: center;
-	background: linear-gradient(90deg, 
-		hsl(calc(var(--k)*1turn), 95%, 65%), 
-		hsl(calc(var(--k)*1turn + 90deg), 95%, 65%)) text;
-	color: transparent;
-	text-align: center;
-	animation: k 4s linear infinite
 }
 
-@keyframes k { to { --k: 1 } }
+span.title:hover{
+    animation: pulse 3s infinite;
+    text-shadow: 0px 0px 50px #00ceff;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        text-shadow: 0 0 0 0 rgba(0, 200, 255, 0.7);
+    }
+
+    50% {
+        transform: scale(.99);
+        text-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        text-shadow: 0 0 0 0 rgba(0, 234, 255, 0);
+    }
+}
 
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    background-color: rgb(0, 0, 0);
+    background-color: #00ceff;
     color: white;
     margin-top: -5px;
     margin-bottom: 0;
+    padding: 2px 6px;
     text-align: center;
-    box-shadow: 0px 10px 5px #000000;
     font-weight: bold;
+    cursor: default;
   }
 
 #container{
-    width: 90%;
+    width: 70%;
     padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
+
 .box{
     width: 450px;
     margin: 20px 15px;
@@ -86,13 +91,14 @@ span.title:hover{
 
 
 img {
-
+    color: #00ceff;
     border-style: solid;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius:5px;
+    border-width: 1px;
 }
 
 img:hover {
@@ -107,14 +113,13 @@ img:hover {
 .box:hover{
     transform:scale(1.05);
     z-index:2;
-
-    filter: drop-shadow(0px 0px 10px #ffc400);
+    filter: drop-shadow(0px 0px 10px #00ceff);
     border-radius: 10px;
     cursor: pointer;
 }
 
 .footer{
-    bottom: 0;
+    padding-bottom: 0;
     display: block;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -125,49 +130,19 @@ img:hover {
 
 span.foot {
     background-color:#000000;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-radius: 25px;
+    box-shadow: 0px 0px 5px #00ceff;
 }
 
 a {
-    color: orange;
+    color: rgb(255, 255, 255);
 }
 
-.MSPFA {
-    color: red;
+a:visited {
+    color: rgb(255, 255, 255);
 }
 
-.MSPFA:visited {
-    color: red;
-}
-.MSPA {
-    color: orange;
-}
-.MSPA:visited {
-    color: orange;
-}
-.MERCH {
-    color: gold;
-}
-.MERCH:visited {
-    color: gold;
-}
-
-.DONATE {
-    color: olivedrab;
-}
-.DONATE:visited {
-    color: olivedrab;
-}
-.NEWS {
-    color: skyblue;
-}
-.NEWS:visited {
-    color: skyblue;
-}
-.CREDITS {
-    color: purple;
-}
-.CREDITS:visited {
-    color: purple;
+a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
