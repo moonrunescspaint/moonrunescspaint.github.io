@@ -18,27 +18,21 @@
 </head>
 <body>
     <div id="main">
-        <div class="titlediv">
-            <svg(width="0", height="0")
-
-            filter#f(
-                x="-50%",
-                y="-200%",
-                width="200%",
-                height="500%",
-                primitiveUnits="objectBoundingBox"
-            )
-                feGaussianBlur(stdDeviation=".025 .2")
-
-                feColorMatrix(type="saturate", values="5")
-
-                feBlend(in="SourceGraphic")><span class='title'>CS PAINT ADVENTURES</span>
-            </svg>
+        <div id="titlediv">
+            <img id="title" src="https://file.garden/ZXENUjtcLzaPWMyp/website%20stuff/BANNER.gif"></img>
         </div>
-        <div class="header"><a class="MSPFA"href="https://mspfa.com/">MSPFA</a> | <a class="MSPA"href='https://www.homestuck.com/'>MSPA</a> | <a class="MERCH"href="no link">MERCH</a> | <a class="DONATE"href="https://www.patreon.com/c/PRISOUNEBOUND">DONATE</a> | <a class="NEWS"href=''>NEWS</a> | <a class="CREDITS"href="credits.html">CREDITS</a></div>
-        <div id="container"></div>
+        <div class="header"><a class="MSPFA"href="https://mspfa.com/">MSPFA</a> || <a class="MSPA"href='https://www.homestuck.com/'>MSPA</a> || <a class="MERCH"href="no link">MERCH</a> || <a class="DONATE"href="https://www.patreon.com/c/PRISOUNEBOUND">DONATE</a> || <a class="NEWS"href=''>NEWS</a> || <a class="CREDITS"href="credits.html">CREDITS</a></div>
+        <div class="container">
+            <span class="boxTitle">ADVENTURES</span>
+            <div id="storiesBox"></div>
         </div>
     </div>  
+
+    <div class="container">
+        <span class="boxTitle">RECENT NEWS</span>
+        <div id="newsBox"></div>
+    </div>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4190910180759514"
     crossorigin="anonymous"></script>
     <!-- Horizontal -->
@@ -49,8 +43,9 @@
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+
     <div class="footer">
-        <span class="foot">© CS PAINT ADVENTURES | <a href="https://x.com/moonrunes3">Moonrunes</a> & <a href='https://x.com/tri_desert'>Tridesert</a></span>
+        <span class="foot">© CS PAINT ADVENTURES || <a href="https://x.com/moonrunes3">Moonrunes</a> & <a href='https://x.com/tri_desert'>Tridesert</a></span>
     </div>
     <script src="index.js"></script>
 </body>

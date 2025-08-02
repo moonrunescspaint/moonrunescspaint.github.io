@@ -105,71 +105,89 @@ function parseBBCode(code) {
     return e;
 }
 
-async function fetchData(){
+
+async function fetchData() {
 
     try {
-    const response = await fetch('index.json');
 
-        if(!response.ok){
+        const response = await fetch('59863.json');
+
+        if (!response.ok) {
             throw new Error("Error Lol");
         }
+        const searchParams = new URLSearchParams(window.location.search);
+        const pageNum = searchParams.get('p');
         const story = await response.json();
-        const cover = story.c
-        const news = story.n
-        
-        
-        for (let i = 0; i < cover.length; i++){
-            const contents = cover[i];
-            renderCovers(contents);
-        }
+        const pages = story.p
+        renderPage(pages);
 
-        for (let j = 0; j < news.length; j++){
-            const newsContents = news[j];
-            renderNews(newsContents);
-        }
-        
     }
-    catch(error){
+    catch (error) {
         console.error(error);
     }
+
 }
 
-const magic = {};
-magic.magic = magic;
-console.log(magic);
+async function renderPage(pages) {
 
-async function renderCovers(contents){
 
-    const box = document.createElement('div');
-    box.classList.add('box');
-    const boxId = document.getElementById('storiesBox');
-    boxId.append(box);
-    const boxContent = document.createElement('img');
-    boxContent.className = 'coverImage'
-    boxContent.setAttribute('src', contents.a);
-    const link = document.createElement('a');
-    link.href = contents.l;
-    box.append(link);
-    link.append(boxContent);
-}
+    const magic = {};
+    magic.magic = magic;
+    console.log(magic);
 
-async function renderNews(newsContents) {
+    const searchParams = new URLSearchParams(window.location.search);
+    const pageNum = Number(searchParams.get('p'));
+    const page = pages[pageNum - 1];
+    const nextPage = pages[pageNum];
 
-    const newsDiv = document.createElement('div');
-    newsDiv.classList = 'newsDiv';
-    const newsBox = document.getElementById('newsBox');
-    newsBox.append(newsDiv);
-    const newsTitle = document.createElement('span');
-    newsTitle.className = 'newsTitle';
-    newsTitle.textContent = newsContents.t;
-    newsDiv.append(newsTitle);
-    const newsText = document.createElement('p');
-    newsText.className = 'newsText';
-    newsText.append(parseBBCode(newsContents.c));
-    newsDiv.append(newsText)
-    newsImg = document.createElement('img')
-    newsImg.className = 'newsImg'
-    newsImg.src = newsContents.i;
-    newsDiv.append(newsImg)
+    if (page === 1) {
+        nextPage.c = "==>"
+    }
+
+    if (nextPage?.c === "") {
+        nextPage.c = "==>"
+    }
+
+    if (page.c === "") {
+        page.c = "==>"
+    }
+
+    const commandSpan = document.createElement('span');
+    const commandId = document.getElementById("command");
+    commandId.appendChild(commandSpan);
+    commandSpan.textContent = page.c;
+
+    const content = document.createElement('span');
+    const contentId = document.getElementById("content");
+    contentId.appendChild(content);
+    content.append(parseBBCode(page.b));
+
+    if(nextPage !== undefined) {
+        const div = document.querySelector('.links');
+        div.className = "links";
+        div.append('> ');
+        const link = document.createElement('a')
+        link.href = `heartsandminds.html?p=${pageNum + 1}`
+        link.textContent = nextPage.c;
+        div.append(link);
+    }
+    
+    const footLinks = document.querySelector('.footlinks');
+    footLinks.className = "footlinks";
+    const logLink = document.createElement('a')
+    logLink.href = `HMlog.html`
+    logLink.textContent = `Story Log`;
+    const goBack = document.createElement('a');
+    goBack.href = `heartsandminds.html?p=${pageNum - 1}`;
+    goBack.textContent = 'Go back';
+    footLinks.append(logLink);
+    if (pageNum === 1) {
+        goBack.textContent = "";
+        footLinks.append('');
+    } else {
+        footLinks.append(' | ');
+    }
+    footLinks.append(goBack);
+
 
 }

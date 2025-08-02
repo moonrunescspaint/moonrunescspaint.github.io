@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Player';
+    src: url(fonts/PressStart2P.ttf);
+}
+
 body{
     background-color: #687a7a;
     margin: auto;
@@ -14,49 +19,11 @@ body{
     justify-content: center;
 }
 
-
-.titlediv{
-    background-color: black;
+#titlediv {
     display: flex;
     justify-content: center;
     margin: auto;
-}
-
-span.title{
-    transition: 1s ease;
-    cursor: pointer;
-    display: inline-block;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
-    font-size: 150px;
-    font-family: 'typostuck';
-    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.ttf) format('truetype'),
-        url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.woff2) format('woff2');
-    color: white;
-    
-}
-
-span.title:hover{
-    animation: pulse 3s infinite;
-    text-shadow: 0px 0px 50px #00ceff;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        text-shadow: 0 0 0 0 rgba(0, 200, 255, 0.7);
-    }
-
-    50% {
-        transform: scale(.99);
-        text-shadow: 0 0 0 10px rgba(0, 255, 255, 0);
-    }
-
-    100% {
-        transform: scale(1);
-        text-shadow: 0 0 0 0 rgba(0, 234, 255, 0);
-    }
+    background-color: #000000;
 }
 
 .header {
@@ -64,7 +31,7 @@ span.title:hover{
     font-size: 12px;
     background-color: #00ceff;
     color: white;
-    margin-top: -5px;
+    margin-top: 0px;
     margin-bottom: 0;
     padding: 2px 6px;
     text-align: center;
@@ -72,14 +39,27 @@ span.title:hover{
     cursor: default;
   }
 
-#container{
+.container{
+    background-color: #424b4c;
+    border-style: solid none;
+    border-color: #00ceff;
+    margin: 10px auto;
+    padding-bottom: 10px;
+
+}
+
+#storiesBox {
+    background-color: #2a3233;
     width: 70%;
     padding: 20px;
-    margin: auto;
+    margin: 10px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    border: solid;
+    border-color: #00ceff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00ceff;
 }
 
 .box{
@@ -90,7 +70,7 @@ span.title:hover{
 }
 
 
-img {
+.coverImage {
     color: #00ceff;
     border-style: solid;
     display: block;
@@ -101,13 +81,67 @@ img {
     border-width: 1px;
 }
 
-img:hover {
+.coverImage:hover {
 
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+}
+
+.boxTitle {
+    margin-top: 10px;
+    padding-top: 2px;
+    font-family: 'Player';
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: #00ceff;
+    text-shadow: 0px 2px 0px #007e9e;
+    background: linear-gradient(to right, #424b4c, #424b4c, #171b1c, #424b4c, #424b4c);
+}
+
+#newsBox {
+    background-color: #2a3233;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 940px;
+    display: block;
+    border: solid;
+    border-color: #00ceff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00ceff;
+}
+
+.newsDiv {
+    display: table;
+    max-width: 940px;
+    max-width: 75%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 5px auto;
+}
+
+.newsTitle {
+    font-family: 'Player';
+    font-size: 20px;
+    display: inline;
+    text-shadow: 0px 2px 0px #007e9e;
+    margin: auto;
+}
+
+.newsText {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.newsImg {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-width: 900px;
+    overflow: auto;
+    margin: 10px auto;
 }
 
 .box:hover{
