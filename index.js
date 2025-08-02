@@ -125,7 +125,37 @@ async function fetchData(){
 
         for (let j = 0; j < news.length; j++){
             const newsContents = news[j];
-            renderNews(newsContents);
+            if (j === news.length - 1) {
+                const newsDiv = document.createElement('div');
+                newsDiv.classList = 'newsDiv';
+
+                const newsBox = document.getElementById('newsBox');
+                newsBox.append(newsDiv);
+
+                const newsTitle = document.createElement('span');
+                newsTitle.className = 'newsTitle';
+                newsTitle.textContent = newsContents.t;
+                newsDiv.append(newsTitle);
+                
+                const newsText = document.createElement('p');
+                newsText.className = 'newsText';
+                newsText.append(parseBBCode(newsContents.c));
+                newsDiv.append(newsText)
+
+                newsImg = document.createElement('img')
+                newsImg.className = 'newsImg'
+                newsImg.src = newsContents.i;
+                newsDiv.append(newsImg)
+                
+                const more = document.createElement('a');
+                more.className = 'more'
+                more.href = "/news.html";
+                more.textContent = "Read more..."
+                newsDiv.append(more)
+                
+            } else {
+                
+            }
         }
         
     }
@@ -151,25 +181,4 @@ async function renderCovers(contents){
     link.href = contents.l;
     box.append(link);
     link.append(boxContent);
-}
-
-async function renderNews(newsContents) {
-
-    const newsDiv = document.createElement('div');
-    newsDiv.classList = 'newsDiv';
-    const newsBox = document.getElementById('newsBox');
-    newsBox.append(newsDiv);
-    const newsTitle = document.createElement('span');
-    newsTitle.className = 'newsTitle';
-    newsTitle.textContent = newsContents.t;
-    newsDiv.append(newsTitle);
-    const newsText = document.createElement('p');
-    newsText.className = 'newsText';
-    newsText.append(parseBBCode(newsContents.c));
-    newsDiv.append(newsText)
-    newsImg = document.createElement('img')
-    newsImg.className = 'newsImg'
-    newsImg.src = newsContents.i;
-    newsDiv.append(newsImg)
-
 }

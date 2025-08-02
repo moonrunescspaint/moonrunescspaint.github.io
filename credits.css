@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Player';
+    src: url(fonts/PressStart2P.ttf);
+}
+
+@font-face {
+    font-family: 'Stuck';
+    src: url(fonts/typostuck.ttf);
+}
+
 body {
     margin-top: 0px;
     font-family: 'Courier New', Courier, monospace;
@@ -10,16 +20,14 @@ body {
 
 #title {
     border-style: solid;
-    border-color: rgb(255, 183, 0);
+    border-color: #00ceff;
     cursor: pointer;
     display: block;
     padding-top: 15px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 150px;
-    font-family: 'typostuck';
-    src: url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.ttf) format('truetype'),
-        url(https://file.garden/ZXENUjtcLzaPWMyp/fonts/fontstuck-extended.woff2) format('woff2');
+    font-family: 'stuck';
     color: white;
 }
 
@@ -33,7 +41,7 @@ body {
 
 #container{
     border-style: solid;
-    border-color: rgb(255, 183, 0);
+    border-color: #00ceff;
     width: 950px;
     background-color: rgba(0, 0, 0, 0.397);
     display: table;
@@ -55,10 +63,10 @@ body {
     width: auto;
     height: auto;
     border-style: solid;
-    border-color: rgba(255, 183, 0, 0.662);
+    border-color: #00ceff;
     margin: 10px;
     padding-bottom: 10px;
-    background-color: rgba(218, 165, 32, 0.205);
+    background-color: #20b8daa8;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
 }
 
@@ -79,10 +87,8 @@ span.name {
 }
 
 .content {
-    border-style: solid;
-    border-color: rgb(255, 183, 0);
-    background-color: rgba(218, 165, 32, 0.205);
-    box-shadow: 5px 5px 0px rgba(218, 165, 32, 0.662);
+    background-color: #004352;
+    box-shadow: 5px 5px 0px #009bbe;
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
@@ -101,11 +107,11 @@ span.name {
     width: auto;
     height: auto;
     border-style: solid;
-    border-color: rgb(255, 183, 0);
+    border-color: #00ceff;
     margin: 10px;
     padding-bottom: 10px;
-    background-color: rgba(218, 165, 32, 0.205);
-    box-shadow: 5px 5px 0px rgba(218, 165, 32, 0.662);
+    background-color: #004352;
+    box-shadow: 5px 5px 0px #009bbe;
 }
 
 img {
@@ -128,7 +134,7 @@ span{
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    background-color: rgb(255, 183, 0);
+    background-color: #00ceff;
     color: white;
     margin-top: -5px;
     margin-bottom: 0;
@@ -138,25 +144,4 @@ span{
 
 a {
     color: rgb(255, 255, 255);
-}
-
-.MSPFA {
-    color: red;
-}
-
-.MSPFA:visited {
-    color: red;
-}
-.MERCH {
-    color: rgb(47, 133, 44);
-}
-.MERCH:visited {
-    color: rgb(47, 133, 44);
-}
-
-.DONATE {
-    color: rgb(0, 117, 163);
-}
-.DONATE:visited {
-    color: rgb(0, 117, 163);
 }
