@@ -128,12 +128,13 @@ async function fetchData() {
 
 }
 
-async function renderPage(pages) {
+async function renderPage(pages, commentBoxes, commands) {
 
+    console.log(`This website was made possible by the helping hand of Grant Gryczan, SeymourSchlong, and other helpful contributors!\n\nThank you to the inspiration of MSPFA to make all of this become reality.\n\nAnd thank you, dear readers, for getting us to where we are now!`)
 
-    const magic = {};
-    magic.magic = magic;
-    console.log(magic);
+    const fishMagic = {};
+    fishMagic.fishMagic = fishMagic;
+    console.log(fishMagic);
 
     const searchParams = new URLSearchParams(window.location.search);
     const pageNum = Number(searchParams.get('p'));
@@ -146,21 +147,38 @@ async function renderPage(pages) {
 
     if (nextPage?.c === "") {
         nextPage.c = "==>"
+    } else if (nextPage?.c ==="Junice: Dream of angels.") {
+        nextPage.c = ""
+    }
+
+    if (pageNum == 261428) {
+        console.log('https://file.garden/ZXENUjtcLzaPWMyp/junicedream.png')
+        console.log("\n\nI hang suspended floating in the middle of paradox space.\n\nIm cold to the touch and my mind races with the screams of thousands who died due to my inability to save.\n\nJust as the dream demon warned me — The moons were doomed from the very start, and the breath of life has been stripped from its very core.\n\nI must guide the session anew and ensure their safety.\n\nThe Angels look after me as I complete my mission...\n\nI bathe in the glorious light of Sheol, he will watch over us all and bring about judgement to those who wrong us.\n\nAlthough harm may come our way by hands of the unrighteous, he will smite them in his divinity and compensate us gloriously.\n\nOur suffering will not be in vain.\n\nI trust in you Sheol, though I fear for my life with you near.")
     }
 
     if (page.c === "") {
         page.c = "==>"
     }
 
+    let pageBody = page.b
     const commandSpan = document.createElement('span');
     const commandId = document.getElementById("command");
     commandId.appendChild(commandSpan);
     commandSpan.textContent = page.c;
 
+    /* Replacements */
+    if (!pageBody.includes("ʚʘ͜͡))❨")) {
+        console.log("No ʚʘ͜͡))❨, Sorry Junicefan");
+    } else {
+        console.log("ʚʘ͜͡))❨ FISH");
+        pageBody = page.b.replaceAll("ʚʘ͜͡))❨", `<span class="fish">ʚʘ͜͡))❨</span>`)
+    }
+
+
     const content = document.createElement('span');
     const contentId = document.getElementById("content");
     contentId.appendChild(content);
-    content.append(parseBBCode(page.b));
+    content.append(parseBBCode(pageBody));
 
     if(nextPage !== undefined) {
         const div = document.querySelector('.links');
@@ -189,5 +207,59 @@ async function renderPage(pages) {
     }
     footLinks.append(goBack);
 
+    const fishSpans = document.querySelectorAll("span.fish");
+    const fishSound = new Audio('https://file.garden/ZXENUjtcLzaPWMyp/Music/Fish%20Sound%20Effect.mp3')
 
+    for (let i = 0; i < fishSpans.length; i++) {
+        fishSpans[i].addEventListener('mouseover', function() {
+            fishSound.play();
+        })
+    }
+    comments(commentBoxes)
+
+}
+
+function comments(commentBoxes) {
+    
+    const comments = document.querySelectorAll('.commentBox')
+    const postNums = [...document.querySelectorAll('span.postNum')].map(span => span.textContent);
+    
+
+    for (let i = 0; i < comments.length; i++) {
+        const commentBox = comments[i];
+        const commentContent = commentBox.querySelector('blockquote.postMessage');
+        const lines = commentContent.innerText.split("\n");
+        commentContent.textContent = ''
+
+        for (let j = 0; j < lines.length; j++) {
+
+            const line = lines[j];
+            const replyId = line.slice(2).trim()
+
+            if (j != 0) {
+                commentContent.append(document.createElement('br'))
+            }
+
+            if (line.startsWith('>>') && postNums.includes(replyId)) {
+                const replyLink = document.createElement('a');
+                replyLink.className = 'quoteReply';
+                replyLink.href = `#p${replyId}`;
+                replyLink.append(line);
+                commentContent.append(replyLink);
+
+            } else if (line.startsWith('>')) {
+                const quoteText = document.createElement('span')
+                quoteText.className = 'greentext'
+                quoteText.textContent = line
+                quoteText.style.color = '#789922'
+                commentContent.append(quoteText)
+            } else {
+                commentContent.append(line)
+            }
+
+            const form = document.querySelector('textarea')
+            
+        }
+
+    }
 }

@@ -1,14 +1,14 @@
 {
   "i": 54371,
   "d": 1701906651724,
-  "u": 1750649092816,
+  "u": 1763079183632,
   "c": "102981121270998888255",
   "e": [
     "102981121270998888255",
     "116646925988553441084"
   ],
   "n": "PRISOUNEBOUND",
-  "r": "Two lonely trolls finally have a break of their prolonged imprisonment to enjoy a harmless game of Sgrub.\n\nA Fan Adventure with a focus on the older feel of the original Homestuck.\n\n(Currently under art rework)\n\n-Big thank you to FlareK for the CSS Assets!",
+  "r": "Two lonely trolls finally have a break of their prolonged imprisonment to enjoy a harmless game of Sgrub.\n\nA Fan Adventure with a focus on the older feel of the original Homestuck.\n\nWill be Unapologetically Offensive.",
   "h": 2,
   "t": [
     "alternate",
@@ -22,7 +22,7 @@
   "q": "",
   "x": "https://file.garden/ZXENUjtcLzaPWMyp/mspfabanner.png",
   "b": 1,
-  "y": "@import url(\"/css/?s=54487\");\n@import url(\"/css/?s=41577\");\n\n#content {\n    font-size: 13px;\n}\n\n.spoiler {\n    background-color: white;\n}\n\n.spoiler.closed {\n    background-color: #eeeeee00;\n}\n\nnav .heart {\n    display: inline-block;\n    width: 16px;\n    height: 16px;\n    margin: 0 6px;\n    padding: 0 !important;\n    background-image: url(https://file.garden/ZXENUjtcLzaPWMyp/penta.png);\n    background-repeat: no-repeat;\n    background-position: center;\n}\n\na {\n    color: #ff8800;\n}\n\n\n.p1 #main:before {\n    content: \"\";\n    display: block;\n    background: #000000;\n    border-bottom: solid 10px #000000;\n    height: 170px;\n    background-image: var(--banner);\n    background-repeat: no-repeat;\n    background-position: center;\n}\n\n.p1 #slide {\n    width: unset;\n    border-left: 0px\n    background: linear-gradient(to top, #615A56, #353433);\n}\n\n.p1 #container {\n    width: 676px;\n    margin-left: auto;\n    background: linear-gradient(to top, #615A56, #353433);\n}\n\n.p1 #main {\n    position: relative;\n    background: #353433;\n}\n\n.p1 #info {\n    padding: 95px 0 20px;\n    background-color: #353433;\n    display: grid;\n    grid-template-columns: 468px auto;\n    grid-template-rows: repeat(3, auto);\n    grid-column-gap: 12px;\n    grid-row-gap: 0px;\n}\n\n#command {\n    text-align: center;\n    font-size: xx-large;\n    padding: 14px 0;\n    color: #ffffff;\n    text-shadow: 2px 2px 0px #ff8800;\n}\n\n#commentbox {\n    background-color: #615A56;\n    padding: 0 0 10px;\n}\n\n#infobox {\n    background-color: #353433;\n    font-family: Verdana, Arial, Helvetica, sans-serif;\n    font-size: 12px;\n}\n\n\n#info>span>.spoiler, #latestpages>span>.spoiler {\n    border: none;\n    background-color: #353433;\n}\n\n#main {\n\tbackground-color: #545454;\n}\n#slide {\n    background-color: #615A56\n}\n\nnav {\n\tbackground-color: #000000;\n}\n\n#container {\n\tbackground: linear-gradient(to top, #615A56, #353433, #000000);\n}\n\n#newPages {\n        background: #615A56;\n        border-width: 0px 0px 0px 0;\n}\n\n#customAds {\n        background-color: #353433);\n        border-width: 0px 0px 0px 0;\n}\n\na:visited {\n\tcolor: #ff8800;\n}\n\n.customTitle {\n    --color: #ff8800;\n    font-weight: normal;\n    font-family: \"Fontstuck extended\";\n    font-size: 46px;\n    text-align: center;\n    text-shadow: 0.05em 0.05em 0 var(--#ff8800);\n    text-transform: uppercase;\n    letter-spacing: -0.075em;\n    margin-top: -10px;\n}\n\nelement.style {\n    --color: #ff8800;\n}\n\n#info > span > .spoiler.open {\n\tbackground: #615A56;\n}\n\n#infobox .spoiler > div:last-child {\n    display: block;\n    background: #615A56;\n    line-height: 1.5em;\n    margin: 0px;\n    padding: 10px 10px 0px;\n}\n\n#info {\n\tbackground-color: #353433;\n}\n\n.p1 #slide {\n    width: unset;\n    border-left: 0px #535353 solid;\n}\n\n\n#infobox span.major {\n    display: block;\n    text-align: center;\n    color: #ff8800;\n    text-shadow: 0.11em 0.11em 0 black, 0.05em 0.05em 0 black;\n    font-size: 33px !important;\n    line-height: 1.2em;\n    padding-bottom: 5px;\n    margin-bottom: -10px;\n    border-bottom: 1px #0004 solid;\n}\n\n#commentbox .spoiler > div:first-child input {\n    --color: #ff8800;\n    font-weight: normal;\n    font-family: \"Fontstuck extended\";\n    text-align: center;\n    text-shadow: 0.05em 0.05em 0 var(--color);\n    font-size: 46px !important;\n    border-width: 0px;\n    border-style: none;\n    border-color: #615A56;\n    border-image: #615A56;\n    background: #615A56;\n}\n\n#commentbox .spoiler.closed {\n    height: 400px;\n    background: #615A56;\n    background-color: #615A56;\n\n#info {\n    margin-bottom: 0px;\n    font-size: 16px;\n    font-weight: normal;\n    text-align: center;\n}\n}\n\n#commentbox .spoiler > div:first-child input:hover {\n    color: #ff8800;\n    --color: black;\n}\n\n:root {\n  --banner: url(\"https://file.garden/ZXENUjtcLzaPWMyp/PRISON.png\");\n}\n\n@mspfa audio 138 143 0.3 https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/Going%20Home.mp3;\n\n@mspfa audio 506 512 0.3 https://file.garden/ZXENUjtcLzaPWMyp/Music/Hymn%20of%20the%20Cherubim.mp3;\n\n@mspfa audio 378 387 0.3 https://file.garden/ZXENUjtcLzaPWMyp/The%20Laboratory.mp3;\n\n.p536 #content iframe.major {\n    max-width: 9999px;\n    margin-left: -300px;\n}\n\n.p536 #content {\n    width: 600px;\n}\n\n.p384 #content img.major { max-width: 9999px; margin-left: -441px; }\n\n.p384 #content { width: 600px; \n\n}\n\n.p181-183 #slide .spoiler input {\n    margin: 5px;\n    padding: 2px;\n    color: #000000;\n    background-color: #000000;\n    outline: 2px solid #7e0000;\n    border: none;\n    border-radius: 0px;\n}\n.p181-183 #slide div.spoiler {\n    padding: 2px;    \n    border: 4px solid #000000;\n    outline: 2px solid #7e0000;\n    border-radius: 0px;\n    background-color: #000000;\n}\n\n.p595-600 #slide .spoiler input {\n    margin: 5px;\n    padding: 2px;\n    color: #000000;\n    background-color: #000000;\n    outline: 2px solid #7e0000;\n    border: none;\n    border-radius: 0px;\n}\n.p595-600 #slide div.spoiler {\n    padding: 2px;    \n    border: 4px solid #000000;\n    outline: 2px solid #7e0000;\n    border-radius: 0px;\n    background-color: #000000;\n}\n\n\ndiv.customTitle:nth-child(4) {\n  display:none\n}\n\nbody {\n    background-color: black;\n}\n",
+  "y": "@import url(\"/css/?s=54487\");\n@import url(\"/css/?s=41577\");\n\n#content {\n    font-size: 13px;\n}\n\n.spoiler {\n    background-color: white;\n}\n\n.spoiler.closed {\n    background-color: #eeeeee00;\n}\n\nnav .heart {\n    display: inline-block;\n    width: 16px;\n    height: 16px;\n    margin: 0 6px;\n    padding: 0 !important;\n    background-image: url(https://file.garden/ZXENUjtcLzaPWMyp/penta.png);\n    background-repeat: no-repeat;\n    background-position: center;\n}\n\nnav { background-color: black; }\n\n\na {\n    color: #ff8800;\n}\n\n\n.p1 #main:before {\n    content: \"\";\n    display: block;\n    background: #000000;\n    border-bottom: solid 10px #000000;\n    height: 170px;\n    background-image: var(--banner);\n    background-repeat: no-repeat;\n    background-position: center;\n}\n\n.p1 #slide {\n    width: unset;\n    border-left: 0px\n    background: linear-gradient(to top, #615A56, #353433);\n}\n\n.p1 #container {\n    width: 676px;\n    margin-left: auto;\n    background: linear-gradient(to top, #615A56, #353433);\n}\n\n.p1 #main {\n    position: relative;\n    background: #353433;\n}\n\n.p1 #info {\n    padding: 95px 0 20px;\n    background-color: #353433;\n    display: grid;\n    grid-template-columns: 468px auto;\n    grid-template-rows: repeat(3, auto);\n    grid-column-gap: 12px;\n    grid-row-gap: 0px;\n}\n\n#command {\n    text-align: center;\n    font-size: xx-large;\n    padding: 14px 0;\n    color: #ffffff;\n    text-shadow: 2px 2px 0px #ff8800;\n}\n\n#commentbox {\n    background-color: #615A56;\n    padding: 0 0 10px;\n}\n\n#infobox {\n    background-color: #353433;\n    font-family: Verdana, Arial, Helvetica, sans-serif;\n    font-size: 12px;\n}\n\n\n#info>span>.spoiler, #latestpages>span>.spoiler {\n    border: none;\n    background-color: #353433;\n}\n\n#main {\n\tbackground-color: #545454;\n}\n#slide {\n    background-color: #615A56\n}\n\n#container {\n\tbackground: linear-gradient(to top, #615A56, #353433, #000000);\n}\n\n#newPages {\n        background: #615A56;\n        border-width: 0px 0px 0px 0;\n}\n\n#customAds {\n        background-color: #353433);\n        border-width: 0px 0px 0px 0;\n}\n\na:visited {\n\tcolor: #ff8800;\n}\n\n.customTitle {\n    --color: #ff8800;\n    font-weight: normal;\n    font-family: \"Fontstuck extended\";\n    font-size: 46px;\n    text-align: center;\n    text-shadow: 0.05em 0.05em 0 var(--#ff8800);\n    text-transform: uppercase;\n    letter-spacing: -0.075em;\n    margin-top: -10px;\n}\n\nelement.style {\n    --color: #ff8800;\n}\n\n#info > span > .spoiler.open {\n\tbackground: #615A56;\n}\n\n#infobox .spoiler > div:last-child {\n    display: block;\n    background: #615A56;\n    line-height: 1.5em;\n    margin: 0px;\n    padding: 10px 10px 0px;\n}\n\n#info {\n\tbackground-color: #353433;\n}\n\n.p1 #slide {\n    width: unset;\n    border-left: 0px #535353 solid;\n}\n\n\n#infobox span.major {\n    display: block;\n    text-align: center;\n    color: #ff8800;\n    text-shadow: 0.11em 0.11em 0 black, 0.05em 0.05em 0 black;\n    font-size: 33px !important;\n    line-height: 1.2em;\n    padding-bottom: 5px;\n    margin-bottom: -10px;\n    border-bottom: 1px #0004 solid;\n}\n\n#commentbox .spoiler > div:first-child input {\n    --color: #ff8800;\n    font-weight: normal;\n    font-family: \"Fontstuck extended\";\n    text-align: center;\n    text-shadow: 0.05em 0.05em 0 var(--color);\n    font-size: 46px !important;\n    border-width: 0px;\n    border-style: none;\n    border-color: #615A56;\n    border-image: #615A56;\n    background: #615A56;\n}\n\n#commentbox .spoiler.closed {\n    height: 400px;\n    background: #615A56;\n    background-color: #615A56;\n\n#info {\n    margin-bottom: 0px;\n    font-size: 16px;\n    font-weight: normal;\n    text-align: center;\n}\n}\n\n#commentbox .spoiler > div:first-child input:hover {\n    color: #ff8800;\n    --color: black;\n}\n\n:root {\n  --banner: url(\"https://file.garden/ZXENUjtcLzaPWMyp/PRISON.png\");\n}\n\n@mspfa audio 138 143 0.3 https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/Going%20Home.mp3;\n\n@mspfa audio 506 512 0.3 https://file.garden/ZXENUjtcLzaPWMyp/Music/Hymn%20of%20the%20Cherubim.mp3;\n\n@mspfa audio 378 387 0.3 https://file.garden/ZXENUjtcLzaPWMyp/The%20Laboratory.mp3;\n\n@mspfa audio 653 662 0.3 https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/13%20Angels%20Standing%20Guard;\n\n.p536 #content iframe.major {\n    max-width: 9999px;\n    margin-left: -300px;\n}\n\n.p536 #content {\n    width: 600px;\n}\n\n.p384 #content img.major { max-width: 9999px; margin-left: -441px; }\n\n.p384 #content { width: 600px; \n\n}\n\n.p181-183 #slide .spoiler input {\n    margin: 5px;\n    padding: 2px;\n    color: #000000;\n    background-color: #000000;\n    outline: 2px solid #7e0000;\n    border: none;\n    border-radius: 0px;\n}\n.p181-183 #slide div.spoiler {\n    padding: 2px;    \n    border: 4px solid #000000;\n    outline: 2px solid #7e0000;\n    border-radius: 0px;\n    background-color: #000000;\n}\n\n.p595-600 #slide .spoiler input {\n    margin: 5px;\n    padding: 2px;\n    color: #000000;\n    background-color: #000000;\n    outline: 2px solid #7e0000;\n    border: none;\n    border-radius: 0px;\n}\n.p595-600 #slide div.spoiler {\n    padding: 2px;    \n    border: 4px solid #000000;\n    outline: 2px solid #7e0000;\n    border-radius: 0px;\n    background-color: #000000;\n}\n\n\ndiv.customTitle:nth-child(4) {\n  display:none\n}\n\nbody {\n    background-color: black;\n}\n",
   "j": "MSPFA.import(\"/js/?s=54487\");\nMSPFA.import(\"/js/?s=44198\");",
   "v": "MSPFA.import(\"/js/?s=54487\");\nMSPFA.import(\"/js/?s=44198\");",
   "m": "==>",
@@ -30,7 +30,7 @@
     {
       "d": 1701908018313,
       "c": "Prisounebound",
-      "b": "[img=480x690]https://linkh.at/prisouneboundactcovers[/img]\n\n[url=https://discord.gg/gTCY52U7FV][img]https://file.garden/ZXENUjtcLzaPWMyp/website%20stuff/discord.png[/img][/url]\n\n[spoiler open=\"CREDITS\" close=\"Hide\"]\n[center]\n================================================\n\n[size=14][b]Creator[/b][/size]: \nMoonrunes, Tri_desert\n\n[b][size=14]Panel Artists[/size][/b]: \nMoonrunes, Tri_desert\n\n[b][size=14]Guest Panel Artists[/size][/b]: \n[url=https://mspfa.com/user/?u=111820353758257104577]Abies_Treeman[/url]\n[url=https://bsky.app/profile/bileshroom.bsky.social]Bileshroom[/url]\n\n[b][size=14]Music Artist[/size][/b]: \nVinacom\n\n[b][size=14]Assets[/size][/b]: \nAndrew Hussie, Homestuck Artists, FlareK\n\nSpecial Thanks to \n[b][size=16]VIEWERS LIKE YOU[/size][/b]\n\n================================================\n\n[/center]\n[/spoiler]\n[spoiler open=\"ALSO READ\" close=\"Hide\"]\n\n[center]================================================\n\n[url=https://mspfa.com/?s=56284&p=1]Space Days by Tridesert[/url]\n\n[url=https://mspfa.com/?s=47894&p=1]Conjoined Session by Gutworm[/url]\n\n[url=https://mspfa.com/?s=51062&p=1]Drinking Problem by Abies[/url]\n\n================================================[/center]\n[/spoiler]",
+      "b": "[img=480x690]https://file.garden/ZXENUjtcLzaPWMyp/coverimage.jpg[/img]\n\n[url=https://discord.gg/gTCY52U7FV][img]https://file.garden/ZXENUjtcLzaPWMyp/website%20stuff/discord.png[/img][/url] [url=https://cspaintadventures.com/][img]https://file.garden/ZXENUjtcLzaPWMyp/website%20stuff/cspaint.png[/img][/url]\n\n[spoiler open=\"CREDITS\" close=\"Hide\"]\n[center]\n================================================\n\n[size=14][b]Creator[/b][/size]: \nMoonrunes, Tri_desert\n\n[b][size=14]Panel Artists[/size][/b]: \nMoonrunes, Tri_desert\n\n[b][size=14]Guest Panel Artists[/size][/b]: \n[url=https://mspfa.com/user/?u=111820353758257104577]Abies_Treeman[/url]\n[url=https://bsky.app/profile/bileshroom.bsky.social]Bileshroom[/url]\n\n[b][size=14]Music Artist[/size][/b]: \nVinacom\n\n[b][size=14]Assets[/size][/b]: \nAndrew Hussie, Homestuck Artists, FlareK\n\nSpecial Thanks to \n[b][size=16]VIEWERS LIKE YOU[/size][/b]\n\n================================================\n\n[/center]\n[/spoiler]\n[spoiler open=\"ALSO READ\" close=\"Hide\"]\n\n[center]================================================\n\n[url=https://mspfa.com/?s=56284&p=1]Space Days by Tridesert[/url]\n\n[url=https://mspfa.com/?s=47894&p=1]Conjoined Session by Gutworm[/url]\n\n[url=https://mspfa.com/?s=51062&p=1]Drinking Problem by Abies[/url]\n\n================================================[/center]\n[/spoiler]",
       "n": [
         2
       ]
@@ -38,7 +38,7 @@
     {
       "d": 1701908280414,
       "c": "BEGIN ACT 1.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/ellinroom.gif[/img]\n\nA young troll stands in her respiteblock. It was 6 sweeps ago she was given life. It's only today she will be... \n\nWait... \n\nThis sounds all a little too familiar. And it's not even your wriggling day. Your wriggling day is on the [size=14][b]6th Bilunar Perigee of the 2nd Dim Season[/b][/size]. Let's just cut to the chase...\n\n\n\n",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/ellinroom.gif[/img]\n\nA young troll stands in her respiteblock. Six sweeps ago she was given life. It's only today she will be... \n\nWait... \n\nThis all sounds a little too familiar, and it's not even your wriggling day. Your wriggling day is on the [size=14][b]6th Bilunar Perigee of the 2nd Dim Season[/b][/size]. Let's just cut to the chase...\n\n\n\n",
       "n": [
         3
       ]
@@ -46,7 +46,7 @@
     {
       "d": 1701908588765,
       "c": "Weird Troll Girl: Introduce yourself.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/elzoomout.gif[/img]\n\nYour name is [background=#000000][color=#ef7a20][b][size=15]Ellith Fezzit[/size][/b][/color][/background]\n\nYour name was established about [size=14][b]6 SWEEPS[/b][/size] ago upon your larval awakening; Also known as a Wriggling Day. Because of this, we're not going to give the reader the satisfaction of giving you such a horrible insulting and derogatory nickname on your Placronym. That's a tired joke and frankly, not one that you are very fond of.  \n\nYou're considered a \"low-blood\" on the [size=14][b]HEMOSPECTRUM[/b][/size] for someone in your society. What does that even mean? Doesn't matter. You enjoy the comforts of your cozy little respiteblock despite this. [size=14][b]FAIRY LIGHTS[/b][/size], [size=14][b]PILLOWS[/b][/size], and [size=14][b]PLUSHIES[/b][/size] are scattered about, creating a stark contrast to the dreadful and eternally hostile night just outside. You live in quiet isolation with your custodian - The two of you get along just nicely. Which is a very surprising concept within your society.\n\nYou also have an interest in all things [b][size=14]WHITTLING[/size][/b] and [b][size=14]WOOD CARVING[/size][/b]. The craft of taking wood and shaping it down to your artistic desires is something of a skillful trade. You've been doing this since you gained sentience... and [b]ARMS[/b]. Your main choice of wood to work with is the strong and sturdy [b][size=14]OAK WOOD[/size][/b]. You find that it is soft enough to carve with relative ease, and strong enough to keep figure after sweeps of wear and tear. You used it to build the [b][size=14]HIVE[/size][/b] that you're currently standing in!\n\nRegardless of your comfy living situation, you are what a lot would consider a [size=14][b]CRY-GRUB[/b][/size]. Always in tears at the most trivial of inconveniences. The only one who calls you this however is your only friend on [size=14][b]TROLLIAN[/b][/size]. A fairly new communication application on your husktop.\n\nSpeaking of which you should probably troll him now. He worries you sick being cooped up all by himself in that little prison cell of a respiteblock as he so describes it. It couldn't possibly be that bad.\n\nYour Trollian handle is: \n[background=#000000][color=ff7f27][size=14]annoyingArtisan[/size][/color][/background].\n\nYou used to go by another name, however, being called annoying one too many times forced your hand to bend to the will of others.\n\nWhat will you do?\n\n",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/elzoomout.gif[/img]\n\nYour name is [background=#000000][color=#ef7a20][b][size=15]Ellith Fezzit[/size][/b][/color][/background]\n\nYour name was established about [size=14][b]6 SWEEPS[/b][/size] ago upon your larval awakening; Also known as a Wriggling Day. Because of this, we're not going to give the reader the satisfaction of giving you such a horribly insulting and derogatory nickname for your Placronym. That's a tired joke and frankly, not one that you are very fond of.\n\nYou're considered a \"low-blood\" on the [size=14][b]HEMOSPECTRUM[/b][/size] in your society. What does that even mean? Doesn't matter. You enjoy the comforts of your cozy little respiteblock. [size=14][b]FAIRY LIGHTS[/b][/size], [size=14][b]PILLOWS[/b][/size], and [size=14][b]PLUSHIES[/b][/size] are scattered about. Which create a stark contrast to the dreadful and eternally hostile night just outside. You live in quiet isolation with your custodian - The two of you get along just nicely. Which is an unprecedented concept within your society.\n\nYou also have an interest in all things [b][size=14]WHITTLING[/size][/b] and [b][size=14]WOOD WORKING[/size][/b]. The craft of taking wood and shaping it down to your artistic desires is something of a skillful trade. You've been doing this since you gained sentience... and [b]ARMS[/b]. Your choice of wood is strong and sturdy [b][size=14]OAK WOOD[/size][/b]. You find that it is soft enough to carve with relative ease, and strong enough to keep figure after sweeps of wear and tear. You used it to build the [b][size=14]HIVE[/size][/b] that you're currently standing in!\n\nYou are also what a lot would consider to be a [size=14][b]CRY-GRUB[/b][/size]. Always in tears at the most trivial of inconveniences — Despite your comfortable living situation. The only one who calls you this, however, is your only friend on [size=14][b]TROLLIAN[/b][/size].\n\nSpeaking of which you should probably troll him now. He worries you sick being all cooped up by his lonesome in that \"cell\" of a respiteblock — as he so describes it. It couldn't possibly be that bad.\n\nYour Trollian handle is: \n[background=#000000][color=ff7f27][size=14]annoyingArtisan[/size][/color][/background].\n\nYou used to go by another name. However, being called annoying one too many times forced your hand to bend to the will of others.\n\nWhat will you do?\n\n",
       "n": [
         4
       ]
@@ -54,7 +54,7 @@
     {
       "d": 1701914443569,
       "c": "Ellith: Troll your friend.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-4.gif[/img]\n\nYou turn on your \"Husktop\" to the Trollian executable. \n\nThis is where you spend a lot of your time when you're not galivanting around your hive. You often put on nice music to fill your hearing holes while working on your whittling. Your background is a field of wonderful yellow flowers. These are a very unusual species of flora and ones not very familiar to the more carnivorous variety on your planet.\n\nYou begin to troll [background=#000000][color=3630CC]genesisThessalonians[/color][/background]. Though you've never met him before; He has been your best friend for as long as you can remember. You two talk to each other nearly every day and know more about him than his own lusus does. It's a little sad, but at least you can be there for him. He has a bit of a mean streak that you are also not very fond of. Regardless, you can look past those moments because deep down you know he really cares for you.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[center][color=#646464]-- [color=f27a20]annoyingArtisan [AA][/color] began trolling [color=3630CC]genesisThessalonians [GT][/color] --[/color][/center]\n\n[color=#ff7f27]AA: h!\n[/color][color=#ff7f27]AA: how have you been quq[/color]\n[color=3630CC]GT: IM fine, whæt Do you neeD[/color]\n[color=#ff7f27]AA: oh noth!ng, !m just check!ng on you[/color]\n[color=#ff7f27]AA: uhhh[/color]\n[color=#ff7f27]AA: also k!nd of bowed[/color]\n[color=3630CC]GT: I see. Well, iM still stuck in þis respiteblock. æs to be expected.[/color]\n[color=3630CC]GT: IM boreD too I guess[/color]\n[color=3630CC]GT: I genuinely Dont know why I even boþer giving you upDætes on it. Its not like its going to be chænging ænytiMe soon[/color]\n[color=#ff7f27]AA: st!ll !n youw woom?? qnq man when !s youw lusus go!ng to let you out[/color]\n[color=3630CC]GT: Its been 7 sweeps, so I æssuMe never[/color]\n[color=3630CC]GT: Funny þæt, however, I Dont þink ive ever reælly seen My lusus outsiDe of being recæptureD. I Dont know where þey go or how þey knew when I ætteMpteD to escæpe. Its like soMe weirD sixþ sense[/color]\n[color=#ff7f27]AA: thats so cweepy... ! w!sh ! could come get you and take you back to my h!ve, youd see my lusus all the t!me![/color]\n[color=3630CC]GT: GooD luck wiþ þæt, when I went outsiDe I got to reælly see how fortifieD My hive is. Its æ MæDhouse here.[/color]\n[color=3630CC]GT: Going to neeD to Do soMe reæl plænning here.[/color]\n[color=3630CC]GT: Anywæy, æbout þis gæMe you've been tælking æbout... when is it suppose send?[/color]\n[color=#ff7f27]AA: my computew takes a long t!me to upload games, !ts not l!ke ! have good wecept!on out hewe yaknow q_q !m twy!ng to shawe the f!le w!th you but !ts tak!ng foweveww\n[/color][color=3630CC]GT: To be fæir I Dont hæve þe greætest reception here eiþer, yknow, being in prison ænD æll.[/color]\n[color=#ff7f27]AA: well let me know when you get !t... okay[/color]\n[color=#ff7f27]AA: !ve nevew played a v!deo game befowe!! !m so exc!ted to play ^u^[/color]\n[color=#ff7f27]AA: sucks you cant download !t youwself due to youw lususes !ntewnet westw!ct!ons q_q[/color]\n[color=3630CC]GT: its fine, once we get to plæy it will be æ nice Distræction[/color]\n[color=#ff7f27]AA: agweed![/color]\n\n[/spoiler]",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-4.gif[/img]\n\nYou turn on your \"Husktop\" to the Trollian executable. \n\nThis is where you spend a lot of time when you're not galivanting around your hive. You often put on music to fill your hearing-holes while working on your whittling. Your background is a field of wonderful yellow flowers. These are a very unusual species of flora and ones not very familiar to the more carnivorous variety on your planet.\n\nYou begin to troll [background=#000000][color=3630CC]genesisThessalonians[/color][/background]. Though you've never met him before; He has been your best friend for as long as you can remember. You two talk to each other nearly every night. You can confidently say that you know more about him than his own lusus does. It's a little sad, but at least you can be there for him. He has a bit of a mean streak that you are also not very fond of. Regardless, you can look past those moments because deep down you know he really cares for you.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[center][color=#646464]-- [color=f27a20]annoyingArtisan [AA][/color] began trolling [color=3630CC]genesisThessalonians [GT][/color] --[/color][/center]\n\n[color=#ff7f27]AA: h!\n[/color][color=#ff7f27]AA: how have you been quq[/color]\n[color=3630CC]GT: IM fine, whæt Do you neeD[/color]\n[color=#ff7f27]AA: oh noth!ng, !m just check!ng on you[/color]\n[color=#ff7f27]AA: uhhh[/color]\n[color=#ff7f27]AA: also k!nd of bowed[/color]\n[color=3630CC]GT: I see. Well, iM still stuck in þis respiteblock. æs to be expected.[/color]\n[color=3630CC]GT: IM boreD too I guess[/color]\n[color=3630CC]GT: I genuinely Dont know why I even boþer giving you upDætes on it. Its not like its going to be chænging ænytiMe soon[/color]\n[color=#ff7f27]AA: st!ll !n youw woom?? qnq man when !s youw lusus go!ng to let you out[/color]\n[color=3630CC]GT: Its been 7 sweeps, so I æssuMe never[/color]\n[color=3630CC]GT: Funny þæt, however, I Dont þink ive ever reælly seen My lusus outsiDe of being recæptureD. I Dont know where þey go or how þey knew when I ætteMpteD to escæpe. Its like soMe weirD sixþ sense[/color]\n[color=#ff7f27]AA: thats so cweepy... ! w!sh ! could come get you and take you back to my h!ve, youd see my lusus all the t!me![/color]\n[color=3630CC]GT: GooD luck wiþ þæt, when I went outsiDe I got to reælly see how fortifieD My hive is. Its æ MæDhouse here.[/color]\n[color=3630CC]GT: Going to neeD to Do soMe reæl plænning here.[/color]\n[color=3630CC]GT: Anywæy, æbout þis gæMe you've been tælking æbout... when is it supposed to send?[/color]\n[color=#ff7f27]AA: my computew takes a long t!me to upload games, !ts not l!ke ! have good wecept!on out hewe yaknow q_q !m twy!ng to shawe the f!le w!th you but !ts tak!ng foweveww\n[/color][color=3630CC]GT: To be fæir I Dont hæve þe greætest reception here eiþer, yknow, being in prison ænD æll.[/color]\n[color=#ff7f27]AA: well let me know when you get !t... okay[/color]\n[color=#ff7f27]AA: !ve nevew played a v!deo game befowe!! !m so exc!ted to play ^u^[/color]\n[color=#ff7f27]AA: sucks you cant download !t youwself due to youw lususes !ntewnet westw!ct!ons q_q[/color]\n[color=3630CC]GT: its fine, once we get to plæy it will be æ nice Distræction[/color]\n[color=#ff7f27]AA: agweed![/color]\n\n[/spoiler]",
       "n": [
         5
       ]
@@ -62,7 +62,7 @@
     {
       "d": 1701919263327,
       "c": "Ellith: Learn your Sylladex.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-2.gif[/img]\n\nYour friend on the other end seems to have stopped trolling you. Guess now is a good time as any to learn your Sylladex.\n\nYou captchalogue a Whittling Knife and some wood into your Sylladex. Your 'Fetch Modus' is 'Whittling'. At all times you will have a knife now locked in, this is your modus' tool to fetch items. To fetch any items that you captchalogue, you must whittle them down to their general shape. You must also have wood within your Sylladex.\n\nFortunately, you don't have to whittle an item you have already carved out before. It's a daunting task but you feel this gives you an excuse to always be practicing your craft.\n\nYour modus is one that you somehow made yourself. It's best not to think too hard about how this is possible, but you like how it works anyway. Unlike most fetch modus', yours isn't terrible convoluted.\n",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-2.gif[/img]\n\nYour friend on the other end seems to have ceased trolling you. You guess now is a good time as any to learn your Sylladex.\n\nYou captchalogue (1) WHITTLING KNIFE and (1) WOOD MATERIAL into said Sylladex. Your 'Fetch Modus' is 'Whittling.' You will now have this whittling knife locked in; This is your modus' main function to fetch items. To fetch items that you captchalogue you must carve them down to their general shape — While also having wood within your Sylladex.\n\nFortunately, you don't have to repeat this process for items you have already carved out. It's a daunting task but you feel this gives you an excuse to always be practicing your craft.\n\nYour modus is one that you somehow made yourself. It's best not to think too hard about how this is possible. You like how it works anyway. Unlike most Fetch Modi', yours isn't terribly convoluted.\n",
       "n": [
         6
       ]
@@ -70,7 +70,7 @@
     {
       "d": 1701926575556,
       "c": "",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-4.gif[/img]\n\nYour notification goes off. It seems like all this learning has given your friend enough time to do what he needed to do and return to his computer.\n\nYou hop back onto your husktop and continue to converse with your friend. He often talks about his lusus like he's scared to death of them. He assures you nothing scares him, however. But you could only imagine what his lusus might be like. It must be so infuriating to live with a lusus who you live in constant fear of. Makes you feel grateful that yours is the complete polar opposite. Still, you can't help but feel sorry for your friend.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n\n[color=3630CC]GT: I þink my lusus is spying on Me which is ælwæys æ gooD þing. I Dont know if My lusus will ællow Me to plæy æny gæMes, tælking to you is More þæn enough æpæræntly.[/color]\n[color=3630CC]GT: DiD you leærn your syllæDex yet? Mine is fucking stupiD, hælf þe tiMe it Doesnt even work[/color]\n[color=#ff7f27]AA: uuwwghh yeah !ve leawned !t q_q[/color]\n[color=3630CC]GT: Whæts wrong wiþ it?[/color]\n[color=#ff7f27]AA: noth!ng really, !ts wh!ttle modus[/color]\n[color=#ff7f27]AA: ! thought !t would be fun and good pwact!ce but ! th!nk !ts a b!t too much now that !m look!ng at !t... quq[/color]\n[color=3630CC]GT: Wow, yeæh þæt sounDs fucking riDiculous, whoever cæMe up wiþ þæt Deserves to be lockeD up in here wiþ Me. Though I guess its not too bæD, æt leæst yours is guærænteeD.[/color]\n[color=#ff7f27]AA: what? you dont get all youw !tems back??[/color]\n[color=3630CC]GT: Not necessærily, its just not guærænteeD ill get þeM æt þe tiMe I wænt þeM. Its by chænce froM whæt ive noticeD[/color]\n[color=#ff7f27]AA: youw modus !s the sp!w!t boawd one... w!ght? you ment!oned !t last t!me we talked but that was !t[/color]\n[color=#ff7f27]AA: sounds k!nda sucky to me to be honest q-q[/color]\n[color=3630CC]GT: It is but its æll I got[/color]\n[color=3630CC]GT: Anywæy whæt ære you up to, before you DeciDeD to check up on Me.[/color]\n[color=#ff7f27]AA: just stand!ng !n my woom pondew!ng my ex!stence...[/color]\n[color=#ff7f27]AA: evew feel l!ke someones watch!ng you? q0q[/color]\n[color=3630CC]GT: you Meæn like My lusus? þen yes.[/color]\n[color=#ff7f27]AA: oh w!ght n~n[/color]\n[color=3630CC]GT: Why whæts got yer feærtie on?[/color]\n[color=3630CC]GT: yæ næw feært of þe wee flybeæst outsiDe yer hive?[/color]\n[color=#ff7f27]AA: that was[/color]\n[color=#ff7f27]AA: pwobably the most confus!ng th!ng youve evew sa!d to me[/color]\n[color=#ff7f27]AA: what... even was that[/color]\n[color=#ff7f27]AA: q_q ! th!nk youve f!nally become !nsane[/color]\n[color=3630CC]GT: iM just pullin yer horns læss[/color]\n[color=3630CC]GT: Mækin fun gie it lælDy[/color]\n[color=#ff7f27]AA: aga!n w!th the cwazy talk @_@[/color]\n[color=#ff7f27]AA: hehe..[/color]\n[color=3630CC]GT: ælright ælright[/color]\n[color=3630CC]GT: ill keep it to æ low[/color]\n[color=3630CC]GT: Hæve you gotten your copy of þe gæMe yet?[/color]\n[color=#ff7f27]AA: Yeah but ! havent touched !t...[/color]\n[color=#ff7f27]AA: ! was wa!t!ng fow you to get youws befowe ! opened !t, even though !m supew cuw!ous!![/color]\n[color=3630CC]GT: well æt leæst we cæn stært whenever I get Mine, no neeD for holD up.[/color]\n[color=3630CC]GT: You ARE senDing it... Right?[/color]\n\n[/spoiler]",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-4.gif[/img]\n\nA notification goes off! All this learning has given your friend enough time to do what he needed to do and return to his computer.\n\nYou hop back onto your husktop to continue conversing with your friend. Your friend is talking about his Lusus as he so often does. He assures you he is not scared of them, however. You could only imagine what they might be like, and how infuriating it must be to live with something that you are in constant fear of. It makes you feel grateful that yours is the complete opposite. Still, you can't help but feel sorry for your friend.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n\n[color=3630CC]GT: I þink my lusus is spying on Me which is ælwæys æ gooD þing. I Dont know if My lusus will ællow Me to plæy æny gæMes, tælking to you is More þæn enough æpæræntly.[/color]\n[color=3630CC]GT: DiD you leærn your syllæDex yet? Mine is fucking stupiD, hælf þe tiMe it Doesnt even work[/color]\n[color=#ff7f27]AA: uuwwghh yeah !ve leawned !t q_q[/color]\n[color=3630CC]GT: Whæts wrong wiþ it?[/color]\n[color=#ff7f27]AA: noth!ng really, !ts wh!ttle modus[/color]\n[color=#ff7f27]AA: ! thought !t would be fun and good pwact!ce but ! th!nk !ts a b!t too much now that !m look!ng at !t... quq[/color]\n[color=3630CC]GT: Wow, yeæh þæt sounDs fucking riDiculous, whoever cæMe up wiþ þæt Deserves to be lockeD up in here wiþ Me. Though I guess its not too bæD, æt leæst yours is guærænteeD.[/color]\n[color=#ff7f27]AA: what? you dont get all youw !tems back??[/color]\n[color=3630CC]GT: Not necessærily, its just not guærænteeD ill get þeM æt þe tiMe I wænt þeM. Its by chænce froM whæt ive noticeD[/color]\n[color=#ff7f27]AA: youw modus !s the sp!w!t boawd one... w!ght? you ment!oned !t last t!me we talked but that was !t[/color]\n[color=#ff7f27]AA: sounds k!nda sucky to me to be honest q-q[/color]\n[color=3630CC]GT: It is but its æll I got[/color]\n[color=3630CC]GT: Anywæy whæt ære you up to, before you DeciDeD to check up on Me.[/color]\n[color=#ff7f27]AA: just stand!ng !n my woom pondew!ng my ex!stence...[/color]\n[color=#ff7f27]AA: evew feel l!ke someones watch!ng you? q0q[/color]\n[color=3630CC]GT: you Meæn like My lusus? þen yes.[/color]\n[color=#ff7f27]AA: oh w!ght n~n[/color]\n[color=3630CC]GT: Why whæts got yer feærtie on?[/color]\n[color=3630CC]GT: yæ næw feært of þe wee flybeæst outsiDe yer hive?[/color]\n[color=#ff7f27]AA: that was[/color]\n[color=#ff7f27]AA: pwobably the most confus!ng th!ng youve evew sa!d to me[/color]\n[color=#ff7f27]AA: what... even was that[/color]\n[color=#ff7f27]AA: q_q ! th!nk youve f!nally become !nsane[/color]\n[color=3630CC]GT: iM just pullin yer horns læss[/color]\n[color=3630CC]GT: Mækin fun gie it lælDy[/color]\n[color=#ff7f27]AA: aga!n w!th the cwazy talk @_@[/color]\n[color=#ff7f27]AA: hehe..[/color]\n[color=3630CC]GT: ælright ælright[/color]\n[color=3630CC]GT: ill keep it to æ low[/color]\n[color=3630CC]GT: Hæve you gotten your copy of þe gæMe yet?[/color]\n[color=#ff7f27]AA: Yeah but ! havent touched !t...[/color]\n[color=#ff7f27]AA: ! was wa!t!ng fow you to get youws befowe ! opened !t, even though !m supew cuw!ous!![/color]\n[color=3630CC]GT: well æt leæst we cæn stært whenever I get Mine, no neeD for holD up.[/color]\n[color=3630CC]GT: You ARE senDing it... Right?[/color]\n\n[/spoiler]",
       "n": [
         7
       ]
@@ -78,7 +78,7 @@
     {
       "d": 1701926575556,
       "c": "",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/nosgrub.gif[/img]\n\nYou absolute idiot. You realize you in fact, DID NOT, send the file. How appropriate for someone to blunder such a simple and mundane task.\n\nOh, great and here come the waterworks. The all too familiar stinging in your eyes as they flood with tears. Your sensitivity has been the only defining feature of your personality, but a part of you feels like it isn't really your fault. It seems almost predetermined. Whatever, you should probably get back to talking like a rational troll.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=3630CC]GT: like, it IS senDing æs we speæk, correct?[/color]\n[color=#ff7f27]AA: ummmm[/color]\n[color=#ff7f27]AA: no qnq[/color]\n\n[/spoiler]",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/nosgrub.gif[/img]\n\nYou absolute idiot! You blubbering dunderhead! You Absolute Buffoon!\n\nYou realize you in fact, DID NOT, send the file. How appropriate for someone to blunder such a simply mundane task.\n\nOh great, now here come the waterworks. The all too familiar sting of tears in your eyes as they flood. Your sensitivity has been the defining feature of your personality, but a part of you feels like it isn't really your fault. It seems almost predetermined. Whatever... You should probably get back to talking like a rational troll.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=3630CC]GT: like, it IS senDing æs we speæk, correct?[/color]\n[color=#ff7f27]AA: ummmm[/color]\n[color=#ff7f27]AA: no qnq[/color]\n\n[/spoiler]",
       "n": [
         8
       ]
@@ -86,7 +86,7 @@
     {
       "d": 1701968666929,
       "c": "Ellith: Try not to have a pointless break down.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/ellith_cry_tapgif-1.gif[/img]\n\nYou fail to try not to have a pointless breakdown. You're typing frantically through your tears hoping you haven't upset your only friend. You wish at times like these you could choke back tears. But it is no use. You will open the flood gates every time without fail.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=3630CC]GT: elliþ![/color]\n[color=#ff7f27]AA: q-q dont be mad![/color]\n[color=3630CC]GT: AHHH[/color]\n[color=#ff7f27]AA: !m send!ng !t w!ght now!!![/color]\n[color=#ff7f27]AA: ! pwom!se ! thought ! h!t send last n!ght![/color]\n[color=3630CC]GT: HæuD yer wheesht læss! You Meæn to tell Me þis whole tiMe i've been wæitin for noþin![/color]\n[color=3630CC]GT: I þought YOU wænteD to plæy![/color]\n[color=#ff7f27]AA: ! d!d! ! thought ! had sent !t! pwom!se![/color]\n[color=#ff7f27]AA: uwgghh q-q[/color]\n[color=3630CC]GT: Well i'll wæit till i see it, þæts whæt I Do best, sit ænD wæit\nGT: wæit ænD sit\nGT: sit ænD wæit\nGT: wæit ænD sit[/color]\n[color=#ff7f27]AA: !t wont take long... !t says only a couple houws![/color]\n[color=3630CC]GT: Fine, iM going to tæke æ næp while I wæit þen.[/color]\n[color=3630CC]GT: Mæke þe tiMe fly so to speæk[/color]\n\n[center][color=#646464]-- [color=3630CC]genesisThessalonians [GT][/color] gave up trolling [color=#ff7f27]annoyingArtisan [AA][/color] --[/color][/center]\n\n[/spoiler]",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/ellith_cry_tapgif-1.gif[/img]\n\nYou fail to not to have a pointless breakdown. You're typing frantically through your tears hoping you haven't upset your only friend again. You wish at times like these you could choke it back but it is no use. You will open the flood gates every time without fail.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=3630CC]GT: elliþ![/color]\n[color=#ff7f27]AA: q-q dont be mad![/color]\n[color=3630CC]GT: AHHH[/color]\n[color=#ff7f27]AA: !m send!ng !t w!ght now!!![/color]\n[color=#ff7f27]AA: ! pwom!se ! thought ! h!t send last n!ght![/color]\n[color=3630CC]GT: HæuD yer wheesht læss! You Meæn to tell Me þis whole tiMe i've been wæitin for noþin![/color]\n[color=3630CC]GT: I þought YOU wænteD to plæy![/color]\n[color=#ff7f27]AA: ! d!d! ! thought ! had sent !t! pwom!se![/color]\n[color=#ff7f27]AA: uwgghh q-q[/color]\n[color=3630CC]GT: Well i'll wæit till i see it, þæts whæt I Do best, sit ænD wæit\nGT: wæit ænD sit\nGT: sit ænD wæit\nGT: wæit ænD sit[/color]\n[color=#ff7f27]AA: !t wont take long... !t says only a couple houws![/color]\n[color=3630CC]GT: Fine, iM going to tæke æ næp while I wæit þen.[/color]\n[color=3630CC]GT: Mæke þe tiMe fly so to speæk[/color]\n\n[center][color=#646464]-- [color=3630CC]genesisThessalonians [GT][/color] gave up trolling [color=#ff7f27]annoyingArtisan [AA][/color] --[/color][/center]\n\n[/spoiler]",
       "n": [
         9
       ]
@@ -94,7 +94,7 @@
     {
       "d": 1701968666929,
       "c": "",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/ellith_cry_gif.gif[/img]\n\nOh geez... This is a pretty pathetic and gross display of oversensitivity ever conceived for squint-holes.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/ellith_cry_gif.gif[/img]\n\nOh geez... This is a patheticly gross display of oversensitivity ever conceived for gandering squint-holes.",
       "n": [
         10
       ]
@@ -102,7 +102,7 @@
     {
       "d": 1701970816536,
       "c": "",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-4.png[/img]\n\nThats better... You manage to pull yourself together. Oh, great you got tears all over your desk... YOU'RE GETTING IT ON THE FLOOR!\n\nQuick, distract yourself or something. Look out your window! That will take your mind off of being a little crygrub.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%201/A1008.png[/img]\n\nThats better... You manage to pull yourself together. Oh great, you got tears all over your desk... and on the floor.\n\nQuick, distract yourself with something. Look out your window! That will take your mind off of being such a little crygrub.",
       "n": [
         11
       ]
@@ -110,7 +110,7 @@
     {
       "d": 1701996304535,
       "c": "Ellith: Look outside.",
-      "b": "[img]https://file.garden/Zb0SKrqUe1Miz4mz/newbg.png[/img]\n\nYou take a look outside to distract yourself from your incessant crying. Looking outside you see the dark misty woods that surround your hive. Unlike most trolls, your hive is built from woodwork. You did this all by yourself with your amazing carpentry skills, and you should feel very proud. You think the common brutalist architecture of Hives is very unpleasant to look at.\n\nOn the ground, you can see your axe stuck into the wood-splitting log. Many hours were spent out there to make this beautiful cabin hive. Your lusus loves the work you've done. You both feel this was more your style. \n\nSpeaking of which... Where is your lusus?",
+      "b": "[img]https://file.garden/Zb0SKrqUe1Miz4mz/newbg.png[/img]\n\nYou take a look outside to distract yourself from your incessant crying. Looking outside you see the dark misty woods that surround your hive. As previously stated, your hive is built from woodwork. You did this all by yourself with your amazing carpentry skills and you should feel very proud. You think the common brutalist architecture of Hives is very unpleasant to look at.\n\nOn the ground, you can see your axe stuck into the wood-splitting log. Many hours were spent out there to make this beautiful cabin hive. Your lusus loves the work you've done. You both feel this was more your style. \n\nSpeaking of which... Where is your lusus?",
       "n": [
         12
       ]
@@ -166,7 +166,7 @@
     {
       "d": 1702000640470,
       "c": "==>",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-9.gif[/img]\n\nYour lusus teleports right into your respiteblock! He does this most of the time when he senses you're in some sort of distress. It's nice to know you have such a caring lusus who comes to your rescue when you need them most.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-9.gif[/img]\n\nYour lusus teleports right into your respiteblock! He does this most of the time when he senses you're in some sort of distress. It's nice to have such a caring lusus who comes to your rescue when you need them most.",
       "n": [
         19
       ]
@@ -174,7 +174,7 @@
     {
       "d": 1702047884849,
       "c": "Ellith: Give your lusus a big hug.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-10.png[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-11.png[/img]\n\nYou give your lusus the biggest hug you could give. There's always a warm feeling you get when you know you can just hug out your problems. Your lusus gives you a reassuring head pat.\n\nThis lusus you've come to know and love for sweeps has been your closest friend, especially in the middle of a desolate forest. Still, you couldn't be happier with them. You cherish every moment you ever get to interact with them.\n\nLong ago you gave them a name. Wendibull. I love you Wendibull.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-10.png[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-11.png[/img]\n\nYou give your lusus the biggest hug imaginable. There's always a warm feeling you get when you can just hug away your problems. Your lusus gives you a reassuring head pats as well.\n\nThis lusus you've come to know and love for sweeps has been your closest friend, especially in the middle of an isolated forest. Still, you couldn't be happier with them. You cherish every moment and every interaction with them.\n\nLong ago you gave them a name. Wendibull. I love you Wendibull.",
       "n": [
         20
       ]
@@ -182,7 +182,7 @@
     {
       "d": 1702047884849,
       "c": "Ellith: Examine stuff in your respiteblock.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/bullfly.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-2-1-2.png[/img]\n\nYou take time to examine the plushies on the ground first. There lies a Pounce de Leon, a type of lusi that you have never encountered in these woods, but you find them just downright adorable. Who couldn't love a cat-beast? You got a Mama Leon and her kitten! You want to expand your plushie collection by a wide margin, but you haven't had the time to find more of these comfortable things.\n\nNext, you examine the pictures that line the side of your Recoopracoon. Photos mainly consist of you and your lusus, and lots of pretty places you've stumbled across while wandering around outside. These pictures mean a lot to you, and the glow of the fairy lights that reflect off of them give them a dream-like feel to them that you just really love.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/bullfly.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/1-2-1-2.png[/img]\n\nYou take time to examine the plushies on the ground first. There lies a pride of Pounce de Leon! A type of lusi that you have never encountered in these woods, but you find them just downright adorable. Who couldn't love a purr-beast? You've got a Mama Leon and her kitten! You want to expand your plushie collection by a wide margin, but you haven't had the time to find more of these comfortable things.\n\nNext, you examine the pictures that line the side of your Recoopracoon. Photos mainly consist of you and your lusus, and lots of pretty places you've stumbled across while wandering around outside. These pictures mean a lot to you, and the glow of the fairy lights that reflect off of them give them a dream-like quality to them that you just really love.",
       "n": [
         21
       ]
@@ -190,7 +190,7 @@
     {
       "d": 1702047884849,
       "c": "==>",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/figure.png[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/lookfig.png[/img]\n\nHeading over to your desk to take a look at the figurine carvings you've made with the scrap pieces of wood lying around. The surface is covered in wood shavings and dust after whittling and sanding. You are particularly fond of this troll figure you've made. \n\nYou're not too familiar yet with making troll anatomy and all of its fine details. But, this is proving to be a good start for you. The carving is no one troll in particular, but you find the symmetry of the horns to be quite appealing and challenging to make. Nothing a good wood-crafting artisan like yourself can't handle.\n\nTo you, nobody quite understands the complexities that are the fine art of whittling. It's such a painstaking yet rewarding task. Only those with the mastery of a still hand and artistic eye can truly express themselves in its creation. You wish you knew more trolls would share the love and appreciation you do for this craft. Maybe one day you could convince your friend to give it a try.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/figure.png[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/lookfig.png[/img]\n\nHeading back to your desk; You take a look at the figurine carvings you've made with the scrap pieces of wood lying around. Your desk is covered in wood shavings and dust after whittling and sanding. You are particularly fond of this troll figure you've made. \n\nYou're not too familiar yet with making troll anatomy and all of its fine details, but this is proving to be a good start for you. The carving is of an indeterminate troll, but you find the symmetry of the horns to be quite appealing and challenging to make. Nothing a good wood-crafting artisan like yourself can't handle.\n\nTo you, nobody quite understands the complexities that are the fine art of whittling. It's such a painstaking yet rewarding task. Only those with the mastery of a still hand and artistic eye can truly express themselves in its creation. You wish you knew more trolls would share the love and appreciation you do for this craft. Maybe one day you could convince your friend to give it a try.",
       "n": [
         22
       ]
@@ -198,7 +198,7 @@
     {
       "d": 1702047884849,
       "c": "Ellith: Be the other troll.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-1.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-2%20gif.gif[/img]\n\nYou are now the other troll minutes in the past but not many. Out of the comfort of a cozy cabin hive and into the Ol' stony lonesome.\n\nYour name is [background=#000000][color=#3630cc][size=15][b]Mallum Daemon[/b][/size][/color][/background].\n\nYou're [size=14][b]7 SWEEPS OLD[/b][/size], you were born on the [size=14][b]6th Bilunar Perigee on the 3rd Dim Season's Equinox[/b][/size], and for all of your life, you've been cooped up here in this room practically [size=14][b]BALL[/b][/size] and [size=14][b]CHAIN[/b][/size]. You wish you could give a proper introduction of all the things you like and do. But sadly, you don't know what there is to like at this moment. You know everything you need to know to be a basic functioning member of society, but you can't even be a part of it.\n\nThe least you could probably say about yourself is that you find somewhat of an interest in [size=14][b]WRITING ON THE WALLS[/b][/size]. This is really the only thing you can do in your current living situation. You also fancy a drink of the \"[size=14][b]BLACK STUFF[/b][/size]\" as you call the cans of [size=14][b]RC COLA[/b][/size] strewn about your prison cell. It's not the worst drink out there but you feel there is probably a better option if you could be given the chance to try.\n\nNonetheless, your 'oh so gracious lusus' has provided you a husktop to not die of boredom here in your prison cell. On it, you spend a lot of your time on [b][size=14]TROLLIAN[/size][/b] speaking to Ellith who keeps messaging you. Speaking of which, looks like she's trying to contact you now, but we already knew that.\n\nYour Trollian handle is: \n[color=3630CC][size=14][b][background=#000000]genesisThessalonians[/background][/b][/size][/color].\n\nYou should probably respond to that cry-grub before she starts freaking out like last time. We can discuss your daily living situations at another time, for now we have a story to get to.\n\nWe already know what this guy will do so let's troll Ellith.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-1.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-2%20gif.gif[/img]\n\nYou are now the other troll minutes in the past but not many. Out of the comforts of a cozy cabin hive and into stony lonesome.\n\nYour name is [background=#000000][color=#3630cc][size=15][b]Mallum Daemon[/b][/size][/color][/background].\n\nYou're [size=14][b]7 SWEEPS OLD[/b][/size]. You were born on the [size=14][b]6th Bilunar Perigee on the 3rd Dim Season's Equinox[/b][/size]. All of your life you've been cooped up here in this block practically [size=14][b]BALL[/b][/size] and [size=14][b]CHAIN[/b][/size]. You wish you could give a proper introduction of all the things you like and and all that you do. Sadly, you don't know what there is to like at this moment. You know everything you need to know to be a basic functioning member of society, but you can't even be a part of it.\n\nThe least you could say about yourself is that you find an interest somewhat in [size=14][b]WRITING ON THE WALLS[/b][/size]. This is really the only thing you CAN do in your current living situation. You also fancy a drink of the \"[size=14][b]BLACK STUFF[/b][/size]\" as you so call the cans of [size=14][b]RC COLA[/b][/size] strewn about your prison cell. It's not the worst drink out there but you feel there is probably a better option if you could be given the chance to try.\n\nNonetheless, your gracious lusus has provided you a husktop. Assumingly so you don't die of boredom here. On it, you spend a lot of your time using [b][size=14]TROLLIAN[/size][/b] and speaking to Ellith who keeps messaging you. Speaking of which, looks like she's trying to contact you now, but we already knew that.\n\nYou also already know that your Trollian Handle is: \n[color=3630CC][size=14][b][background=#000000]genesisThessalonians[/background][/b][/size][/color].\n\nYou should probably respond to that crygrub before she starts freaking out like last time. We can discuss your daily living situations at another time, for now we have a story to get to.\n\nWe already know what this guy will do so let's troll Ellith.",
       "n": [
         23
       ]
@@ -206,7 +206,7 @@
     {
       "d": 1702048078615,
       "c": "Mallum: Text annoying troll girl.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2.gif[/img]\n\nWe've already read this [url=https://mspfa.com/?s=54371&p=3][color=#ef7a20]conversation before[/color][/url].\n\nYou begin to respond to Ellith. She's been a thorn in your side for as long as you can remember. It is nice having someone to talk to, but sometimes you find her to be too sensitive for your liking. Beggars can't be choosers you suppose, and it's not all bad. You find her to be someone passionate about the well-being of others, even if it's not something you totally agree with. \n\nYou can say that you do enjoy the distant company. She tells you that you are her only friend, but to you, that just sounds like something someone would say to make you feel special. You can't call her out on that, however, because you cannot confirm that statement, and it would be pointless to even argue about it.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2.gif[/img]\n\nWe've already read this [url=https://mspfa.com/?s=54371&p=3][color=#ef7a20]conversation before[/color][/url].\n\nYou begin to respond to Ellith. She's been a thorn in your side and your best friend for as long as you can remember. It's nice having someone to talk to, but sometimes you find her to be too sensitive for your liking. Beggars can't be choosers you suppose and it's not all bad. You find her to be a passionate individual who cares about the well-being of others — even if it's not something you totally agree with.\n\nYou can say that you do enjoy the distant company. She tells you that you are her only friend. To you, however, that just sounds like something someone would say to make you feel special. You can't call her out on that because you cannot confirm that statement, and it would be pointless to even argue about it.",
       "n": [
         24
       ]
@@ -222,7 +222,7 @@
     {
       "d": 1702075724206,
       "c": "Mallum: Investigate.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-5.png[/img]\n\nYou cease trolling Ellith for a bit while you investigate this fuckery going on. Your lusus is for lack of a better term elusive. You know they are there; You've never truly seen them, but you know they're watching you.\n\nWaiting... Judging...\n\nYou wish you could show that lusus what for and give them a piece of your mind. The last time you even attempted to escape all you saw was a bright white light and [b]POOF[/b]; You were back in your respiteblock.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-5.png[/img]\n\nYou cease trolling Ellith for a bit as you investigate this fuckery going on. Your lusus is quite elusive. You know they are there; evading your gaze... but you know they're watching you.\n\nWaiting... Judging...\n\nYou wish you could give them a piece of your mind. The last time you even attempted to escape ended in a bright white light and [b]POOF[/b]; You were back in your cell.",
       "n": [
         26
       ]
@@ -230,7 +230,7 @@
     {
       "d": 1702075724206,
       "c": "Mallum: Examine wall.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-10.png[/img]\n\nYou take time to notice the markings left on your wall. Not the posters or ink drawings, however, we will talk about that in just a second.\n\nYou have scratched tally marks into your walls, one for every perigee you've been trapped in this room. It dates back a few sweeps when you actually started to do this, so not EVERY perigee is truly on this wall. If these walls could talk, they'd tell a story of long isolation. It's incredible how you've managed to live this long in captivity without being just the absolute worst troll on the planet. \n\nYou might be. You wouldn't know.\n\nMaybe you are so horrendous that you actually do belong here, and your friend is completely fucking stupid for even bothering to talk to you. That seems a little too nihilistic for your taste. You like to hope there's at least some form of troll decency to be had. ",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-10.png[/img]\n\nYou take time to notice the markings left on your wall. Not the posters or ink drawings, however, we will talk about that in just a second.\n\nYou have scratched tally marks into your walls, one for every perigee you've been trapped in this room. It dates back a few sweeps when you actually started to do this. If these walls could talk, they'd tell a story of long isolation. It's incredible how you've managed to live this long in captivity without being just the absolute worst troll on the planet. \n\nYou might be. You wouldn't know.\n\nMaybe you are so horrendous that you actually do belong here, and your friend is completely fucking stupid for even bothering to talk to you. That seems a little too nihilistic for your taste. You like to hope there's at least some form of troll decency to be had. ",
       "n": [
         27
       ]
@@ -238,7 +238,7 @@
     {
       "d": 1702179070000,
       "c": "Mallum: Examine posters.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-11new.png[/img]\n\nYou don't know who this is. But you can feel it as if he is speaking straight into your soul. You also don't really know how he sounds, but you're sure it's a pleasant and soothing voice. You have made multiple attempts to recreate the weird symbol on his thorax. You haven't been able to make an attempt you've found halfway decent, but you're getting closer. ",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-11new.png[/img]\n\nThough you don't know who this is; You can feel as if he is speaking straight into your soul. You also have no idea how he sounds, but you're sure it's pleasant and soothing. Multiple attempts have made to recreate the weird symbol on his thoracic chestplate. But you haven't been able to make an attempt you've found halfway decent.\n\nEver closer we get... ",
       "n": [
         28
       ]
@@ -278,7 +278,7 @@
     {
       "d": 1702317013722,
       "c": "Mallum: Go to sleep.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-12.png[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-13.png[/img]\n\nAs you nestle into your recoopracoon you start to drift off into a peaceful slumber. Soon you will be able to play a game; Some much-needed entertainment after sweeps of practically nothing.\n\nSweet, sweet, recoopracoon. So full of soothing soper slime.\n\nWere going to be stepping away from him while he sleeps and get back to Ellith. Say goodbye to Mallum for now.\n\nHaste ye back Mallum. And Oidche Mhath.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-12.png[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/2-13.png[/img]\n\nAs you nestle into your recuperacoon you start to drift off into a peaceful slumber. Soon you will be able to play a game; Some much-needed entertainment after sweeps of practically nothing.\n\nSweet, sweet, recuperacoon. So full of soothing sopor slime.\n\nWere going to be stepping away from him while he sleeps and get back to Ellith. Say goodbye to Mallum for now.\n\nHaste ye back Mallum. And Oidche Mhath.",
       "n": [
         33
       ]
@@ -462,7 +462,7 @@
     {
       "d": 1702478070750,
       "c": "Ellith: Dream.",
-      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/css/css_loop.html\" width=\"640\" height=\"450\"></iframe>",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/Dream%20Bubble%20Asset/dreambubble.html\" width=\"640\" height=\"450\"></iframe>",
       "n": [
         56
       ]
@@ -502,7 +502,7 @@
     {
       "d": 1702488985562,
       "c": "==>",
-      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/css/css_loop.html\" width=\"640\" height=\"450\"></iframe>",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/Dream%20Bubble%20Asset/dreambubble.html\" width=\"640\" height=\"450\"></iframe>",
       "n": [
         61
       ]
@@ -742,7 +742,7 @@
     {
       "d": 1702879386024,
       "c": "",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/3-46.gif[/img]\n\nYou really don't like that guy at all. He talks to you in ways not even Mallum would talk to you. Speaking of which, you see that he's online right now. You hope that the game has finally been sent to him. Not only for your sake but for Mallum's sake as well. You just can't wait to experience playing a fun game with your friend.\n\nYou begin to troll Mallum.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[center][color=#646464]-- [color=#ef7a20]annoyingArtisan [AA][/color] began trolling [color=#3630cc]genesisThessalonians [GT][/color] --[/color][/center]\n\n[color=#ef7a20]AA: mallum!![/color]\n[color=#3630cc]GT: hello ægæin læss[/color]\n[color=#3630cc]GT: iMMæ cut to þe chæse wiþ ye, no i Dont hæve þe gæMe just yet[/color]\n[color=#3630cc]GT: if þæts whæt you were gonnæ Messæge Me for[/color]\n[color=#ef7a20]AA: oh qnq[/color]\n[color=#3630cc]GT: æye, Dinnæ fæsh[/color]\n[color=#3630cc]GT: i see it here, its ælMost Done[/color]\n[color=#ef7a20]AA: oh good!![/color]\n[color=#ef7a20]AA: uwgg[/color]\n[color=#ef7a20]AA: can ! tell you someth!ng?[/color]\n[color=#ef7a20]AA: ow ask..[/color]\n[color=#3630cc]GT: go æheæD[/color]\n[color=#ef7a20]AA: 2 th!ngs actually![/color]\n[color=#ef7a20]AA: sowwy quq[/color]\n[color=#3630cc]GT: go æheæD x2[/color]\n[color=#ef7a20]AA: f!wst! ! had a dweam w!th you !n !t, and !t was pwetty scawy you d!ed? and then came back to l!fe!! you flew away at the end... ewgh !ts fuzzy but !t was scawy[/color]\n[color=#ef7a20]AA: and second!! aftew all that ! wun home cwy!ng th!s guy stawts text!ng me about the game! and hes supew wude about !t, !nsult!ng me and call!ng me names, he wants us to jo!n the!w gwoup sess!on??[/color]\n[color=#ef7a20]AA: !m so upset w!ght now[/color]\n[color=#3630cc]GT: hæhæ, i tolD ye wæs feærtie of þe wee flybeæst[/color]\n[color=#3630cc]GT: just æ DreæM þough, Dont fæsh yersel' iM sure it Meæns very little.[/color]\n[color=#3630cc]GT: but whæts reælly cætching My een, you sæy ænoþer troll senDin you Messæges?[/color]\n[color=#3630cc]GT: I þought i wæs þe only one yæ knew, whæt gives[/color]\n[color=#3630cc]GT: youre not pullin þe wool over Me eyes ære yæ læss?[/color]\n[color=#ef7a20]AA: no!! ! pwom!se youwe st!ll the only one ! know hehe quq[/color]\n[color=#ef7a20]AA: as ! was tak!ng my nap some twoll named kowpus texted me and asked me to jo!n h!s game, then logged off... then when ! woke up all upset aftew the dweam he was st!ll text!ng me and weally mad![/color]\n[color=#ef7a20]AA: and we stawted to f!ght![/color]\n[color=#3630cc]GT: DiD yæ win?[/color]\n[color=#ef7a20]AA: ! mean... he stopped call!ng me names aftew ! asked Q-Q[/color]\n[color=#ef7a20]AA: but ohh ! got so angwy!! ! dont l!ke !t, youve nevew made me feel th!s way!! ne!thew has my lusus....[/color]\n[color=#3630cc]GT: i þought you ænD your lusus were eye to eye[/color]\n[color=#3630cc]GT: i finD it hærD to believe your lusus woulD Mæke you MæD in þe first plæce æt æll[/color]\n[color=#3630cc]GT: sounDs like æ reæl bæwbæg for sure[/color]\n[color=#ef7a20]AA: bawbag?..[/color]\n[color=#3630cc]GT: neverMinD þæt[/color]\n[color=#ef7a20]AA: hehe[/color]\n[color=#ef7a20]AA: uwg well once you get the game up we can play! !m st!ll exc!ted[/color]\n[color=#ef7a20]AA: even !f all that happened[/color]\n[color=#ef7a20]AA: sowwy ! was gone fow so long![/color]\n[color=#3630cc]GT: i Must æDMit, æs Much æs i hæte to show My enþusiæsM, I too æM æ bit exciteD[/color]\n[color=#ef7a20]AA: oh yay![/color]\n[color=#3630cc]GT: right, so þen, whæt now, it looks to still be æ short while until its finisheD senDing[/color]\n[color=#ef7a20]AA: ! guess talk.. not much else to do fow e!thew of us unless we wanna take mowe naps[/color]\n[color=#ef7a20]AA: but !m k!nd of done sleep!ng fow now q~q[/color]\n[color=#ef7a20]AA: have ! evew been !n one of youw dweams? th!s !s k!nd of embawass!ng but youwe !n a lot of m!ne![/color]\n[color=#3630cc]GT: i flættereD[/color]\n[color=#3630cc]GT: cænt reælly sæy þæt ive hæD æ DreæM æbout you[/color]\n[color=#3630cc]GT: Mæybe i hæve, i just Dont reMeMber þeM by þe tiMe i wæke up[/color]\n[color=#3630cc]GT: ill let you know if i Do[/color]\n[color=#ef7a20]AA: hehe.. okay! quq[/color]\n\n[/spoiler]",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/3-46.gif[/img]\n\nYou really don't like that guy at all. He talks to you in ways not even Mallum would talk to you. Speaking of which, you see that he's online right now. You hope that the game has finally been sent to him. Not only for your sake but for Mallum's sake as well. You just can't wait to experience playing a fun game with your friend.\n\nYou begin to troll Mallum.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[center][color=#646464]-- [color=#ef7a20]annoyingArtisan [AA][/color] began trolling [color=#3630cc]genesisThessalonians [GT][/color] --[/color][/center]\n\n[color=#ef7a20]AA: mallum!![/color]\n[color=#3630cc]GT: hello ægæin læss[/color]\n[color=#3630cc]GT: iMMæ cut to þe chæse wiþ ye, no i Dont hæve þe gæMe just yet[/color]\n[color=#3630cc]GT: if þæts whæt you were gonnæ Messæge Me for[/color]\n[color=#ef7a20]AA: oh qnq[/color]\n[color=#3630cc]GT: æye, Dinnæ fæsh[/color]\n[color=#3630cc]GT: i see it here, its ælMost Done[/color]\n[color=#ef7a20]AA: oh good!![/color]\n[color=#ef7a20]AA: uwgg[/color]\n[color=#ef7a20]AA: can ! tell you someth!ng?[/color]\n[color=#ef7a20]AA: ow ask..[/color]\n[color=#ef7a20]AA: 2 th!ngs actually![/color]\n[color=#ef7a20]AA: sowwy quq[/color]\n[color=#3630cc]GT: go æheæD[/color]\n[color=#ef7a20]AA: f!wst! ! had a dweam w!th you !n !t, and !t was pwetty scawy you d!ed? and then came back to l!fe!! you flew away at the end... ewgh !ts fuzzy but !t was scawy[/color]\n[color=#ef7a20]AA: and second!! aftew all that ! wun home cwy!ng th!s guy stawts text!ng me about the game! and hes supew wude about !t, !nsult!ng me and call!ng me names, he wants us to jo!n the!w gwoup sess!on??[/color]\n[color=#ef7a20]AA: !m so upset w!ght now[/color]\n[color=#3630cc]GT: hæhæ, i tolD ye wæs feærtie of þe wee flybeæst[/color]\n[color=#3630cc]GT: just æ DreæM þough, Dont fæsh yersel' iM sure it Meæns very little.[/color]\n[color=#3630cc]GT: but whæts reælly cætching My een, you sæy ænoþer troll senDin you Messæges?[/color]\n[color=#3630cc]GT: I þought i wæs þe only one yæ knew, whæt gives[/color]\n[color=#3630cc]GT: youre not pullin þe wool over Me eyes ære yæ læss?[/color]\n[color=#ef7a20]AA: no!! ! pwom!se youwe st!ll the only one ! know hehe quq[/color]\n[color=#ef7a20]AA: as ! was tak!ng my nap some twoll named kowpus texted me and asked me to jo!n h!s game, then logged off... then when ! woke up all upset aftew the dweam he was st!ll text!ng me and weally mad![/color]\n[color=#ef7a20]AA: and we stawted to f!ght![/color]\n[color=#3630cc]GT: DiD yæ win?[/color]\n[color=#ef7a20]AA: ! mean... he stopped call!ng me names aftew ! asked Q-Q[/color]\n[color=#ef7a20]AA: but ohh ! got so angwy!! ! dont l!ke !t, youve nevew made me feel th!s way!! ne!thew has my lusus....[/color]\n[color=#3630cc]GT: i þought you ænD your lusus were eye to eye[/color]\n[color=#3630cc]GT: i finD it hærD to believe your lusus woulD Mæke you MæD in þe first plæce æt æll[/color]\n[color=#3630cc]GT: sounDs like æ reæl bæwbæg for sure[/color]\n[color=#ef7a20]AA: bawbag?..[/color]\n[color=#3630cc]GT: neverMinD þæt[/color]\n[color=#ef7a20]AA: hehe[/color]\n[color=#ef7a20]AA: uwg well once you get the game up we can play! !m st!ll exc!ted[/color]\n[color=#ef7a20]AA: even !f all that happened[/color]\n[color=#ef7a20]AA: sowwy ! was gone fow so long![/color]\n[color=#3630cc]GT: i Must æDMit, æs Much æs i hæte to show My enþusiæsM, I too æM æ bit exciteD[/color]\n[color=#ef7a20]AA: oh yay![/color]\n[color=#3630cc]GT: right, so þen, whæt now, it looks to still be æ short while until its finisheD senDing[/color]\n[color=#ef7a20]AA: ! guess talk.. not much else to do fow e!thew of us unless we wanna take mowe naps[/color]\n[color=#ef7a20]AA: but !m k!nd of done sleep!ng fow now q~q[/color]\n[color=#ef7a20]AA: have ! evew been !n one of youw dweams? th!s !s k!nd of embawass!ng but youwe !n a lot of m!ne![/color]\n[color=#3630cc]GT: i flættereD[/color]\n[color=#3630cc]GT: cænt reælly sæy þæt ive hæD æ DreæM æbout you[/color]\n[color=#3630cc]GT: Mæybe i hæve, i just Dont reMeMber þeM by þe tiMe i wæke up[/color]\n[color=#3630cc]GT: ill let you know if i Do[/color]\n[color=#ef7a20]AA: hehe.. okay! quq[/color]\n\n[/spoiler]",
       "n": [
         91
       ]
@@ -766,7 +766,7 @@
     {
       "d": 1703213897004,
       "c": "Korpus: Look around your respiteblock.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-2-1.png[/img]\n\nYou turn around to see your most prized possessions immaculately displayed for all to see. Two signed golden driver clubs. These are your most valuable asset and you would cull anyone who would dare to try and take them from you. You earned these clubs in a game with your amazing skills. After which, the famous pro-golfer Tiiger Whoods signed himself. You feel very proud of yourself almost to an unhealthy degree. But who could blame you when you're such a prodigy?\n\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-2-1-1.png[/img]\n\nWho could forget about your wall of golf flags for every tournament you've been apart of. All for the first prize winner no less.\n\n18 Holes - 18 Holes in One... A perfect score. ",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-2-1.png[/img]\n\nYou turn around to see your most prized possessions immaculately displayed for all to see. Two signed golden driver clubs. These are your most valuable asset and you would cull anyone who would dare to try and take them from you. You earned these clubs in a game with your amazing skills. After which, the famous pro-golfer Tiiger Whoods signed himself. You feel very proud of yourself almost to an unhealthy degree. But who could blame you when you're such a prodigy?\n\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-2-1-1.png[/img]\n\nWho could forget about your wall of golf flags for every tournament you've been a part of. All for the first prize winner no less.\n\n18 Holes - 18 Holes in One... A perfect score. ",
       "n": [
         94
       ]
@@ -822,7 +822,7 @@
     {
       "d": 1703213897004,
       "c": "==>",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-6.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-7.gif[/img]",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-6.gif[/img]",
       "n": [
         101
       ]
@@ -886,7 +886,7 @@
     {
       "d": 1703716709326,
       "c": "==>",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-10.png[/img]\n\nAh, your humble abode, a living room crafted from your very own hard work. \n\nWho are we kidding? You don't work.\n\nDespite your hive technically being designed by yours truly, you never actually had a part in building it. Unlike other trolls, you don't partake in ancient troll tradition of becoming a phenomenal architect at a young age. Your lusus also does most of the decorating around here.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-10.png[/img]\n\nAh, your humble abode, the main quarters crafted from your very own hard work. \n\nWho are we kidding? You don't work.\n\nDespite your hive technically being DESIGNED by yours truly, you never actually had a part in building it. That's what filthy lowblooded contractors are for. Unlike other trolls, you don't partake in the ancient tradition of becoming a phenomenal architect at a young age.",
       "n": [
         109
       ]
@@ -902,7 +902,7 @@
     {
       "d": 1703716709326,
       "c": "Korpus: Stop admiring yourself.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-12.gif[/img]\n\nDamn! Your lusus, you almost forgot. Typical, he's not as important as you anyway. Still, you should be on the lookout for him, he could be anywhere. For someone as big as him, he sure can sneak around this place. He's probably through one of these two doorways, not like there's much of an option here unless you wanna check under the rug or in the fireplace.\n\n",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-12.gif[/img]\n\nDamn! Your lusus, you almost forgot.\n\nTypical... He's not as important as you are so of course you forgot. Still, you should be on the lookout for him, he could be anywhere. For someone as big as him, he can sneak around this place quite easily. He's probably through one of these two doorways.\n\n",
       "n": [
         111
       ]
@@ -910,7 +910,7 @@
     {
       "d": 1703716709326,
       "c": "==>",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-13.gif[/img]\n\nAh, of course...\n\nIn the kitchen as suspected. Stuffing his face after a long day on the green. The thumping footsteps draw closer and closer, and soon you will have to face him. It would be best to hide and ambush him when he least expects it. ",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/4-13.gif[/img]\n\nAh, of course...\n\nIn the kitchen as suspected. Stuffing his face after a long day on the green. The thumping draws closer and closer, and soon you will have to face him. It would be best to hide and ambush him when he least expects it. ",
       "n": [
         112
       ]
@@ -1590,7 +1590,7 @@
     {
       "d": 1706841294168,
       "c": "Renity: Answer interceptor.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/6-17-2.gif[/img]\n\nOh great not this guy again. He's a real thorn in your side and it doesn't even come from a pretty rose! What does he want now?\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[center][color=#646464]-- [color=#000000]coldsteelAssassin [CA][/color] began trolling [color=#7e0000]cupidsAmoretto [CA][/color] --[/color][/center]\n\n[color=#000000]CA: RENITY PLEASE LET ME J⛧IN Y⛧UR SESSI⛧N⛧[/color]\n[color=#000000]CA: PLEASE PLEASE PLEASE PLEASE PLEAAAAAAAASEEEE[/color]\n[color=#7e0000]CA: ♥h n♥!~[/color]\n[color=#7e0000]CA: I am really s♥rry bʊt we already ʊm...~[/color]\n[color=#7e0000]CA: Have an even nʊmber ♥f players!~[/color]\n[color=#7e0000]CA: The game will n♥t w♥rk if we have an ♥dd nʊmber ♥f tr♥lls.~[/color]\n[color=#000000]CA: Renity thats bullshit y⛧u kn⛧w like f⛧ur tr⛧lls besides me[/color]\n[color=#7e0000]CA: Umm n♥! I kn♥w m♥re than 4 tr♥lls!~[/color]\n[color=#7e0000]CA: Shʊt ʊp.~[/color]\n[color=#7e0000]CA: My friends, friends wanted t♥ j♥in, they jʊst asked s♥♥ner than y♥ʊ did.~[/color]\n[color=#000000]CA: LUCIFER DAMN IT[/color]\n[color=#7e0000]CA: Maybe next time!~[/color]\n[color=#000000]CA: This fucking sucks[/color]\n[color=#000000]CA: kick ⛧ne ⛧f th⛧se nerds and let a real masculine tr⛧llman take their place[/color]\n[color=#7e0000]CA: Ummm~[/color]\n[color=#7e0000]CA: ....~[/color]\n[color=#7e0000]CA: Every♥nes already j♥ined the game!~[/color]\n[color=#7e0000]CA: S♥rry im bʊsy text me later!~[/color]\n[color=#7e0000]CA: Byeeeeeeee~[/color]\n[color=#000000]CA: N⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧!!!![/color]\n\n[center][color=#646464]-- [color=#7e0000]cupidsAmoretto [CA][/color] gave up trolling [color=#000000]coldsteelAssassin [CA][/color] --[/color][/center]\n\n[/spoiler]\n",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/6-17-2.gif[/img]\n\nOh great not this guy again. He's a real thorn in your side and it doesn't even come from a pretty rose! What does he want now?\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[center][color=#646464]-- [color=#000000]coldsteelAssassin [CA][/color] began trolling [color=#7e0000]cupidsAmoretto [CA][/color] --[/color][/center]\n\n[color=#000000]CA: RENITY PLEASE LET ME J⛧IN Y⛧UR SESSI⛧N[/color]\n[color=#000000]CA: PLEASE PLEASE PLEASE PLEASE PLEAAAAAAAASEEEE[/color]\n[color=#7e0000]CA: ♥h n♥!~[/color]\n[color=#7e0000]CA: I am really s♥rry bʊt we already ʊm...~[/color]\n[color=#7e0000]CA: Have an even nʊmber ♥f players!~[/color]\n[color=#7e0000]CA: The game will n♥t w♥rk if we have an ♥dd nʊmber ♥f tr♥lls.~[/color]\n[color=#000000]CA: Renity thats bullshit y⛧u kn⛧w like f⛧ur tr⛧lls besides me[/color]\n[color=#7e0000]CA: Umm n♥! I kn♥w m♥re than 4 tr♥lls!~[/color]\n[color=#7e0000]CA: Shʊt ʊp.~[/color]\n[color=#7e0000]CA: My friends, friends wanted t♥ j♥in, they jʊst asked s♥♥ner than y♥ʊ did.~[/color]\n[color=#000000]CA: LUCIFER DAMN IT[/color]\n[color=#7e0000]CA: Maybe next time!~[/color]\n[color=#000000]CA: This fucking sucks[/color]\n[color=#000000]CA: kick ⛧ne ⛧f th⛧se nerds and let a real masculine tr⛧llman take their place[/color]\n[color=#7e0000]CA: Ummm~[/color]\n[color=#7e0000]CA: ....~[/color]\n[color=#7e0000]CA: Every♥nes already j♥ined the game!~[/color]\n[color=#7e0000]CA: S♥rry im bʊsy text me later!~[/color]\n[color=#7e0000]CA: Byeeeeeeee~[/color]\n[color=#000000]CA: N⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧⛧!!!![/color]\n\n[center][color=#646464]-- [color=#7e0000]cupidsAmoretto [CA][/color] gave up trolling [color=#000000]coldsteelAssassin [CA][/color] --[/color][/center]\n\n[/spoiler]\n",
       "n": [
         197
       ]
@@ -1798,7 +1798,7 @@
     {
       "d": 1709469180805,
       "c": "==>",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/JUNICESTORY.png[/img]\n\n[spoiler open=\"Show Dialogue\" close=\"Hide Dialogue\"]\n[color=#00a0c9]JUNICE: long ago there ɯere two planets named Derse and Prospit; Trolls ɯould dream on either depending on their personalities, or ambitions? its hard to say[/color]\n\n[color=#00a0c9]JUNICE: but at some point, they ɯere destroyed by an angel. billions of dreamers had to flee in search of a neɯ place to rest.[/color]\n\n[color=#00a0c9]JUNICE: Horrorterrors took shelter in the furthest reaches of space and created a neɯ land outside that of the physical realm. they called this the dreamscape. this too is ɯhere dreamers fled.[/color]\n\n[color=#00a0c9]JUNICE: A horrorterror ɯas to be assigned to every dreamer to ɯatch over them. its said that once a horrorterror dies, a dreamer ɯithin the dreamscape ɯould appear faceless and ɯithout proper physical features. [/color]\n\n[color=#00a0c9]JUNICE: The dream ɯorld renders itself an enigma unlike anything other. Here ɯe can cross a medium to where those with connections can meet; Assuming the other party knoɯs ɯhat the other looks like. If not, certain liberties are taken by the dreamer's interpretation of the other and impose itself.[/color]\n\n[color=#00a0c9]JUNICE: Anyɯay, dreamers split into lucid and passive dreamers, youre a passive dreamer.[/color]\n\n[color=#00a0c9]JUNICE: and im a lucid dreamer![/color]\n\n[color=#00a0c9]JUNICE: hehe[/color]\n\n[color=#005f2b]KORPUS: ...[/color]\n\n[color=#005f2b]KORPUS: WHats tHe difference?[/color]\n\n[color=#00a0c9]JUNICE: ɯell, ɯhile passive dreamers can remember their dreams, they can't control anything about them. Their dreams are dictated by subconscious emotion.[/color]\n\n[color=#00a0c9]JUNICE: all ɯhile us lucids dont remember anything until ɯe fall asleep again... ill just shoɯ you ɯhat ɯe can control[/color]\n\n[color=#005f2b]KORPUS: and How do you know a}{ of tHis?[/color]\n\n[color=#00a0c9]JUNICE: a faceless troll in red shoɯed me. they didn't speak a ɯord but the silence was deafening. I took one good look at the destruction presented to me and it all just flooded my mind.[/color]\n\n[/spoiler]",
+      "b": "[img]https://file.garden/Zb0SKrqUe1Miz4mz/idrewhershortstooshortbutthatsok.png[/img]\n\n[spoiler open=\"Show Dialogue\" close=\"Hide Dialogue\"]\n[color=#00a0c9]JUNICE: long ago there ɯere two planets named Derse and Prospit; Trolls ɯould dream on either depending on their personalities, or ambitions? its hard to say[/color]\n\n[color=#00a0c9]JUNICE: but at some point, they ɯere destroyed by an angel. billions of dreamers had to flee in search of a neɯ place to rest.[/color]\n\n[color=#00a0c9]JUNICE: Horrorterrors took shelter in the furthest reaches of space and created a neɯ land outside that of the physical realm. they called this the dreamscape. this too is ɯhere dreamers fled.[/color]\n\n[color=#00a0c9]JUNICE: A horrorterror ɯas to be assigned to every dreamer to ɯatch over them. its said that once a horrorterror dies, a dreamer ɯithin the dreamscape ɯould appear faceless and ɯithout proper physical features. [/color]\n\n[color=#00a0c9]JUNICE: The dream ɯorld renders itself an enigma unlike anything other. Here ɯe can cross a medium to where those with connections can meet; Assuming the other party knoɯs ɯhat the other looks like. If not, certain liberties are taken by the dreamer's interpretation of the other and impose itself.[/color]\n\n[color=#00a0c9]JUNICE: Anyɯay, dreamers split into lucid and passive dreamers, youre a passive dreamer.[/color]\n\n[color=#00a0c9]JUNICE: and im a lucid dreamer![/color]\n\n[color=#00a0c9]JUNICE: hehe[/color]\n\n[color=#005f2b]KORPUS: ...[/color]\n\n[color=#005f2b]KORPUS: WHats tHe difference?[/color]\n\n[color=#00a0c9]JUNICE: ɯell, ɯhile passive dreamers can remember their dreams, they can't control anything about them. Their dreams are dictated by subconscious emotion.[/color]\n\n[color=#00a0c9]JUNICE: all ɯhile us lucids dont remember anything until ɯe fall asleep again... ill just shoɯ you ɯhat ɯe can control[/color]\n\n[color=#005f2b]KORPUS: and How do you know a}{ of tHis?[/color]\n\n[color=#00a0c9]JUNICE: a faceless troll in red shoɯed me. they didn't speak a ɯord but the silence was deafening. I took one good look at the destruction presented to me and it all just flooded my mind.[/color]\n\n[/spoiler]",
       "n": [
         223
       ]
@@ -2014,7 +2014,7 @@
     {
       "d": 1710202258726,
       "c": "Mallum: Look over at clock.",
-      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/7-21.gif[/img]\n\nYou hesitantly look over at the ticking clock on the Cruxtruder. \n\nAh yes... Approximately three minutes left. Just enough time for a massive meteor to decimate you and the surrounding area. You're really starting to take back what you said about the game [url=https://mspfa.com/?s=54371&p=253]just a few panels ago[/url]. ",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/Homestuck/7-21.gif[/img]\n\nYou hesitantly look over at the ticking clock on the Cruxtruder. \n\nAh yes... Approximately three minutes left. Just enough time for a massive meteor to decimate you and the surrounding area. You're really starting to take back what you said about the game [url=https://mspfa.com/?s=54371&p=242]just a few panels ago[/url]. ",
       "n": [
         250
       ]
@@ -5161,6 +5161,598 @@
       "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/116.gif[/img]\n\nWhat's this? Oh, its Korpus.\n\n[spoiler open=\"Show Chat\" close=\"Hide Chat\"]\n-- [color=#00421b]crescentGeneral [CG][/color] began trolling [color=#ff7f27] annoyingArtisan [AA][/color] --\n\n[color=#00421b]CG: wHat tHe He}{ are you doing[/color]\n[color=#ff7f27]AA: !m bu!ld!ng a l!ttle shed w!th the !mp quq[/color]\n[color=#00421b]CG: we}{ knock it off[/color]\n[color=#00421b]CG: dont you Have a moirail to attend to?[/color]\n[color=#ff7f27]AA: ! st!ll dont know what a mo!wa!l !s but !f youwe wefeww!ng to mallum then ! suppose ! could check on h!m q-q[/color]\n[color=#00421b]CG: yes, ma}{um, go cHeck on Him[/color]\n[color=#00421b]CG: we need Him for later you know[/color]\n[color=#00421b]CG: we cant just disregard Him because you want to do arts and crafts witH a buncH of 1s and 0s[/color]\n[color=#ff7f27]AA: okay sowwy q-q[/color]\n[color=#00421b]CG: its fine just start being a team player for once okay?[/color]\n[color=#00421b]CG: wHile youre working witH ma}{um im going to start building your way up to tHe first gate[/color]\n[color=#ff7f27]AA: how awe you go!ng to do that[/color]\n[color=#00421b]CG: we}{[/color]\n[color=#00421b]CG: since you refuse to ki}{ tHat disgusting wHite skinned creature im just going to Have to se}{ more tHings around your Hive[/color]\n[color=#ff7f27]AA: ! dont want to k!ll h!m hes my fw!end qnq[/color]\n[color=#00421b]CG: we}{ we need to get grist SOMEHOW dont we?[/color]\n[color=#ff7f27]AA: !snt thewe any othew way?[/color]\n[color=#00421b]CG: its eitHer you ki}{ imps or i se}{ your tHings[/color]\n[color=#ff7f27]AA: ! suppose ! could maybe k!ll othew !mps?[/color]\n[color=#00421b]CG: if you would[/color]\n[color=#00421b]CG: tHat would be very Helpful[/color]\n[color=#ff7f27]AA: oh but ! dont have the bloodpushew to k!ll anyth!ng qmq[/color]\n[color=#00421b]CG: its just code tHey dont Have feelings[/color]\n[color=#ff7f27]AA: ! dont know[/color]\n[color=#ff7f27]AA: he seems to be vewy emot!onal fwom what !ve seen[/color]\n[color=#00421b]CG: you know wHat[/color]\n[color=#00421b]CG: i dont care[/color]\n[color=#00421b]CG: tHis is stupid[/color]\n[color=#00421b]CG: if you want to keep Him as your weird lap barkbeast so be it[/color]\n[color=#00421b]CG: but i need you to get me grist for tHis to work[/color]\n[color=#00421b]CG: or else you wi}{ stay in tHis barren sunflower field for as long as tHis session goes[/color]\n[color=#ff7f27]AA: that doesnt weally sound l!ke a bad th!ng to me[/color]\n[color=#00421b]CG: get tHe grist[/color]\n[color=#00421b]CG: now[/color]\n\n-- [color=#00421b]crescentGeneral [CG][/color] gave up trolling [color=#ff7f27] annoyingArtisan [AA][/color] --\n[/spoiler]",
       "n": [
         643
+      ]
+    },
+    {
+      "d": 1752803660292,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/117.gif[/img]\n",
+      "n": [
+        644
+      ]
+    },
+    {
+      "d": 1752803660292,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/118.gif[/img]",
+      "n": [
+        645
+      ]
+    },
+    {
+      "d": 1752803660292,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/119.png[/img]\n\nGolly, he sure is putting in the work. He's a lot better at this game building stuff than you are.",
+      "n": [
+        646
+      ]
+    },
+    {
+      "d": 1752803660292,
+      "c": "Ellith: Troll Mallum.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/120.gif[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n-- [color=#ff7f27]annoyingArtisan [AA][/color] began trolling [color=#3630cc]genesisThessalonians [GT][/color] --\n\n[color=#ff7f27]AA: hey mallum[/color]\n[color=#ff7f27]AA: just check!ng up on you to make suwe evewyth!ng !s okay[/color]\n[color=#ff7f27]AA: evewyth!ng !s okay, w!ght?[/color]\n[color=#ff7f27]AA: mallum?[/color]\n[color=#ff7f27]AA: q-q[/color]\n[color=#3630cc]GT: everyþing is fine[/color]\n[color=#ff7f27]AA: awe you suwe?[/color]\n[color=#ff7f27]AA: you dont look f!ne[/color]\n[color=#3630cc]GT: yes, everyþing is just fine[/color]\n[color=#ff7f27]AA: well thats good quq[/color]\n[color=#3630cc]GT: elliþ[/color]\n[color=#3630cc]GT: cæn i æsk you soMeþing[/color]\n[color=#ff7f27]AA: oh[/color]\n[color=#ff7f27]AA: well suwe, anyth!ng q-q[/color]\n[color=#3630cc]GT: Do you ever feel like þings hæppen to you for æ reæson[/color]\n[color=#ff7f27]AA: umm, !m not qu!te suwe what you mean[/color]\n[color=#3630cc]GT: Do you ever feel like, where you ære is where you belong[/color]\n[color=#3630cc]GT: like þis existence knew you shoulD be where you ære[/color]\n[color=#ff7f27]AA: !m cewta!nly okay w!th whewe ! am !n l!fe?[/color]\n[/spoiler]",
+      "n": [
+        647
+      ]
+    },
+    {
+      "d": 1752803660292,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/121.gif[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=#ff7f27]AA: why do you ask that[/color]\n[color=#3630cc]GT: no reæson æt æll[/color]\n[/spoiler]",
+      "n": [
+        648
+      ]
+    },
+    {
+      "d": 1752858378949,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/122.gif[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=#ff7f27]AA: umm okay q-q[/color]\n[color=#ff7f27]AA: well kowpus !s cuwwently help!ng me get up to my gate[/color]\n[color=#ff7f27]AA: ! suppose ! could help do the same fow you[/color]\n[color=#3630cc]GT: okæy[/color]\n[color=#ff7f27]AA: shouldnt be too hawd, !t looks l!ke !t w!ll be alot of bu!ld!ng[/color]\n[color=#ff7f27]AA: hopefully we have enough gw!st to bu!ld upwawds[/color]\n[color=#3630cc]GT: þere shoulD be More þæn enough[/color]\n\n[/spoiler]",
+      "n": [
+        649
+      ]
+    },
+    {
+      "d": 1752858378949,
+      "c": "Ellith: Check Grist Cache.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/123.gif[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=#ff7f27]AA: oh wow[/color]\n[color=#ff7f27]AA: you wewent k!dd!ng[/color]\n[color=#ff7f27]AA: youwe vewy bloody q-q you know that w!ght?[/color]\n[color=#3630cc]GT: sure seeMs þæt wæy[/color]\n[color=#ff7f27]AA: mallum awe you suwe youwe okay? youwe scaw!ng me a l!ttle[/color]\n[color=#3630cc]GT: just tireD[/color]\n[color=#ff7f27]AA: !f you !ns!st qnq[/color]\n[color=#ff7f27]AA: oh wow !t looks l!ke you leveled up a lot as well[/color]\n[/spoiler]",
+      "n": [
+        650
+      ]
+    },
+    {
+      "d": 1752858378949,
+      "c": "Ellith: Check Mallum's level.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/124.gif[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=#ff7f27]AA: ! dont weally know what that means, but !t looks l!ke you can collect even mowe gw!st[/color]\n[color=#3630cc]GT: i like collecting grist[/color]\n[color=#ff7f27]AA: oh well good quq[/color]\n[color=#ff7f27]AA: wa!t q-q[/color]\n[color=#ff7f27]AA: not good[/color]\n[/spoiler]",
+      "n": [
+        651
+      ]
+    },
+    {
+      "d": 1752858378949,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/124.png[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide Chatlog\"]\n[color=#ff7f27]AA: ! th!nk those !mps have feel!ngs mallum[/color]\n[color=#3630cc]GT: oh þey Do[/color]\n[color=#ff7f27]AA: maybe you should go to sleep mallum, west a l!ttle b!t[/color]\n[color=#3630cc]GT: Mæybe i shoulD[/color]\n\n[/spoiler]",
+      "n": [
+        652
+      ]
+    },
+    {
+      "d": 1752876126567,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/125.png[/img]",
+      "n": [
+        653
+      ]
+    },
+    {
+      "d": 1752876126567,
+      "c": "[S] Mallum: Get some sleep.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/126.png[/img]\n\nYou'd love to, but what in the hell is that angelic sound?",
+      "n": [
+        654
+      ]
+    },
+    {
+      "d": 1752876126567,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/127.gif[/img]\n\nAngelic... sound?",
+      "n": [
+        655
+      ]
+    },
+    {
+      "d": 1752876134382,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/128.gif[/img]\n\nOh no. It can't be...",
+      "n": [
+        656
+      ]
+    },
+    {
+      "d": 1752886366695,
+      "c": "==>",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/The%20Angel/theangel.html\" width=\"640\" height=\"900\"></iframe>\n\nYour lusus.",
+      "n": [
+        657
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/129.png[/img]\n\n[spoiler open=\"Show Monologue\" close=\"Hide\"]\n[color=#f7f7f7]ANGEL: MONGREL DAEMON!\n\nANGEL: THOU HAST LEFT THINE CONTAINMENT FOR THE LAST TIME. HAVE I NOT MADETH MYSELF CLEAR ON THE JUDGEMENT THOU WILST FACE WHEN DEFYING THE WORD, AGAIN?\n\nANGEL: IN HIS MERCY, HE HAS ALLOWED YOU TO LIVE BECAUSE YOU TOO SHARE THE MIRACLE OF LIFE. ALBEIT A BASTARD OF HIS CREATION BY FOLLOWERS LONG LOST.\n\nANGEL: YET- NOW THAT THOU HAST DEFIED THIS WORD. THINE TIME ENDS NOW.[/color]\n\n[/spoiler]",
+      "n": [
+        658
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/129-1.png[/img]\n\n[color=#ffffff][size=20]CHILD OF SHEOL, YOU WILL KNOW JUDGEMENT, HENCE FORTH.[/size][/color]",
+      "n": [
+        659
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/130.gif[/img]\n\n[size=20]No.[/size]",
+      "n": [
+        660
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/132.gif[/img]\n\n[size=20]SHEOL: You shall not lay a hand upon my descendant.[/size]\n",
+      "n": [
+        661
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/131.gif[/img]\n\n[size=20]SHEOL: For as long as I live, you have no dominion over this land, nor Neorxleas.[/size]",
+      "n": [
+        662
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/132-1.png[/img]\n\n[spoiler open=\"Show Dialogue\" close=\"Hide\"]\n[color=#f7f7f7]ANGEL: SHEOL, THOU HAST NO POWER OVER I. WHO ARE YOU TO STOP THE JUDGEMENT BESET UPON THEE?[/color]\n\nSHEOL: You have no more power. You have been stripped of your divinity long ago. \n\n[color=#f7f7f7]ANGEL: CAN'T THOUST SEE THAT THIS IS THE PATH BACK TO THE THRONE OF GOD?[/color]\n\nSHEOL: There is no way back. You are a fool who has been blinded by redemption.\n\nSHEOL: Before you fell from grace, I was already cast to the pit. Not long from now, you shall be there too.\n\n[color=#f7f7f7]ANGEL: STAND DOWN, FOUL DAEMON. FOR YOU TOO SHALL BE SLAIN.[/color]\n\n[color=#f7f7f7]ANGEL: THIS IS THE WORD OF GOD.[/color]\n\nSHEOL: You can no longer hear the word of God. You besmirched your purity when you descended from Mount Hermon on Earth eons ago, when you decided to lie in bed with mankind.\n\nSHEOL: And because of that Gabriel and Michael cast you below. Now, here you are. Trying to pass on what little light you have left to judge MY kind and bring them towards a light you can no longer get yourself back to. You are no more than just Principalities. Your power is nothing compared to the [i]Second Echelon[/i] above you.\n\nSHEOL: There is no forgiveness for us creatures of divinity. We were to be pure, our punishment is tenfold that of the people of earth, for they know not the evils they do. But we did.\n\n[color=#f7f7f7]ANGEL: ...[/color] \n\n[color=#f7f7f7]ANGEL: STAND DOWN... DAEMON OR FACE HIS WRATH.[/color]\n\nSHEOL: No.\n\n[color=#f7f7f7]ANGEL: IN THAT CASE...[/color]\n\n[/spoiler]",
+      "n": [
+        663
+      ]
+    },
+    {
+      "d": 1755875301428,
+      "c": "==>",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/angel%20float/angelfloat.html\" width=\"640\" height=\"900\"></iframe>\n\n[color=#ffffff][size=20]COME FORTH, SINNER. AND DIE![/size][/color]",
+      "n": [
+        664
+      ]
+    },
+    {
+      "d": 1757883744839,
+      "c": "[S] Angels: Fall.",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/Angels%20Fall/angels%20fall.html\" width=\"640\" height=\"450\"></iframe>\n[size=10]Special Thank you to [url=https://www.newgrounds.com/audio/listen/1367992]Azeleon[/url]![/size]",
+      "n": [
+        665
+      ]
+    },
+    {
+      "d": 1757904441089,
+      "c": "==>",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/133/133.html\" width=\"640\" height=\"459\"></iframe>\n\n[spoiler open=\"Show Monologue\" close=\"Hide\"]\n\n???: H⛧LY SHIT!\n\n???: H⛧LY SHIT- H⛧LY SHIT- H⛧LY SHIT!!!\n\n???: THAT WAS THE C⛧⛧LEST FUCKING THING IVE EVER SEEN!\n\n???: THE GREAT ⛧NE... Finally, here! F⛧r ALL ⛧f us t⛧ see...\n\n???: ⛧hhh⛧h⛧h⛧... Yes... N⛧w that we have an antag⛧nist pushing these idi⛧ts t⛧ the final g⛧al; I can start w⛧rking ⛧n making c⛧ntact with these humans and bring this wh⛧le thing t⛧gether.\n\n???: I have G⛧T t⛧ tell Renity ab⛧ut this! I'm sure she'd love this... H⛧w attentive ive been thr⛧ughout it all. Dear sweet Renity.\n\n[/spoiler]\n\n[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/135.png[/img]",
+      "n": [
+        666
+      ]
+    },
+    {
+      "d": 1757904441089,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/136.gif[/img]\n\n",
+      "n": [
+        667
+      ]
+    },
+    {
+      "d": 1758142399649,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/137.gif[/img]\n\nOh, God fucking damn it.\n\nYour stupid fucking bitch of a lusus. Turn the fucking light off you piece of shit! Can't you see we're doing something here! Shes always in your fucking business here in your lair and you can never get some goddamn peace and quite. Its always 'squeak' this and 'squeak' that —\n\n'Oh sweety clean your respiteblock! Bluh bluh bluh!'\n\nFUCK OFF!\n\nOf course, she can't say any of this. Because she's a stupid fucking putrid creature with no intelligence whatsoever. If she keeps this up, she's getting the microwave.\n\nWait, what's that on your wall?\n\n",
+      "n": [
+        668
+      ]
+    },
+    {
+      "d": 1758142399649,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/138.png[/img]\n\nWhy, it's your trusty placronym. The same one you've had since your wriggling days.\n\nColsla Incell\n\nThe perfect name for our bouncing bundle of joy...",
+      "n": [
+        669
+      ]
+    },
+    {
+      "d": 1758142399649,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/139.gif[/img]\n\nOkay, ha ha. Your name is\n\nCOLSLA INCELL\n\nYou're a 9 SWEEP old COMPUTER WHIZ who loves to STALK others via monitors somehow. This is totally not creepy at all given your age. You are also a devout follower of HELLISM the first ever established major religion prior to the Monarchal rule that outlawed that shit. You're kind of an off the grid bad boy for how you live your life, and chicks totally dig it — Especially Renity Epilin; Your soon to be matesprit once she finally sees how hot you really are.\n\nOthers would call you a 4/10 nu-grub. But you for one like to see yourself as at least a solid 7/10 Alpha-Grub with rippling abdominal flesh walls. None of this is true, however. At most you're really a 2/10. But this is getting off topic.\n\nAnyways, you've been guiding your dear sweet matesprit Renity throughout this game that you've gotten your hands on. Her guide so to speak. Any and all questions she comes crawling back to you for. She knows she loves it, too. She totally left you alone to play this game with her pupa-pals but at least you can be there in creepy spirit.\n\nFor now, you stand in your subterranean respiteblock.\n\nWhat will you do?",
+      "n": [
+        670
+      ]
+    },
+    {
+      "d": 1758161030324,
+      "c": "Colsla: Ogle the decapitated hornbeast and play around with the swanky switchblade lodged in its skull.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/140.png[/img]\n\nThis decapitated horned beast is your recent lusii sacrifice to your lord and savior Lucifer. He requires at least one sacrifice every 10TH LUNAR APIGEE. You're a little behind on this time around.\n\nNot just any lusii will do, however. It must be one of jade-blooded caste. You're not really sure why, but your lord works in mysterious ways...\n\nAnd don't call this articulate piece of metal a 'swanky switchblade'; This is none other than a certified swanky sacrificial dagger, you absolute buffoon.",
+      "n": [
+        671
+      ]
+    },
+    {
+      "d": 1758161030324,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/141.gif[/img]",
+      "n": [
+        672
+      ]
+    },
+    {
+      "d": 1758161030324,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/142.gif[/img]\n\nRegardless, you rip it out of the poor sucker's skull and swing it around like a fucking lunatic.",
+      "n": [
+        673
+      ]
+    },
+    {
+      "d": 1758161030324,
+      "c": "Colsla: Lick blood.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/143.gif[/img]\n\nYou know...\n\nYou've never really tried jade blood. All these sweeps of sacrificing and never the gall to really put this swill to taste muscles and try it out.",
+      "n": [
+        674
+      ]
+    },
+    {
+      "d": 1758161030324,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/144.gif[/img]\n\nAbsolutely delectable. Not a thing wrong with it. You should do this more often.\n\nNo-no, please disregard the sudden frames. It means nothing.",
+      "n": [
+        675
+      ]
+    },
+    {
+      "d": 1758313257710,
+      "c": "Colsla: Pet lusus.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/145.gif[/img]\n\nNobody tells me what to do! I run this shitshow, and I don't need any input from the likes of you!",
+      "n": [
+        676
+      ]
+    },
+    {
+      "d": 1758313257710,
+      "c": "Colsla: Troll Renity.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/146.gif[/img]\n\nYou open up the trollian application to troll your dear sweet Renity.",
+      "n": [
+        677
+      ]
+    },
+    {
+      "d": 1758313257710,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/147.gif[/img]\n\n[spoiler open=\"Show Chat\" close=\"Hide\"]\n[color=#646464]-- coldsteelAssassin [color=#000000][CA][/color] began trolling cupidsAmoretto [color=#7e0000][CA][/color] --[/color]\n\n[color=#000000]CA: ⛧h Renity, my sweet darling![/color]\n[color=#000000]CA: I have s⛧me exciting news f⛧r y⛧u[/color]\n[color=#7e0000]CA: ...[/color]\n[color=#7e0000]CA: What c♥ʊld it p♥ssibly be this time.~[/color]\n[color=#7e0000]CA: M♥re inf♥rmati♥n ♥n my pers♥nal life?~[/color]\n[color=#000000]CA: hell n⛧! I have en⛧ugh ⛧f that already[/color]\n[color=#000000]CA: and m⛧re...[/color]\n[color=#000000]CA: its ab⛧ut y⛧ur players[/color]\n[color=#7e0000]CA: What d♥ y♥ʊ mean my players?~[/color]\n[color=#7e0000]CA: If y♥ʊ're trying t♥ weasle y♥ʊr way int♥ SGRUB I need y♥ʊ t♥ st♥p, we have en♥ʊgh players already!~[/color]\n[color=#000000]CA: n⛧ n⛧ ive already accepted that y⛧u want n⛧thing t⛧ d⛧ with me... right n⛧w...[/color]\n[color=#000000]CA: its ab⛧ut that ⛧range crygrub girl[/color]\n[color=#000000]CA: her and THE GREAT ⛧NE have made it t⛧ their first gate![/color]\n[color=#7e0000]CA: Um. Yes I am aware.~[/color]\n[color=#7e0000]CA: Y♥ʊ d♥ kn♥w my kismesis is helping me right n♥w c♥rrect? I d♥ n♥t need y♥ʊr pervert eyes ♥n the sitʊati♥n?~[/color]\n[color=#000000]CA: c⛧me ⛧n renity, d⛧nt y⛧u have any appreciati⛧n f⛧r my ⛧versight ⛧n this wh⛧le ⛧perati⛧n? Y⛧u wanted me t⛧ get y⛧u this game, remember?[/color]\n[color=#000000]CA: I had t⛧ pull many many strings just t⛧ get a viable d⛧wnl⛧adable c⛧py s⛧ y⛧u can start y⛧ur wh⛧le gr⛧ups sessi⛧n[/color]\n[color=#7e0000]CA: That was ♥nly becaʊse y♥ʊ're the ♥nly tr♥ll, that I kn♥w, wh♥ has that kind ♥f disc c♥nverter, Nellie had the physical c♥py, I never needed y♥ʊ C♥lsla.~[/color]\n[color=#000000]CA: harsh w⛧rds fr⛧m s⛧me⛧ne wh⛧ cant help but talk t⛧ me everyday[/color]\n[color=#000000]CA: but it seems y⛧ure n⛧t understanding h⛧w imp⛧rtant it is f⛧r these tw⛧ t⛧ be pr⛧gressing, these aren't y⛧ur run-⛧f-the-mill tr⛧lls afterall[/color]\n[color=#7e0000]CA: ...[/color]\n[color=#7e0000]CA: What else did y♥ʊ need t♥ tell me.~[/color]\n[color=#000000]CA: Well, I wanted t⛧ als⛧ inf⛧rm y⛧u that I have f⛧und a way t⛧ c⛧ntact these 'humans', valuable assets f⛧r the future ⛧f y⛧ur sessi⛧n[/color]\n[color=#000000]CA: backups if y⛧u will[/color]\n[color=#000000]CA: that girl wh⛧ c⛧ntr⛧ls the great ⛧nes sessi⛧n f⛧und a slip ⛧f paper that c⛧ntains c⛧ntact inf⛧rmati⛧n[/color]\n[color=#000000]CA: I just s⛧ happened t⛧ get a screensh⛧t ⛧f this, and I shall f⛧rward these details t⛧ y⛧u s⛧⛧n. This might be ⛧f the upm⛧st imp⛧rtance t⛧ keeping this sessi⛧n g⛧ing[/color]\n[color=#7e0000]CA: .... Hʊmans?~[/color]\n[color=#7e0000]CA: AHAHAHA What kind ♥f idi♥t d♥ y♥ʊ take me f♥r?~[/color]\n[color=#7e0000]CA: Thats a wigglers tale they d♥nt exist. Jʊst made ʊp species t♥ fʊrther that lʊcifer and she♥l pr♥paganda y♥ʊ fall f♥r.~[/color]\n[color=#7e0000]CA: We may be playing a reality altering game, bʊt its n♥t s♥me ritʊal, and st♥p calling him the great ♥ne!~[/color]\n[color=#7e0000]CA: This is t♥ rest♥re Ne♥rxleas back t♥ a peacefʊl state.~[/color]\n[color=#000000]CA: HUMANS ARE REAL Y⛧U STUPID PIECE ⛧F SHIT[/color]\n[color=#000000]CA: I ap⛧l⛧gize[/color]\n[color=#000000]CA: Humans are real, and these humans WILL be apart ⛧f this ⛧perati⛧n n⛧w whether y⛧u like it ⛧r n⛧t[/color]\n[color=#000000]CA: I will be getting in c⛧ntact with them s⛧⛧n en⛧ugh[/color]\n[color=#000000]CA: If i can't be apart ⛧f y⛧ur sessi⛧n, i might as well kickstart my ⛧wn with these creatures[/color]\n[color=#7e0000]CA: Ha. Sʊre I w♥ʊld L♥VE t♥ see y♥ʊ d♥ that.~[/color]\n[color=#7e0000]CA: St♥p fʊcking messaging me.~[/color]\n\n[color=#646464]-- cupidsAmoretto [color=#7e0000][CA][/color] gave up trolling coldsteelAssassin [color=#000000][CA][/color] --[/color]\n\n[color=#000000]CA: FUCK Y⛧U Y⛧U SATAN DAMN QUADRANT SLUT[/color]\n\n[color=#646464]-- coldsteelAssassin [color=#000000][CA][/color] gave up trolling cupidsAmoretto [color=#7e0000][CA][/color] --[/color]\n\n[/spoiler]",
+      "n": [
+        678
+      ]
+    },
+    {
+      "d": 1758313257710,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/148.gif[/img]\n\nYou'll show that fucking whore. \n\nPerigees of waiting on your server to ping a human website throughout the reaches of space have finally paid off. Who would've known troll technology was so advanced that it would transverse the vastness in only such a short time span.",
+      "n": [
+        679
+      ]
+    },
+    {
+      "d": 1758313257710,
+      "c": "Colsla: Login.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/149.gif[/img]",
+      "n": [
+        680
+      ]
+    },
+    {
+      "d": 1758313257710,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/150.gif[/img]\n\nAt long last...\n\nIn all its glory... A true human website. You've never seen such wonder and amazement. You can hardly control yourself. Your blood-pusher is thumping out of its thoracic cavity and your mind is racing. A whole species of 'Humans' are now at your grip-tips.\n\nWho to message first? What would you even say? Although you could believe, you simultaneously cannot believe that your Leabhar was right all along. \n\n\"HAIL LUCIFER\"\n\nYou scream to yourself with such excitement along with other vicarious praises. Get ahold of yourself. \n\nPick a board and get to it already. You've got a session to run.",
+      "n": [
+        681
+      ]
+    },
+    {
+      "d": 1758639547676,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/151.png[/img]\n\nThis seems appropriate for what it is you're trying to do. What does NSFW mean? Who cares.",
+      "n": [
+        682
+      ]
+    },
+    {
+      "d": 1758639547676,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/152.gif[/img]\n\n...\n\nYou have no idea what you are looking at.",
+      "n": [
+        683
+      ]
+    },
+    {
+      "d": 1758639547676,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/153.gif[/img]\n\nNo matter. Time to initiate contact!",
+      "n": [
+        684
+      ]
+    },
+    {
+      "d": 1758639547676,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/152.png[/img]\n\nThere it is...\n\nHow could anyone resist interacting with such grace upon their monitors.",
+      "n": [
+        685
+      ]
+    },
+    {
+      "d": 1758639547676,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/154.gif[/img]\n\nWow. Simply Amazing. Your first contact with human life.\n\nLightyears upon lightyears away; A message has been sent through the vastness of space, just to graze your looking holes, and this is it. You will cherish this moment forever...",
+      "n": [
+        686
+      ]
+    },
+    {
+      "d": 1758639547676,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/155.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/closeup.png[/img]\n\nHumans sure are a fascinating species. It appears they work in a hivemind. You're seeing a whole lot of words, but you have no idea what any of it really means.",
+      "n": [
+        687
+      ]
+    },
+    {
+      "d": 1758857717815,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/156.png[/img]\n\nWhat's this?",
+      "n": [
+        688
+      ]
+    },
+    {
+      "d": 1758857717815,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/157.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/157-1.gif[/img]",
+      "n": [
+        689
+      ]
+    },
+    {
+      "d": 1758857717815,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/158.gif[/img]\n\n\n[spoiler open=\"Show Chat\" close=\"Hide\"]\n[center][color=#646464]-- coldsteelAssassin [color=#000000][CA][/color] began trolling goryTomium [color=#ffa203][GT][/color] --[/color][/center]\n\n[color=#000000]CA: greetings HUMAN[/color]\n[color=#000000]CA: i am the great[/color]\n[color=#000000]CA: the p⛧werful[/color]\n[color=#000000]CA: c⛧ldsteel![/color]\n[color=#000000]CA: n⛧ n⛧ please[/color]\n[color=#000000]CA: h⛧ld y⛧ur excitement[/color]\n[color=#000000]CA: ⛧r d⛧nt! It d⛧esnt matter t⛧ me[/color]\n[color=#000000]CA: gr⛧vel at my walkstumps y⛧u w⛧rthless meatsack![/color]\n[color=#ffa203]GT: LMFAO[/color]\n[color=#ffa203]GT: you actually fucking talk like this, thats great[/color]\n[color=#ffa203]GT: what a fucking loser[/color]\n[color=#ffa203]GT: lame ass getup too, paint your dick grey? post it on /r/ next cuz i wanna see how pathetic that is too[/color]\n[color=#000000]CA: SHUT THE FUCK UP[/color]\n[color=#000000]CA: thats n⛧ way t⛧ talk t⛧ me y⛧u pathetic dirtbeast[/color]\n[color=#ffa203]GT: oh please youre like the 5th neonazi ive talked to in the past 2 hours[/color]\n[color=#ffa203]GT: where did you even come from cuz you clearly dont use 4chan[/color]\n[color=#ffa203]GT: i mean you wouldve fixed those corny ass pentagram Os if so[/color]\n[color=#000000]CA: its n⛧t my fault y⛧ur stupid human websites arent ⛧ptimized f⛧r specialized characters[/color]\n[color=#000000]CA: what primitive fucking h⛧le did y⛧ur kind crawl ⛧ut ⛧f that  just learned basic en⛧ugh c⛧de t⛧ run a fucking website?[/color]\n[color=#000000]CA: h⛧nestly, its actually embarrassing im talking t⛧ such l⛧w intelligent life f⛧rm.[/color]\n[color=#000000]CA: yet here we are[/color]\n[color=#000000]CA: Im b⛧red and i need playthings f⛧r a game ive been wanting t⛧ run[/color]\n[color=#ffa203]GT: blah blah blah why don't you build some code to teleport your ass so you can say that shit to my face[/color]\n[color=#ffa203]GT: what game could you possibly be playing that requires such a weird recruitment tactic[/color]\n[color=#ffa203]GT: no ones gonna play with a big bugeyed bitch that looks like the blueprint of a basement dwelling incel[/color]\n[color=#000000]CA: y⛧u kn⛧w what fuck y⛧u[/color]\n[color=#000000]CA: w⛧uldnt y⛧u like t⛧ kn⛧w[/color]\n[color=#000000]CA: well[/color]\n[color=#000000]CA: fine[/color]\n[color=#000000]CA: its called SGRUB[/color]\n[color=#ffa203]GT: what the hell[/color]\n[color=#000000]CA: what[/color]\n[color=#ffa203]GT: this is the second time ive been told about \"SGRUB\"[/color]\n[color=#ffa203]GT: i cant find shit about it online[/color]\n[color=#ffa203]GT: you dont know a guy named cody do you[/color]\n[color=#000000]CA: what the fuck is a c⛧dy[/color]\n[color=#ffa203]GT: actually no you cant cuz you def would have known who i was[/color]\n[color=#ffa203]GT: kay cut it with the larp crap whats in it for this game cuz im playing a session too[/color]\n[color=#000000]CA: h⛧w are y⛧u playing a sessi⛧n? This game is ⛧nly l⛧cal t⛧ my planet[/color]\n[color=#000000]CA: h⛧w did an inferi⛧r lifef⛧rm get ah⛧ld ⛧f this game[/color]\n[color=#ffa203]GT: i just said cut it with the gay ass larp[/color]\n[color=#ffa203]GT: i dont fucking know[/color]\n[color=#ffa203]GT: my boyfriend has a copy or something?[/color]\n[color=#ffa203]GT: or lily? fuck idk theyre nerds i could care less[/color]\n[color=#ffa203]GT: fuck you[/color]\n[color=#000000]CA: fuck y⛧u[/color]\n[color=#ffa203]GT: good luck getitng people to join your retarded ass game[/color]\n[color=#000000]CA: yeah well i d⛧nt need luck, just because ⛧f y⛧ur stupid ass im n⛧t giving y⛧u the illusi⛧n ⛧f free ch⛧ice anym⛧re[/color]\n[color=#000000]CA: y⛧ure j⛧ining my game whether y⛧u like it ⛧r n⛧t[/color]\n[color=#ffa203]GT: sure yeah thats totally happening[/color]\n[color=#ffa203]GT: go back to stalking little girls, bet theyd love to play a game with you[/color]\n[color=#000000]CA: the girls im stalking d⛧nt want me t⛧ play with them[/color]\n[color=#000000]CA: theyve already g⛧t a sessi⛧n g⛧ing, idi⛧t[/color]\n[color=#ffa203]GT: ???[/color]\n[color=#ffa203]GT: pedophile nazi, alien larping incel holy shit[/color]\n[color=#ffa203]GT: this is a goldmine[/color]\n[color=#ffa203]GT: kek hold on this is great keep going[/color]\n[color=#000000]CA: whats a ped⛧phile? These are fucking n⛧nsense w⛧rds[/color]\n[color=#000000]CA: y⛧u humans really are fucking stupid[/color]\n[color=#000000]CA: n⛧thing that came ⛧ut ⛧f y⛧ur infernal greasetrap made any fucking sense[/color]\n[color=#ffa203]GT: urgg your acting is worse than lilys[/color]\n[color=#ffa203]GT: what could a greasetrap even mean[/color]\n[color=#000000]CA: i asked y⛧u first what y⛧ur stupid human ling⛧ means[/color]\n[color=#000000]CA: what the fuck is a lily[/color]\n[color=#000000]CA: actually[/color]\n[color=#000000]CA: i d⛧nt care[/color]\n[color=#000000]CA: fuck y⛧u[/color]\n[color=#000000]CA: this has been a w⛧nderful start t⛧ my first direct c⛧ntact t⛧ human life[/color]\n[color=#000000]CA: if i didnt kn⛧w any better i w⛧uld think this is the start ⛧f a beautiful kismissitude[/color]\n[color=#ffa203]GT: a fucking what[/color]\n[color=#ffa203]GT: what geek shit is this[/color]\n[color=#000000]CA: its caligin⛧us quadrantship y⛧u dense fucknut[/color]\n[color=#000000]CA: h⛧w d⛧ y⛧u n⛧t kn⛧w what that is?[/color]\n[color=#000000]CA: are y⛧u s⛧me kind ⛧f super virgin[/color]\n[color=#ffa203]GT: idk you tell me fathead[/color]\n[color=#ffa203]GT: if youre an alien that knows im human why assume id know what the hell youre talking about[/color]\n[color=#ffa203]GT: dont think i couldnt see your posts on other boards, nice try asshole[/color]\n[color=#ffa203]GT: plus i dont think aliens would be into satanism[/color]\n[color=#000000]CA: Satan created ⛧ur w⛧rld idi⛧t[/color]\n[color=#000000]CA: and excuse me f⛧r assuming the superi⛧r s⛧cietal n⛧rm is what all species SH⛧ULD have[/color]\n[color=#000000]CA: s⛧ i may be stupid f⛧r thinking y⛧ud be as s⛧phisticated as us, but what else c⛧uld I p⛧ssibly think[/color]\n[color=#ffa203]GT: mmmmmhm[/color]\n[color=#ffa203]GT: yeah[/color]\n[color=#ffa203]GT: prove it then[/color]\n[color=#000000]CA: pr⛧ve what[/color]\n[color=#ffa203]GT: prove that youre a real alien, cuz all i see right now is a bulge huffing nerd with glasses as thick as his ego[/color]\n[color=#ffa203]GT: id love to see you prove me wrong[/color]\n[color=#ffa203]GT: hell if you prove me wrong ill trade pics, but im only offering cuz i know youre full of shit[/color]\n[color=#000000]CA: trade pics?[/color]\n[color=#000000]CA: why w⛧uld i want pics[/color]\n[color=#000000]CA: pics ⛧f what?[/color]\n[color=#000000]CA: this is stupid[/color]\n[color=#ffa203]GT: you posted your face to cams and meetups[/color]\n[color=#ffa203]GT: are you saying you dont want nudes?[/color]\n[color=#000000]CA: what the fuck is a nude[/color]\n[color=#ffa203]GT: jesus christ[/color]\n[color=#000000]CA: there y⛧u g⛧ again with y⛧ur human bullbeastshit[/color]\n[color=#000000]CA: als⛧[/color]\n[color=#000000]CA: fuck y⛧u i d⛧nt huff bulges[/color]\n[color=#ffa203]GT: and guys like you complain they cant get laid[/color]\n[color=#ffa203]GT: i would have given you at least smth for a bad photoshop job[/color]\n[color=#ffa203]GT: cant even try for a hint of nip[/color]\n[color=#ffa203]GT: oh yeah larp[/color]\n[color=#ffa203]GT: fuckinnn uh ohh im so sorry you dont get to see my tentagulges you skinny horned freak, if only you had sent me just one more photo of your gourgous ganderbulbs![/color]\n[color=#ffa203]GT: or uh however you spell gorgeous[/color]\n[color=#ffa203]GT: lame ass typo[/color]\n[color=#000000]CA: y⛧u kn⛧w[/color]\n[color=#000000]CA: i think y⛧ure acting sarcastic with me n⛧w[/color]\n[color=#ffa203]GT: no i would never![/color]\n[color=#ffa203]GT: im really into this i promise[/color]\n[color=#000000]CA: well, if y⛧ure int⛧ it[/color]\n[color=#000000]CA: maybe i can... c⛧ntinue?[/color]\n[color=#ffa203]GT: what[/color]\n[color=#000000]CA: y⛧ure speaking my language... i didnt kn⛧w y⛧u and i had the same genitalia[/color]\n[color=#000000]CA: shall we c⛧mpare buldges then?[/color]\n[color=#ffa203]GT: oh sorry i thought you were gonna continue about the game shit[/color]\n[color=#000000]CA: ⛧h[/color]\n[color=#000000]CA: well[/color]\n[color=#000000]CA: yes[/color]\n[color=#000000]CA: the game[/color]\n[color=#000000]CA: l⛧⛧k y⛧u and I are g⛧ing t⛧ play this game[/color]\n[color=#000000]CA: i need t⛧ rub it in Renitys stupid fucking face[/color]\n[color=#000000]CA: that MY sessi⛧n will be m⛧re successful than hers[/color]\n[color=#ffa203]GT: hmmmmmmm[/color]\n[color=#ffa203]GT: yk what[/color]\n[color=#ffa203]GT: yeah sure[/color]\n[color=#ffa203]GT: send me a pic of your \"bulge\" and if its bigger than mine ill play your fag game[/color]\n[color=#000000]CA: actually im feeling a little under the weather[/color]\n[color=#000000]CA: my r⛧⛧ms really c⛧ld[/color]\n[color=#000000]CA: the s⛧lar mass is in retr⛧grade[/color]\n[color=#000000]CA: its just n⛧t a g⛧⛧d time[/color]\n[color=#000000]CA: maybe later[/color]\n[color=#ffa203]GT: oh my godddd[/color]\n[color=#ffa203]GT: yeah no wonder renity wouldnt wanna play with you[/color]\n[color=#ffa203]GT: total pack leader here[/color]\n[color=#000000]CA: s⛧[/color]\n[color=#000000]CA: will y⛧u j⛧in my sessi⛧n? As c⛧mmanded by y⛧ur new pack leader[/color]\n[color=#ffa203]GT: fuck no why would i join some rando perverts game[/color]\n[color=#000000]CA: because i need players[/color]\n[color=#ffa203]GT: look this convo has been crazy entertaining for the past like 6 minutes but go find some other chud to join[/color]\n[color=#000000]CA: ⛧kay, fine[/color]\n[color=#000000]CA: y⛧u want pr⛧⛧f?[/color]\n[color=#000000]CA: ill sh⛧w y⛧u pr⛧⛧f[/color]\n[color=#ffa203]GT: of your bulge?[/color]\n[color=#000000]CA: N⛧[/color]\n[color=#000000]CA: that im n⛧t a human[/color]\n[color=#ffa203]GT: damn[/color]\n[color=#000000]CA: maybe then y⛧u will listen and j⛧in[/color]\n[color=#000000]CA: [url=https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/thirsttrap.png]thishandsomehunk.png[/url][/color]\n[color=#ffa203]GT: yeah whatever that doesnt prove shit[/color]\n[color=#ffa203]GT: youve got a grainy ass camera[/color]\n[color=#ffa203]GT: usually aliens are high tech yk[/color]\n[color=#000000]CA: ⛧kayyy[/color]\n[color=#000000]CA: d⛧nt believe me[/color]\n[color=#000000]CA: ill leave y⛧u al⛧ne then[/color]\n[color=#000000]CA: f⛧r n⛧w[/color]\n[color=#000000]CA: but i will be back human...[/color]\n[color=#000000]CA: i will be back...[/color]\n\n[center][color=#646464]-- coldsteelAssassin [color=#000000][CA][/color] gave up trolling goryTomium [color=#ffa203][GT][/color] --[/color][/center]\n[/spoiler]",
+      "n": [
+        690
+      ]
+    },
+    {
+      "d": 1758857717815,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/159.gif[/img]\n\nSee you soon... Skye...",
+      "n": [
+        691
+      ]
+    },
+    {
+      "d": 1759534506683,
+      "c": "Colsla: Be Ellith.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/160.gif[/img]\n\nYou are now very suddenly Ellith moments before your friend falls from exceedingly high up, because the author was too lazy to make a seamless transition.",
+      "n": [
+        692
+      ]
+    },
+    {
+      "d": 1759534506683,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/161.gif[/img]",
+      "n": [
+        693
+      ]
+    },
+    {
+      "d": 1759534506683,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/162.png[/img]\n\n[spoiler open=\"Show Chat\" close=\"Hide\"]\n[color=#ff7f27]ELLITH: Mallum! Mallum! Awe you okay?![/color]\n[/spoiler]",
+      "n": [
+        694
+      ]
+    },
+    {
+      "d": 1759534506683,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/163.png[/img]\n\n[spoiler open=\"Show Chat\" close=\"Hide\"]\n[color=#ff7f27]ELLITH: Mallum! Speak to me! Q_Q[/color]\n\n[color=#ff7f27]ELLITH: Ohh.. please be alw!ght...[/color]\n[/spoiler]",
+      "n": [
+        695
+      ]
+    },
+    {
+      "d": 1759534506683,
+      "c": "==>",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/ellithlook/blinking.html\" width=\"640\" height=\"450\"></iframe>\n",
+      "n": [
+        696
+      ]
+    },
+    {
+      "d": 1759534506683,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/163.gif[/img]\n\n[spoiler open=\"Show Chat\" close=\"Hide\"]\n\n[color=#3630cc]MALLUM: everyþing hurts...[/color]\n\n[/spoiler]",
+      "n": [
+        697
+      ]
+    },
+    {
+      "d": 1759535565186,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/164.gif[/img]\n\n<div class=\"spoiler\"><div>\n[color=#ff7f27]ELLITH: OH MALLUM! HUWWAY!!! !TS YOU! !TS YOU![/color]\n\n[color=#ff7f27]ELLITH: !M SO EXC!TED ! NEVEW THOUGHT !D EVEW SEE YOU !N MY LIFE!![/color]\n\n[color=#ff7f27]ELLITH: THEWES SO MANY TH!NGS ! WANT TO DO W!TH YOU, OH !TS YOU, !TS YOU!![/color]\n\n[color=#ff7f27]ELLITH: ! CAN SHOW YOU ALL MY CAWV!NGS AND ALL MY WOODWOWK!NG, OH AND WEND!BULL, YOU CAN MEET WEND!BULL!![/color]\n\n[color=#ff7f27]ELLITH: OH MALLUM! YOU HAVE NO !DEA HOW LONG !VE WA!TED FOW TH!S MOMENT!![/color]\n\n[color=#3630cc]MALLUM: [size=9]iM hæppy... to see.. you too, Elliþ...[/size][/color]</div></div>",
+      "n": [
+        698
+      ]
+    },
+    {
+      "d": 1761352570073,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/165.gif[/img]\n\n<div class=\"spoiler\"><div>\n[color=#ff7f27]ELLITH: OH MY GOSH MALLUM !M SO SOWWY!! AWE YOU OKAY!?[/color]\n\n[color=#3630cc]MALLUM: [size=9]never better...[/size][/color]\n\n[color=#ff7f27]ELLITH: can we twy that aga!n? q_q[/color]\n\n[color=#3630cc]MALLUM: [size=9]of course...[/size][/color]\n\n</div></div>",
+      "n": [
+        699
+      ]
+    },
+    {
+      "d": 1761352570073,
+      "c": "Ellith: Try again.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/166.gif[/img]\n\n[size=10]Special Thank you to [url=https://x.com/bileshroom]Bileshroom[/url]![/size]\n\nHow sweet. Your whole life has been building up to this moment.\n\nYou and your best friend... Together at last.\n\nSomebody! Quick! Get the camera and take a picture of this somber moment. Let's make sure it lasts forever, unto eternity.",
+      "n": [
+        700
+      ]
+    },
+    {
+      "d": 1761352570073,
+      "c": "[S] Ellith: Converse with Mallum.",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/mallithtalk/mallumellithtalk.html\" width=\"640\" height=\"450\"></iframe>\n\n[size=10]Special Thank you to [url=https://azeleon.newgrounds.com/]Azeleon[/url]![/size]",
+      "n": [
+        701
+      ]
+    },
+    {
+      "d": 1761352570073,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/167.gif[/img]\n\n[spoiler open=\"Show Monologue\" close=\"Hide\"]\n[color=#005f2b]KORPUS: ...[/color]\n\n[color=#005f2b]KORPUS: I fucking HATE you low bloods...[/color]\n[/spoiler]\n\n",
+      "n": [
+        702
+      ]
+    },
+    {
+      "d": 1761355848732,
+      "c": "END OF ACT 3.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%203/EOA3.gif[/img]",
+      "n": [
+        703
+      ]
+    },
+    {
+      "d": 1762388508914,
+      "c": "BEGIN ACT 4 PART 1.",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/Trollianteam/teamtrollian.html\" width=\"640\" height=\"450\"></iframe>\n\n[spoiler open=\"Show Memo\" close=\"Hide\"]\n[color=#646464][color=#7e0000]CCA[/color] RIGHT NOW opened memo on board CUPIDS ARROW.[/color]\n\n[color=#7e0000]CCA: Salʊtati♥ns every♥ne! Welc♥me t♥ ♥ʊr first ever meeting ♥f the minds! hʊhʊ~[/color]\n[color=#7e0000]CCA: I h♥pe y♥ʊ are all as excited as I am t♥ begin a l♥ng and beaʊtifʊl acqʊaintanceship~[/color]\n[color=#7e0000]CCA: N♥w we are all here t♥ discʊss any c♥ncerns, ♥r ask any qʊesti♥ns that we may have ab♥ʊt this sessi♥n.~[/color]\n[color=#7e0000]CCA: Bʊt fear n♥t m♥n amis, I am here t♥ gʊide y♥ʊ all!~[/color]\n[color=#7e0000]CCA: I shall ♥pen the walkpad t♥ any♥ne wh♥ feels they mʊst speak their trʊth! d♥nt be shy.~[/color]\n\n[color=#646464][color=#00421b]CURRENT crescentGeneral [CCG][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#00421b]CCG: yeaH, two words[/color]\n[color=#00421b]CCG: 'fuck' and 'you'[/color]\n[color=#7e0000]CCA: Very matʊre.~[/color]\n\n[color=#646464][color=#00a0c9]CURRENT abyssalCruising [CAC][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#00a0c9]CAC: hey noɯ[/color]\n[color=#00a0c9]CAC: nooo need to be spicy out the gate[/color]\n[color=#00a0c9]CAC: hi ren[/color]\n[color=#00a0c9]CAC: and everyone else[/color]\n[color=#7e0000]CCA: Hell♥ Jʊnice!~[/color]\n\n[color=#646464][color=#4b0a50]CURRENT temptatiousCarnations [CTC][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#4b0a50]CTC: greetings dear junice :) pleasure to meet your acquaintanceship[/color]\n[color=#00421b]CCG: respectfu}{y, wHo tHe fuck are you[/color]\n\n[color=#646464][color=#9a004f]CURRENT tailoredGrift [CTG][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#9a004f]CTG: uhhh yeAh dA$ A lottA new nAme$[/color]\n\n[color=#646464][color=#00c298]CURRENT asclepiusTerrarium [CAT][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#00c298]CAT: my my korpusss, you are SSSNAPPY today huh?[/color]\n[color=#00421b]CCG: sHut up, im not in tHe mood[/color]\n[color=#7e0000]CCA: K♥rpʊs... Thats n♥ way t♥ treat ♥ficʊs, shes ♥ʊr friend.~[/color]\n[color=#00421b]CCG: i dont care, leave me alone[/color]\n[color=#9a004f]CTG: cAn we $AVe the rAunchy $hit for Another time[/color]\n[color=#9a004f]CTG: ren you $Aid there would be like 4-5 troll$ plAying mAx[/color]\n\n[color=#646464][color=#c9cb44]CURRENT gammaTherapist [CGT][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#c9cb44]CGT: the pinγinγ wont stop![/color]\n[color=#7e0000]CCA: Ah, hell♥ ♥xnard!~[/color]\n[color=#c9cb44]CGT: hi[/color]\n[color=#00421b]CCG: oH great anotHer fucking freak mutant lowblood[/color]\n\n[color=#646464][color=#8f069c]CURRENT cattleTrotline [CCT][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#8f069c]CCT: Oh lord how many of them did ya invite now darlin[/color]\n[color=#7e0000]CCA: Greetings Nellie!~[/color]\n[color=#8f069c]CCT: Sorry I've got my hands full with anotha' thing at the moment... but if ya'll have any questions I can also answer them[/color]\n[color=#00421b]CCG: tHanks but no tHanks[/color]\n[color=#4b0a50]CTC: master korpus[/color]\n[color=#4b0a50]CTC: it seems you are in no state to be in this groupchat :( do you need someone to talk to one-on-one?[/color]\n[color=#4b0a50]CTC: id be more than happy to assist[/color]\n[color=#00421b]CCG: if you werent a HigHblood i would te}{ you to fuck off[/color]\n[color=#00421b]CCG: so kindly, leave me alone[/color]\n[color=#4b0a50]CTC: as you wish[/color]\n\n[color=#646464][color=#ef7a20]CURRENT annoyingArtisan [CAA][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#ef7a20]CAA: Q_Q[/color]\n[color=#00421b]CCG: fucking[/color]\n[color=#00421b]CCG: damn it[/color]\n[color=#7e0000]CCA: M♥n ami!~[/color]\n[color=#7e0000]CCA: Y♥ʊ made it!~[/color]\n[color=#7e0000]CCA: H♥w are y♥ʊ d♥ing~[/color]\n[color=#ef7a20]CAA: aughh !m so sleepy all these not!f!cat!ons woke me up q-q[/color]\n[color=#ef7a20]CAA: hello.... evewyone?[/color]\n[color=#c9cb44]CGT: hi[/color]\n[color=#9a004f]CTG: $up[/color]\n[color=#00c298]CAT: heyy[/color]\n[color=#00421b]CCG: fuck off[/color]\n[color=#00a0c9]CAC: ehhehheh[/color]\n[color=#00421b]CCG: junice SHUT UP[/color]\n[color=#00a0c9]CAC: Ellith is it?[/color]\n[color=#ef7a20]CAA: yeah![/color]\n[color=#ef7a20]CAA: wa!t how do you know that[/color]\n[color=#00421b]CCG: JUNICE[/color]\n[color=#00a0c9]CAC: ʚʘ͜͡))❨[/color]\n\n[color=#646464][color=#000000]CCG[/color] ceased responding to memo.[/color]\n\n[color=#ef7a20]CAA: oh jeez[/color]\n\n[color=#646464][color=#00421b]CURRENT crescentGeneral [CCG][/color] RIGHT NOW responded to memo.[/color]\n\n[color=#00421b]CCG: leave me alone![/color]\n[color=#7e0000]CCA: K♥rpʊs, this is n♥ way t♥ behave infr♥nt ♥f all ♥ʊr new players~[/color]\n[color=#00421b]CCG: but i already know Half of tHem![/color]\n[color=#00421b]CCG: and tHey a}{ SUCK[/color]\n[color=#00421b]CCG: except for you Dmarko[/color]\n[color=#9a004f]CTG: word[/color]\n[color=#9a004f]CTG: but uh yeAh que$tion[/color]\n[color=#7e0000]CCA: Fire away!~[/color]\n[color=#9a004f]CTG: how$ thi$ gonnA go[/color]\n[color=#9a004f]CTG: i know there$ $ome $erVer plAyer bull$hit we gottA do[/color]\n[color=#9a004f]CTG: $o like[/color]\n[color=#9a004f]CTG: who$ gonnA be pAiring up with who[/color]\n[color=#7e0000]CCA: S♥ glad y♥ʊ asked, m♥n ami.~[/color]\n[color=#7e0000]CCA: I actʊally have the list next t♥ me as we speak~[/color]\n[color=#9a004f]CTG: there$ A whole li$t? god dAmn[/color]\n[color=#7e0000]CCA: Listen ʊp f♥r I shall pr♥vide y♥ʊ with y♥ʊr partners!~[/color]\n[color=#7e0000]CCA: K♥rpʊs is already paired with Ellith as her Server~[/color]\n[color=#7e0000]CCA: I am c♥nnected t♥ Nellie as her Server~[/color]\n[color=#7e0000]CCA: N♥w... K♥rpʊs, y♥ʊ will be ♥xnards client!~[/color]\n[color=#00421b]CCG: no fucking sHot, ren[/color]\n[color=#c9cb44]CGT: hello korpiss[/color]\n[color=#c9cb44]CGT: korpus[/color]\n[color=#00421b]CCG: fuck[/color]\n[color=#00421b]CCG: you[/color]\n[color=#00a0c9]CAC: LOL[/color]\n[color=#ef7a20]CAA: hehe[/color]\n[color=#00421b]CCG: YOU SHUT YOUR MOUTH ESPECIALLY[/color]\n[color=#7e0000]CCA: K♥rpʊs, if y♥ʊ please~[/color]\n[color=#7e0000]CCA: As I was saying...~[/color]\n[color=#7e0000]CCA: K♥rpʊs will be ♥xards Client~[/color]\n[color=#7e0000]CCA: Jʊnice will be Nellies Client~[/color]\n[color=#7e0000]CCA: Dmark♥ will be Jʊnice's Client... ♥therwise Dmark♥ w♥nt play...~[/color]\n[color=#7e0000]CCA: Yttris shall be Dmark♥s Client~[/color]\n[color=#7e0000]CCA: ♥xnard shall be Yttris' Client~[/color]\n[color=#00421b]CCG: YOUVE GOT TO BE KIDDING ME[/color]\n[color=#7e0000]CCA: As I am aware — Mallʊm is n♥t with ʊs this mem♥.~[/color]\n[color=#7e0000]CCA: Ellith, where is he?~[/color]\n[color=#ef7a20]CAA: hes w!ght next to me wead!ng evewyth!ng[/color]\n[color=#ef7a20]CAA: ! dont know whewe h!s laptop !s[/color]\n[color=#ef7a20]CAA: so he cant jo!n[/color]\n[color=#ef7a20]CAA: q-q sowwy[/color]\n[color=#7e0000]CCA: Its ♥kay, it has been established that Mallʊm is y♥ʊr Client. S♥ that means ♥ficʊs will be Mallʊms Client~[/color]\n[color=#7e0000]CCA: Whenever he gets the chance.~[/color]\n[color=#00c298]CAT: oh? Mallum?[/color]\n[color=#00c298]CAT: sssoundsss... dangerousss[/color]\n[color=#00421b]CCG: stop talking[/color]\n[color=#7e0000]CCA: Ellith, Mallʊm, ♥xnard, and K♥rpʊs; Y♥u foʊr will be kn♥wn as Team Cyan~[/color]\n[color=#7e0000]CCA: Dmark♥, Jʊnice, and Yttris; Y♥ʊ three will be Team Yell♥w~[/color]\n[color=#7e0000]CCA: As f♥r Nellie, ♥ficʊs, and I; We shall be Team Magenta~[/color]\n[color=#7e0000]CCA: Any qʊesti♥ns?~[/color]\n[color=#9a004f]CTG: .... the gAme$ AlreAdy $tArted?[/color]\n[color=#7e0000]CCA: A few ♥f ♥ʊr players have already started their sessi♥ns~[/color]\n[color=#7e0000]CCA: This is jʊst a f♥rmal meeting s♥ that we are all ♥n the same page.~[/color]\n[color=#9a004f]CTG: oml[/color]\n[color=#00a0c9]CAC: nellies in the game right[/color]\n[color=#9a004f]CTG: $o why thi$ order of eVeryone, $eem$ reAl fuckin rAndom yo[/color]\n[color=#00a0c9]CAC: probably cuz korp started all his stuff ɯay early[/color]\n[color=#00a0c9]CAC: its cute he ɯas excited hehe[/color]\n[color=#9a004f]CTG: Alright well then it i$ whAt it i$[/color]\n[color=#9a004f]CTG: yttri$ feel free to priVAte me$$Age me And we cAn work out when to $tArt[/color]\n[color=#9a004f]CTG: june me$$Age... nellie in the meAn time[/color]\n[color=#4b0a50]CTC: indeed i shall master dmarko :)[/color]\n[color=#00a0c9]CAC: roger roger ʚʘ͜͡))❨[/color]\n[color=#c9cb44]CGT: korpiss[/color]\n[color=#c9cb44]CGT: you[/color]\n[color=#c9cb44]CGT: me[/color]\n[color=#c9cb44]CGT: messαγe[/color]\n[color=#00421b]CCG: fat cHance[/color]\n[color=#9a004f]CTG: yo, dont cAll me mA$ter[/color]\n[color=#9a004f]CTG: dont put Anyfin infront of my nAme[/color]\n[color=#9a004f]CTG: thAnk$[/color]\n[color=#4b0a50]CTC: as you wish[/color]\n[color=#00421b]CCG: you are sucH a suck up[/color]\n[color=#7e0000]CCA: Y♥ʊ are ♥ne t♥ talk K♥rpʊs~[/color]\n[color=#7e0000]CCA: I w♥ʊld prefer if y♥ʊ sp♥ke a little m♥re kindly t♥ my matesprit~[/color]\n[color=#00c298]CAT: oooo[/color]\n[color=#9a004f]CTG: whooAA[/color]\n[color=#00a0c9]CAC: ɯHAT[/color]\n[color=#00421b]CCG: ...[/color]\n\n[color=#646464][color=#000000]CCG[/color] ceased responding to memo.[/color]\n\n[color=#4b0a50]CTC: oh dear :([/color]\n[color=#9a004f]CTG: dAmn whend thAt hAppen[/color]\n[color=#7e0000]CCA: We can talk later ab♥ʊt that~[/color]\n[color=#7e0000]CCA: I think I may have ʊpset him...~[/color]\n[color=#00c298]CAT: yeah no ssshit ren[/color]\n[color=#00a0c9]CAC: yeah no shit?[/color]\n[color=#00c298]CAT: ohhh jinX[/color]\n[color=#ef7a20]CAA: q~q ?[/color]\n[color=#c9cb44]CGT: i shαll messαγe the γruβ[/color]\n[color=#7e0000]CCA: Thank y♥ʊ ♥xnard.~[/color]\n[color=#00c298]CAT: damn ren[/color]\n[color=#00c298]CAT: what a bitchy move[/color]\n[color=#00c298]CAT: i like it[/color]\n[color=#ef7a20]CAA: mallums ask!ng who of!cus !s aga!n[/color]\n[color=#00c298]CAT: hi mallum! im oficusss[/color]\n[color=#00c298]CAT: cant wait to get to know you ;)[/color]\n[color=#7e0000]CCA: Hʊhʊ~[/color]\n[color=#ef7a20]CAA: hes ummmm happy to get to know you too![/color]\n[color=#7e0000]CCA: ♥h my!~[/color]\n[color=#c9cb44]CGT: I sense reproductive tension in the αir[/color]\n[color=#ef7a20]CAA: what[/color]\n[color=#7e0000]CCA: Very direct~[/color]\n[color=#00c298]CAT: I sssure hope ssso[/color]\n[color=#4b0a50]CTC: I hope master korpus is okay :([/color]\n[color=#9a004f]CTG: hell bounce bAck[/color]\n[color=#9a004f]CTG: not the fir$t time $omething like thi$ hA$ hAppened[/color]\n[color=#00c298]CAT: yeah ren isss a little hivewrecker[/color]\n[color=#7e0000]CCA: ♥ficʊs, thats n♥t very nice...~[/color]\n[color=#7e0000]CCA: Y♥ʊ kn♥w thats n♥t trʊe~[/color]\n[color=#00c298]CAT: hahaha[/color]\n[color=#9a004f]CTG: i wA$ not thi$ wAy At 7, you guy$ Are doin too much[/color]\n[color=#c9cb44]CGT: αγreed, this is very αwkwαrd now[/color]\n[color=#7e0000]CCA: D♥es any♥ne have any ♥ther qʊesti♥ns ab♥ʊt the game?~[/color]\n[color=#7e0000]CCA: And n♥t ab♥ʊt my qʊadrants~[/color]\n[color=#ef7a20]CAA: yes um[/color]\n[color=#ef7a20]CAA: how d!d mallum get to my h!ve[/color]\n[color=#ef7a20]CAA: and whewe exactly !s my h!ve[/color]\n[color=#7e0000]CCA: N♥w that is an excellent qʊesti♥n!~[/color]\n[color=#7e0000]CCA: I'll start fr♥m the t♥p...~[/color]\n[color=#9a004f]CTG: oh greAt[/color]\n[color=#7e0000]CCA: When y♥ʊ started y♥ʊr sessi♥n with K♥rpʊs; Y♥ʊ and y♥ʊr hive were transp♥rted t♥ a planet generated by the game!~[/color]\n[color=#7e0000]CCA: Welc♥me t♥ the Incipisphere, m♥n ami!~[/color]\n[color=#7e0000]CCA: This planet ♥f y♥ʊrs h♥ʊses many many gates which transp♥rt y♥ʊ ar♥ʊnd. It seems y♥ʊr m♥irail has stʊmbled ʊp♥n a pr♥gressi♥n gate which led him t♥ y♥ʊr hive!~[/color]\n[color=#7e0000]CCA: I will have t♥ draw a diagram f♥r y♥ʊ and h♥w this w♥rks. I'll get s♥me ♥ʊtside help ♥n that and give it t♥ y♥ʊ when ready.~[/color]\n[color=#7e0000]CCA: Bʊt, with that being said, y♥ʊ mʊst make y♥ʊr way ʊp thr♥ʊgh each p♥rtal in ♥rder t♥ pr♥gress and win the game!~[/color]\n[color=#ef7a20]CAA: that st!ll doesnt weally make any sense[/color]\n[color=#7e0000]CCA: In time it will.~[/color]\n[color=#4b0a50]CTC: i too am a little lost, but i will trust the process :)[/color]\n[color=#9a004f]CTG: whAt do you meAn their hiVe wA$ trAn$ported into $ome pocket dimen$ion[/color]\n[color=#9a004f]CTG: like youre genuinely in Another plAce AA?[/color]\n[color=#ef7a20]CAA: um yes! ! l!ved !n a fowest befowe th!s and now !m !n a weally sunny f!eld of flowews![/color]\n[color=#9a004f]CTG: And your friend i$ too?[/color]\n[color=#ef7a20]CAA: yep! pwetty suwe we l!ved a long ways fwom eachothew[/color]\n[color=#9a004f]CTG: ren whAt Are we plAying[/color]\n[color=#7e0000]CCA: It's jʊst a game!~[/color]\n[color=#9a004f]CTG: fuckin cleArly it i$ not[/color]\n[color=#7e0000]CCA: ♥h Dmark♥... It will be ♥kay! Trʊst me, m♥n ami.~[/color]\n[color=#7e0000]CCA: This will be fʊn!~[/color]\n[color=#4b0a50]CTC: i agree! this sounds most exciting :)[/color]\n[color=#4b0a50]CTC: dont you agree master dmarko?[/color]\n[color=#4b0a50]CTC: i mean dmarko[/color]\n[color=#4b0a50]CTC: a thousand apologies[/color]\n[color=#00a0c9]CAC: from ɯhat i saɯ it looks cute[/color]\n[color=#00a0c9]CAC: i dont rlly think ellith knoɯs hoɯ to describe ɯhats happening ingame[/color]\n[color=#00a0c9]CAC: just give it a chance babe[/color]\n[color=#4b0a50]CTC: oh! is babe what you prefer to be called babe dmarko?[/color]\n[color=#7e0000]CCA: Cʊte, bʊt n♥ mi am♥r~[/color]\n[color=#7e0000]CCA: Thats f♥r them...~[/color]\n[color=#4b0a50]CTC: very well :)[/color]\n[color=#00c298]CAT: babe dmarko[/color]\n[color=#9a004f]CTG: je$u$ do you liVe under A fuckin rock lol[/color]\n[color=#00c298]CAT: no dmarko! dont teassse him that wasss adorable![/color]\n[color=#7e0000]CCA: I agree it was rather preci♥ʊs~[/color]\n[color=#9a004f]CTG: whAt$ preciou$ About thAt[/color]\n[color=#00c298]CAT: ugh youre sssuch a buzzkill[/color]\n[color=#9a004f]CTG: didnt meAn Any hArm[/color]\n[color=#9a004f]CTG: ju$t funny A guy doe$nt know pet nAme$[/color]\n[color=#00c298]CAT: hesss a little ssslow, leave him alone![/color]\n[color=#4b0a50]CTC: actually, i won first place on our swim team :)[/color]\n[color=#00c298]CAT: adorable[/color]\n[color=#ef7a20]CAA: whoa you can sw!m??[/color]\n[color=#4b0a50]CTC: indeed![/color]\n[color=#4b0a50]CTC: we seadwellers are quite good at it, but i have proven myself the best in my academy[/color]\n[color=#ef7a20]CAA: a seadwellew? l!ke the guys who have f!ns fow eaws? QoQ[/color]\n[color=#4b0a50]CTC: quite so![/color]\n[color=#9a004f]CTG: hAVe you neVer $een one of u$?[/color]\n[color=#ef7a20]CAA: mallum !s the f!wst twoll !ve evew seen quq[/color]\n[color=#7e0000]CCA: Ellith here has lived in is♥lati♥n f♥r qʊite s♥me time y♥ʊ see~[/color]\n[color=#7e0000]CCA: She was ʊnaware ♥f ♥ʊr...~[/color]\n[color=#7e0000]CCA: repr♥dʊctive habits...~[/color]\n[color=#00c298]CAT: Oh i can teach her all about that[/color]\n[color=#ef7a20]CAA: Q_Q[/color]\n[color=#7e0000]CCA: I already gave her the rʊnd♥wn~[/color]\n[color=#9a004f]CTG: cAnt tAke you bitche$ Anywhere[/color]\n[color=#4b0a50]CTC: that's a fascinating word! bitches :)[/color]\n[color=#00c298]CAT: yttrisss no[/color]\n[color=#9a004f]CTG: fr[/color]\n[color=#9a004f]CTG: ActuAlly[/color]\n[color=#9a004f]CTG: yttri$ you cAn cAll me A bitch[/color]\n[color=#4b0a50]CTC: okay bitch![/color]\n[color=#9a004f]CTG: nice[/color]\n[color=#7e0000]CCA: Dmark♥ y♥ʊ are s♥mething else~[/color]\n[color=#00a0c9]CAC: youre such an asshole lol[/color]\n[color=#4b0a50]CTC: so dmarkos a bitch asshole![/color]\n[color=#00c298]CAT: im dying oh my fuck[/color]\n[color=#00a0c9]CAC: oh yeah totally[/color]\n[color=#4b0a50]CTC: oh dear are you okay? :([/color]\n[color=#9a004f]CTG: ju$t from lAck of bulge $ince thi$ conVo$ been going on for 10 million $weep$[/color]\n[color=#00c298]CAT: im not that desssperate[/color]\n[color=#9a004f]CTG: oh pleA$e[/color]\n[color=#00a0c9]CAC: alright ɯhale thats ɯhere ɯe ɯrap this up[/color]\n[color=#00a0c9]CAC: ima start my game, nellies good to go[/color]\n[color=#00a0c9]CAC: dmarko you ready?[/color]\n[color=#7e0000]CCA: ♥h, yes! Please message y♥ʊr respective partners s♥ we can all start as s♥♥n as p♥ssible!~[/color]\n[color=#4b0a50]CTC: will do :)[/color]\n[color=#00c298]CAT: okay[/color]\n[color=#9a004f]CTG: Alright $ee yA[/color]\n[color=#4b0a50]CTC: we shall be in contact bitch[/color]\n[color=#7e0000]CCA: I cant believe y♥ʊ Dmark♥~[/color]\n[color=#9a004f]CTG: yurrr peAce[/color]\n[color=#ef7a20]CAA: !s evewy convewsat!on go!ng to end w!th someth!ng about welat!onsh!ps q_q[/color]\n[color=#00c298]CAT: get ussse to it girl[/color]\n[color=#4b0a50]CTC: it surely was a pleasure to meet you all, i shall bid you adiue[/color]\n\n[color=#646464][color=#000000]CTG[/color] ceased responding to memo.[/color]\n[color=#646464][color=#000000]CAC[/color] ceased responding to memo.[/color]\n[color=#646464][color=#000000]CTC[/color] ceased responding to memo.[/color]\n[color=#646464][color=#000000]CAT[/color] ceased responding to memo.[/color]\n[color=#646464][color=#000000]CCT[/color] ceased responding to memo.[/color]\n[color=#646464][color=#000000]CAA[/color] ceased responding to memo.[/color]\n[color=#646464][color=#000000]CCA[/color] ceased responding to memo.[/color]\n\n[/spoiler]\n",
+      "n": [
+        704
+      ]
+    },
+    {
+      "d": 1762480716750,
+      "c": "Team Cyan: Initiate.",
+      "b": "<iframe style=\"border: 0;\" src=\"https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/TeamCyanStart/teamcyanstart.html\" width=\"640\" height=\"450\"></iframe>\n\nWe continue our story with Team Cyan — The misfits and outcasts.\n\n",
+      "n": [
+        705
+      ]
+    },
+    {
+      "d": 1762480716750,
+      "c": "Reader: Be Oxnard.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1001.gif[/img]\n\nYou are now Oxnard...",
+      "n": [
+        706
+      ]
+    },
+    {
+      "d": 1762517859393,
+      "c": "Oxnard: Troll Korpus.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1002.gif[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide\"]\n[color=#646464]-- [color=#c9cb44]gammaTherapist [GT][/color] began trolling [color=#00421b]crescentGeneral [CG][/color] --[/color]\n\n[color=#c9cb44]GT: korpiss[/color]\n[color=#c9cb44]GT: γruβ[/color]\n[color=#c9cb44]GT: wriγγler[/color]\n\n[color=#646464]-- crescentGeneral [color=#00421b][CG][/color] ceased trolling gammaTherapist [color=#c9cb44][GT][/color] --[/color]\n\n[color=#c9cb44]GT: KORPISS[/color]\n[color=#c9cb44]GT: γRUβ[/color]\n[color=#c9cb44]GT: WRIγγLER[/color]\n[color=#c9cb44]GT: dont iγnore me[/color]\n[color=#c9cb44]GT: you heαrd the rustβlood[/color]\n[color=#c9cb44]GT: we need to tαlk αβout our session[/color]\n\n[color=#646464]-- crescentGeneral [color=#00421b][CG][/color] ceased trolling gammaTherapist [color=#c9cb44][GT][/color] --[/color]\n\n[color=#c9cb44]GT: γRUβ[/color]\n[color=#c9cb44]GT: WRIγγLER[/color]\n[color=#c9cb44]GT: we need to tαlk αβot our session[/color]\n[color=#00421b]CG: oH my fuck[/color]\n[color=#00421b]CG: wHat[/color]\n[color=#00421b]CG: leave me alone you freakblooded mutant[/color]\n[color=#00421b]CG: wHo even are you[/color]\n[color=#c9cb44]GT: im oxnαrd[/color]\n[color=#00421b]CG: rigHt[/color]\n[color=#00421b]CG: okay[/color]\n[color=#00421b]CG: oxnard[/color]\n[color=#00421b]CG: fuck off[/color]\n[color=#c9cb44]GT: no i dont wαnt to[/color]\n[color=#00421b]CG: im in no mood to talk to tHe likes of you[/color]\n\n[color=#646464]-- crescentGeneral [color=#00421b][CG][/color] ceased trolling gammaTherapist [color=#c9cb44][GT][/color] --[/color]\n\n[color=#c9cb44]GT: γRUβ[/color]\n[color=#c9cb44]GT: WRIγγLER[/color]\n[color=#00421b]CG: i said leave me alone![/color]\n[color=#c9cb44]GT: no this is importαnt![/color]\n[color=#c9cb44]GT: we αre γoinγ to βe the βest of pupαpαls for life αnd it wont work if you iγnore me[/color]\n[color=#00421b]CG: i dont want to be your 'pupapal' genius[/color]\n[color=#00421b]CG: i want you to leave me tHe fuck alone[/color]\n[color=#00421b]CG: i dont want to do any of tHis anymore[/color]\n[color=#c9cb44]GT: stop βeinγ α cryγruβ[/color]\n[color=#c9cb44]GT: ill mαke us mαtchinγ sweαters αs α siγn of our new βeαutiful pαlship[/color]\n[color=#00421b]CG: you just dont know How to take a Hint do you?[/color]\n[color=#c9cb44]GT: no[/color]\n[color=#00421b]CG: look, im not going to open up to you or wHatever mr 'tHerapist'[/color]\n[color=#00421b]CG: but i just got my bloodpusHer sHattered into a mi}{ion pieces and i just dont want to talk okay?[/color]\n[color=#c9cb44]GT: okαy understood[/color]\n[color=#c9cb44]GT: αnywαy[/color]\n[color=#c9cb44]GT: our session[/color]\n[color=#00421b]CG: im[/color]\n[color=#00421b]CG: going to ki}{ you[/color]\n[color=#00421b]CG: like tHe freak mutant blood tHat you are[/color]\n[color=#c9cb44]GT: id reαlly like to see you try[/color]\n[color=#c9cb44]GT: ive βeen meαninγ to test out my new weαponry[/color]\n[color=#00421b]CG: sHut up you useless fucking dirt eating caste[/color]\n[color=#00421b]CG: dont you understand you are below me[/color]\n[color=#00421b]CG: wHat i say fucking goes[/color]\n[color=#00421b]CG: and i want you to sHut tHe fuck UP[/color]\n[color=#c9cb44]GT: the cαste system is outdαted αnd you know this[/color]\n\n[color=#646464]-- gammaTherapist [color=#c9cb44][GT][/color] changed their mood to DEVIOUS  --[/color]\n\n[color=#c9cb44]GT: oh thαt wαs rαther uncouth of me wouldnt you αγree?[/color]\n[color=#00421b]CG: wHat?[/color]\n[color=#c9cb44]GT: forγive me, dαrlinγ. i simply hαve βeen dyinγ to shed this dreαdful overcoαt αnd slip into somethinγ more[/color]\n[color=#c9cb44]GT: cαsuαl[/color]\n\n[/spoiler]",
+      "n": [
+        707
+      ]
+    },
+    {
+      "d": 1762517859393,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1002.png[/img]\n\n[spoiler open=\"Show Chatlog\" close=\"Hide\"]\n[color=#c9cb44]GT: βut now thαt im free αllow me to mαke it up to you[/color]\n[color=#00421b]CG: wHat tHe He}{ are you talking about[/color]\n[color=#c9cb44]GT: korpus, dαrlinγ, lets forγet thαt rocky introduction αnd stαrt αnew. Im oxnαrd, αnd im here to do your βidddinγ, hiγherβlood[/color]\n[color=#00421b]CG: um[/color]\n[color=#00421b]CG: okay?[/color]\n[color=#c9cb44]GT: excellent! Oh this is γoinγ to βe γrαnd![/color]\n[color=#c9cb44]GT: i know i cαn βe rαther eccentric, βut i know you αnd i αre γoinγ to βe γreαt pupαpαls αs sαid βefore[/color]\n[color=#c9cb44]GT: you know, usinγ context clues i cαn tell you αnd the rusty one use to βe[/color]\n[color=#c9cb44]GT: γoinγ steαdy[/color]\n[color=#c9cb44]GT: in the flushed quαdrαnt if im not mistαken[/color]\n[color=#c9cb44]GT: βut dont worry i cαn fill thαt roll for you[/color]\n[color=#c9cb44]GT: if you so desire...[/color]\n[color=#00421b]CG: talk about coming on strong[/color]\n[color=#00421b]CG: look[/color]\n[color=#00421b]CG: im flattered, sorta, but i dont tHink im in any mood to jump into some random kwuadrantsHip[/color]\n[color=#00421b]CG: i dont even  know you[/color]\n[color=#c9cb44]GT: oh βut korpus you do![/color]\n[color=#c9cb44]GT: i αlreαdy told you my nαme[/color]\n[color=#00421b]CG: yeaH but[/color]\n[color=#00421b]CG: you know wHat nevermind[/color]\n[color=#00421b]CG: tHe game[/color]\n[color=#c9cb44]GT: oh riγht the γαme[/color]\n[color=#c9cb44]GT: sorry i γot α little excited[/color]\n[color=#c9cb44]GT: hehehe[/color]\n[color=#c9cb44]GT: i shαll βeγin our session in due time, there αre some thinγs i must tαke cαre of first[/color]\n[color=#c9cb44]GT: this lαβ is in shαmβles you see[/color]\n[color=#00421b]CG: i see[/color]\n[color=#00421b]CG: but not rea}{y[/color]\n[color=#c9cb44]GT: just tαke my word for it[/color]\n[color=#c9cb44]GT: how do you wish to proceed this γαme[/color]\n[color=#00421b]CG: idea}{y kwuickly and efficently[/color]\n[color=#00421b]CG: i rea}{y dont want to be fucking around for no reason[/color]\n[color=#c9cb44]GT: understood dαrlinγ[/color]\n[color=#c9cb44]GT: do you perhαps hαve α γuide so thαt i mαy understαnd the mechαnics of this γαme prior to stαrtinγ[/color]\n[color=#00421b]CG: uHH, yeaH[/color]\n[color=#00421b]CG: i can send it to you[/color]\n[color=#c9cb44]GT: wonderful[/color]\n[color=#00421b]CG: [url=https://mspaintadventures.fandom.com/wiki/Sburb]bullshit.txt[/url][/color]\n[color=#c9cb44]GT: i shαll study these while tidyinγ this plαce up[/color]\n[color=#00421b]CG: at least you are taking tHis seriously[/color]\n[color=#00421b]CG: i tHink[/color]\n[color=#c9cb44]GT: why wouldnt i? i wαnt to mαke the βest impression with my hiγherβlooded pαrtner[/color]\n[color=#00421b]CG: uHH[/color]\n[color=#00421b]CG: tHanks[/color]\n[color=#c9cb44]GT: of course, dαrlinγ![/color]\n[color=#c9cb44]GT: i will leαve you αlone so thαt you cαn proccess your redrom deβαcle[/color]\n[color=#c9cb44]GT: we will βe in touch ;)[/color]\n[color=#c9cb44]GT: or you cαn contαct me when you αre done sortinγ out your βusiness[/color]\n[color=#00421b]CG: okay sure wHatever[/color]\n[color=#c9cb44]GT: tα-tα dαrlinγ[/color]\n\n[color=#646464]-- [color=#c9cb44]gammaTherapist [GT][/color] ceased trolling [color=#00421b]crescentGeneral [CG][/color] --[/color]\n\n[/spoiler]",
+      "n": [
+        708
+      ]
+    },
+    {
+      "d": 1762517859393,
+      "c": "==>",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1003.png[/img]\n\nMost excellent indeed.\n\nOxnard, what will you do?",
+      "n": [
+        709
+      ]
+    },
+    {
+      "d": 1762636408072,
+      "c": "Oxnard: get up from the table, first.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1004.gif[/img]\n\nYou stand up from your desk. But Oxnard? Who is this Oxnard you speak of?\n\nYou are none other than Dr. Francis N Furter, a Sweet Transvestite from the far-off galaxy Transexual 'Transylvania'. You are a Casanova like no other with a strong sexual prowess to match. None could resist your Transylvanian charm even if they tried.\n\nYou definitely are NOT Dr. Francis N Furter from the cult classic 'Rocky Horror Picture Show', but no one can convince you otherwise. Its best we just go along with it. He will refuse to interact with us otherwise.\n\nI suppose we can add to your [url=https://mspfa.com/?s=54371&p=384]previous introduction[/url]...\n\nYou are, as stated before, Oxnard Ioniix.\n\nYou are an avid GUNSMITH as well as a BIOENGINEER. You are also completely DELUSIONAL. Although you are unaware of your split personality — You are somewhat able to coexist within your own thinkpan. Dr. Frank-N-Furter, however, is outwardly appalled by his better half's obsession with this alien firearm technology. That doesn't mean he can't find an attraction to presence of raw masculinity that these firearms do bring... \n\nOh honey, you must be so strong to lift something so rough and [i]dangerous[/i]...\n\n",
+      "n": [
+        710
+      ]
+    },
+    {
+      "d": 1762636408072,
+      "c": "Dr. Frank-N-Furter: Show off your favorite obsession.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1005.gif[/img]\n\nOh, how you wish you could...\n\nYou've been meaning to put your bioengineering skills to the test and bring about a life completely from scratch.\n\nWith dark hair and a tan... Good for relieving — tension.\n\nYour other half keeps finding ways to bring himself back to continue boring research on HIS obsession. Doesn't he realize we can complete this project together and never be lonely again... Cooped up all alone in this dreadful tower alone on the countryside.\n\nMaybe you can pass on your plans on to Riff-Raff (Steeve) and have them work on it when you slip out of consciousness.",
+      "n": [
+        711
+      ]
+    },
+    {
+      "d": 1762994882697,
+      "c": "Dr. Frank-N-Furter: Explain your respiteblock.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1006.gif[/img]\n\nParadoxically — We zoom out to get a closer look at your respiteblock. \n\nIt has been bifurcated into respective sections of your psyche. On one side we have living quarters suited for a gun loving maniac, and on the other — An area tailored for a beautiful troll such as yourself. It's a mess in here. Both your personalities absolutely adjourn the other's side of the room.",
+      "n": [
+        712
+      ]
+    },
+    {
+      "d": 1762994882697,
+      "c": "Dr Frank-N-Furter: Load lipstick capsules into arm-integrated lipstick dispenser.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1007.gif[/img]\n[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1008.png[/img]\n\nYou never know when you will need it...",
+      "n": [
+        713
+      ]
+    },
+    {
+      "d": 1762994882697,
+      "c": "Dr. Frank-N-Furtur: Strike a pose.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1009.png[/img]\n\nYou stand in front of your mirror striking an icon pose for the masses to bear witness. You go girl.",
+      "n": [
+        714
+      ]
+    },
+    {
+      "d": 1762994882697,
+      "c": "Dr. Frank-N-Furter: Rummage through your side of the block for your things.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1010.png[/img]\n\nYou prance about your respiteblock poking and prodding at various objects lying around. You inspect each one with the care and dignity it deserves; All while your Trollian application notifies you of an incoming troll with its obnoxious pinging sounds.",
+      "n": [
+        715
+      ]
+    },
+    {
+      "d": 1763079183632,
+      "c": "Dr. Frank-N-Furter: Answer troll.",
+      "b": "[img]https://file.garden/ZXENUjtcLzaPWMyp/ACT%204/PART%201/A4P1011.gif[/img]\n\nYou begin answering the troll on the other end.\n\n[spoiler open=\"Show Chatlog\" close=\"Hide\"]\n[color=#646464]-- [color=#00c298]asclepiusTerrarium [AT][/color] began trolling [color=#c9cb44]gammaTherapist [GT][/color] --[/color]\n\n[color=#00c298]AT: hi broodmate![/color]\n[color=#00c298]AT: how ya been ovvo[/color]\n[color=#c9cb44]GT: who αre you[/color]\n[color=#00c298]AT: oXnard! dont pretend you dont know me![/color]\n[color=#c9cb44]GT: who is oxnαrd[/color]\n[color=#00c298]AT: haha youre very funny[/color]\n[color=#00c298]AT: hey look i dont wanna bother you too long[/color]\n[color=#00c298]AT: but would you happen to have that mallum'sss handle?[/color]\n[color=#c9cb44]GT: i hαve no ideα who you αre tαlkinγ αβout[/color]\n[color=#00c298]AT: were you asssleep during that whole memo or sssomething?[/color]\n[color=#00c298]AT: hesss on your team[/color]\n[color=#c9cb44]GT: whαt teαm[/color]\n[color=#c9cb44]GT: dαrlinγ you αre confusinγ me[/color]\n[color=#00c298]AT: woah, sssuch flattering language[/color]\n[color=#00c298]AT: i havent been called darling in quite a while[/color]\n[color=#00c298]AT: uvvo[/color]\n[color=#c9cb44]GT: whαt is thαt[/color]\n[color=#00c298]AT: whatsss what[/color]\n[color=#c9cb44]GT: thαt[/color]\n[color=#00c298]AT: the emoticon?[/color]\n[color=#00c298]AT: thossse are my fangsss[/color]\n[color=#c9cb44]GT: it looks ridiculous[/color]\n[color=#00c298]AT: ugh firssst you flatter me then you beat me down[/color]\n[color=#00c298]AT: anyway do you have the contact or what[/color]\n[color=#c9cb44]GT: no i dont know whαt you αre tαlkinγ αβout still or even who you αre[/color]\n[color=#c9cb44]GT: why would i γive the contαct of someone to someone else who i dont know[/color]\n[color=#00c298]AT: itsss me oficusss? your broodmate?[/color]\n[color=#c9cb44]GT: ive never met you in my life[/color]\n[color=#00c298]AT: what planet do you live on man[/color]\n[color=#c9cb44]GT: plαnet schmαnet[/color]\n[color=#00c298]AT: i didnt eXpect you to be thisss difficult[/color]\n[color=#00c298]AT: unlessssss >:0[/color]\n[color=#c9cb44]GT: unless whαt[/color]\n[color=#00c298]AT: unlessssss you are trying to keep the mallum troll all to yourssself![/color]\n[color=#00c298]AT: well back off hesss my fresssh meat[/color]\n[color=#c9cb44]GT: well since you wαnt him so βαd he must βe α delectαβle treαt[/color]\n[color=#00c298]AT: hey no team copulating! >:([/color]\n[color=#00c298]AT: thatsss not fair[/color]\n[color=#c9cb44]GT: im not αpαrt of α teαm[/color]\n[color=#00c298]AT: whatever[/color]\n[color=#c9cb44]GT: just in spite im γoinγ to mαke α troll out of this \"mαllum\"[/color]\n[color=#00c298]AT: thatsss my job! dont you dare touch him[/color]\n[color=#c9cb44]GT: im sure theres plenty to shαre, dαrlinγ[/color]\n[color=#00c298]AT: >:/[/color]\n[color=#00c298]AT: maybe[/color]\n[color=#c9cb44]GT: i wish i knew who you were tαlkinγ αβout, βecαuse you wαntinγ him so βαd mαkes me wαnt him so βαd[/color]\n[color=#00c298]AT: well, i dont know what he looksss like, maybe if hesss not up to my ssstandardsss you can have him[/color]\n[color=#c9cb44]GT: tell me more αβout this mαllum[/color]\n[color=#00c298]AT: i dont know anything about him really, which isss why im talking to you[/color]\n[color=#00c298]AT: ssso i can get HISSS contact info weve been over thisss[/color]\n[color=#00c298]AT: youre acting weirder than usssual[/color]\n[color=#c9cb44]GT: im αctinγ αs normαl αs ever[/color]\n[color=#c9cb44]GT: tell me[/color]\n[color=#c9cb44]GT: whαt do you think hes like?[/color]\n[color=#00c298]AT: are... are we about to gossssssip and make hypotheticalsss for a troll we both have never met?[/color]\n[color=#c9cb44]GT: you tell me dαrlinγ[/color]\n[color=#00c298]AT: okay, i can get behind thisss[/color]\n[color=#00c298]AT: i didnt know you rolled thisss way oXnard[/color]\n[color=#c9cb44]GT: dαrlinγ, the nαmes Frαnk-N-Furter, cαll me αs such[/color]\n[color=#00c298]AT: odd name but sssure im down for a little roleplay i guessssss[/color]\n[color=#00c298]AT: from what ive interpreted from our memo isss that hesss quite dangerousss[/color]\n[color=#c9cb44]GT: α wild αnd untαmed thinγ?[/color]\n[color=#00c298]AT: oh how i hope ssso[/color]\n[color=#c9cb44]GT: well i hope he γlistens αnd γleαms[/color]\n[color=#c9cb44]GT: αnd with mαssαγe[/color]\n[color=#c9cb44]GT: with α little βit of steαm[/color]\n[color=#00c298]AT: mmm now youre ssspeaking my language[/color]\n[color=#c9cb44]GT: α stronγ troll[/color]\n[color=#00c298]AT: ssstrong enough to maybe carry both of usss?[/color]\n[color=#c9cb44]GT: now youre speαkinγ MY lαnγuαγe, dαrlinγ[/color]\n[color=#00c298]AT: okay okay[/color]\n[color=#00c298]AT: i can work with thisss[/color]\n[color=#00c298]AT: are we doing thisss? are we making thisss happen[/color]\n[color=#c9cb44]GT: hes not for you[/color]\n[color=#00c298]AT: >:0[/color]\n[color=#00c298]AT: you wanna rile me up like that and ssspit your venom in my face?[/color]\n[color=#c9cb44]GT: youre just γoinγ to hαve to pry him from my cold deαd fronds[/color]\n[color=#00c298]AT: maybe i will[/color]\n[color=#00c298]AT: thisss fawning over mallum hasss been fun and a little bit sssteamy, but i do need to messssssage him to get our game ssstarted[/color]\n[color=#00c298]AT: ssso if you get hisss contact can you pleassse sssend it over?[/color]\n[color=#c9cb44]GT: α γαme?[/color]\n[color=#c9cb44]GT: i wαnt to plαy α γαme[/color]\n[color=#00c298]AT: you are![/color]\n[color=#00c298]AT: youre with renitysss cute kisssmesssisss, korpusss[/color]\n[color=#c9cb44]GT: oh![/color]\n[color=#c9cb44]GT: i βelieve i just spoke with thαt one[/color]\n[color=#c9cb44]GT: whαt α βαshful little cutie[/color]\n[color=#00c298]AT: yeah hesss adorable, i dont know why ren would abandon her matessspritssship with him[/color]\n[color=#00c298]AT: honessstly i think ssshesss missssssing out[/color]\n[color=#c9cb44]GT: id love to pry[/color]\n[color=#c9cb44]GT: whαt hαppened βetween the two?[/color]\n[color=#00c298]AT: oh well[/color]\n[color=#00c298]AT: korpusss isss kind of a casssteissst little ssshit[/color]\n[color=#00c298]AT: and renity got tired of hisss sssnappy attitude towardsss their 'unbalanced' cassste-relationssship dynamic[/color]\n[color=#00c298]AT: sssaysss that ssshe 'wasssnt taking hisss dominance ssseriousssly'[/color]\n[color=#00c298]AT: ssso ssshe decided to break thingsss off asss a matessspritssship and move on to a kisssmesssissship[/color]\n[color=#00c298]AT: now korpusss wasssnt alwaysss like that and im not sssure what really changed but oh well i cant play therapissst[/color]\n[color=#00c298]AT: thatsss rensss job, or ssso ssshe sssaysss[/color]\n[color=#00c298]AT: ssshe doesss a terrible job at it[/color]\n[color=#00c298]AT: but like i sssaid ssshesss missssssing out becaussse id love to have korpusss to myssself[/color]\n[color=#00c298]AT: im not one for relationssshipsss but hesss really cute[/color]\n[color=#00c298]AT: hesss sssuch a viciousss little ball of adorablenessssss[/color]\n[color=#c9cb44]GT: well[/color]\n[color=#c9cb44]GT: mαyβe i cαn mαke α troll out of him insteαd[/color]\n[color=#00c298]AT: i think that would be a fun project[/color]\n[color=#00c298]AT: but i really like how he isss now and i wouldnt change him for the world[/color]\n[color=#00c298]AT: he doesssnt accept my advancesss though[/color]\n[color=#00c298]AT: :([/color]\n[color=#00c298]AT: i think he hatesss me[/color]\n[color=#c9cb44]GT: αnd you sαy hes mine now?[/color]\n[color=#00c298]AT: in a way[/color]\n[color=#c9cb44]GT: you cαn hαve 'mαllum'[/color]\n[color=#c9cb44]GT: ill stick with the omeγα phenotype thαt is 'korpus'[/color]\n[color=#c9cb44]GT: αlriγht, ill γive you mαllums contαct if i ever stumβle αcross it[/color]\n[color=#00c298]AT: thanksss oXnard[/color]\n[color=#00c298]AT: i mean[/color]\n[color=#00c298]AT: 'frank-n-furter'[/color]\n[color=#c9cb44]GT: youre most welcome ;)[/color]\n[color=#00c298]AT: >;0[/color]\n[color=#00c298]AT: ill teXt korpusss too, maybe he hasss mallumsss contact[/color]\n[color=#00c298]AT: if he doesss ill let you know[/color]\n[color=#00c298]AT: bye bye now[/color]\n[color=#c9cb44]GT: γoodβye dαrlinγ[/color]\n\n[color=#646464]-- [color=#00c298]asclepiusTerrarium [AT][/color] ceased trolling [color=#c9cb44]gammaTherapist [GT][/color] --[/color]\n\n[/spoiler]\n\n[img]https://file.garden/ZXENUjtcLzaPWMyp/suggest.png[/img]",
+      "n": [
+        716
+      ]
+    },
+    {
+      "d": null,
+      "c": "",
+      "b": "",
+      "n": [
+        261428
       ]
     }
   ]

@@ -1,3 +1,4 @@
+
 fetchData();
 
 async function fetchData(){
@@ -47,6 +48,9 @@ async function renderLog(page, pageNum){
     console.log(pageLink)
 
     const pageDate = new Date(page.d);
+    if (page.d == null) {
+        return
+    }
     const day = pageDate.getDate().toString().padStart(2, '0');
     const month = pageDate.toLocaleString('default', { month: 'short' }).toUpperCase();
     const year = pageDate.getFullYear();
@@ -56,4 +60,5 @@ async function renderLog(page, pageNum){
     const span = document.createElement('span');
     div.append(span);
     span.append(logDate, ' ', pageLink, document.createElement('br'))
+
 }
