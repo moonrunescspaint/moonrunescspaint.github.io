@@ -168,7 +168,7 @@ async function renderPage(pages) {
         div.append('> ');
         const link = document.createElement('a')
         link.className = "comicLinks"
-        link.href = `homestuckitaliano.html?p=${pageNum + 1}`
+        link.href = `homestuckItaliano.html?p=${pageNum + 1}`
         link.textContent = nextPage.c;
         div.append(link);
     }
@@ -181,7 +181,7 @@ async function renderPage(pages) {
     logLink.textContent = `Story Log`;
     const goBack = document.createElement('a');
     goBack.className = "comicLinks";
-    goBack.href = `homestuckitaliano.html?p=${pageNum - 1}`;
+    goBack.href = `homestuckItaliano.html?p=${pageNum - 1}`;
     goBack.textContent = 'Go back';
     footLinks.append(logLink);
     if (pageNum === 1) {
