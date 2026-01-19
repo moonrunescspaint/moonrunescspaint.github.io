@@ -94,11 +94,12 @@ body{
     }
     #storiesBox {
         background-color: #171b1c;
-        width: 70%;
+        width: 100%;
         padding: 20px;
         margin: 10px auto;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         box-shadow: inset 1px 0px 5px rgba(0, 0, 0, 0.5);
     }
