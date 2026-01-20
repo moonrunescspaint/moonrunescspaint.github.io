@@ -110,7 +110,13 @@ async function fetchData() {
 
     try {
 
-        const response = await fetch('51062.json');
+        const response = await fetch("https://mspfa.com/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({ do: "story", s: 51062 }),
+        });
 
         if (!response.ok) {
             throw new Error("Error Lol");
