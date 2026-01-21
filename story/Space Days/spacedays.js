@@ -151,7 +151,7 @@ const gamelinks = document.getElementById('gamelinks');
         });
         
         function storyLog() {
-            window.location = `SDLog.html`
+            window.location = `SDlog.html`
         }
 
         function goBack() {
