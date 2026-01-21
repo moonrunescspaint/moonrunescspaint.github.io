@@ -134,6 +134,84 @@ async function fetchData() {
 
 }
 
+const gamelinks = document.getElementById('gamelinks');
+
+        gamelinks.addEventListener('click', function(link) {
+            if(link.target.id=='savegame') {
+                save();
+            } else if(link.target.id=='loadgame') {
+                load();
+            } else if(link.target.id=='deletegame') {
+                del();
+            } else if(link.target.id=='goBack') {
+                goBack();
+            } else if(link.target.id=='storyLog') {
+                storyLog();
+            }
+        });
+        
+        function storyLog() {
+            window.location = `HMLog.html`
+        }
+
+        function goBack() {
+            const url = new URL(window.location.href);
+            const params = new URLSearchParams(url.search);
+
+            let currentPage = parseInt(params.get('p')) || 1;
+            
+            if (currentPage > 1) {
+                let newPage = currentPage - 1;
+                params.set('p', newPage);
+                window.location.search = params.toString();
+            } else {
+                console.log("Cannot Go Back.")
+            }
+        }
+
+        function save() {
+          let url=window.location.href;
+          const dataname=document.title+" Save Data"
+          const savepage=localStorage.setItem(dataname,url);
+
+          if(typeof (Storage)!=="undefined") {
+            console.log("Saving Data");
+            savepage;
+            window.alert("Page saved!");
+          } else {
+            console.log("No Web storage support!");
+            window.alert("No Web storage support!");
+          }
+        }
+
+        function load() {
+            const dataname=document.title+" Save Data"
+            const loadpage=localStorage.getItem(dataname);
+
+            if(loadpage!==null) {
+                console.log("Loading data");
+                window.location.href=loadpage;
+            } else {
+                console.log("No data");
+                window.alert("There is no save data.");
+            }
+        }
+
+        function del() {
+            const dataname=document.title+" Save Data"
+            const loadpage=localStorage.getItem(dataname);
+            const delpage=localStorage.removeItem(dataname);
+
+            if(loadpage!==null) {
+                console.log("Deleting data");
+                window.alert("Save deleted");
+                delpage;
+            } else {
+                console.log("No data");
+                window.alert("There is no save data.");
+            }
+        }
+
 async function renderPage(pages) {
 
 
@@ -177,23 +255,4 @@ async function renderPage(pages) {
         link.textContent = nextPage.c;
         div.append(link);
     }
-    
-    const footLinks = document.querySelector('.footlinks');
-    footLinks.className = "footlinks";
-    const logLink = document.createElement('a')
-    logLink.href = `HMlog.html`
-    logLink.textContent = `Story Log`;
-    const goBack = document.createElement('a');
-    goBack.href = `heartsandminds.html?p=${pageNum - 1}`;
-    goBack.textContent = 'Go back';
-    footLinks.append(logLink);
-    if (pageNum === 1) {
-        goBack.textContent = "";
-        footLinks.append('');
-    } else {
-        footLinks.append(' | ');
-    }
-    footLinks.append(goBack);
-
-
 }

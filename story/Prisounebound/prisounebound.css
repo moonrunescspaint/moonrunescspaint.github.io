@@ -4,7 +4,7 @@ body {
   margin-top: 0px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  background-color: #1d1c1c;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -198,7 +198,7 @@ margin-block-start: 1em;
   background-color: #615A56;
 }
 
-.footlinks {
+#gamelinks {
   font-size: 10px;
 }
 
