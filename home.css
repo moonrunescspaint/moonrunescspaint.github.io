@@ -9,7 +9,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom, #171b1c, #424b4c);
+    background-color: #171b1c;
     background-size: cover;
     margin: auto;
 }
@@ -50,20 +50,20 @@ body{
     background-color: #171b1c;
     width: 50%;
     padding: 0px;
-    margin: 10px auto;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: inset 1px 0px 5px rgba(0, 0, 0, 0.5);
     }
     .coverImage {
     color: #00ceff;
+    border-style: solid;
+    border-width: 5px;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-width: 1px;
-    box-shadow:5px 5px 0px #00000071;
 }
 
 }
@@ -101,28 +101,23 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        box-shadow: inset 1px 0px 5px rgba(0, 0, 0, 0.5);
     }
     .coverImage {
     color: #00ceff;
+    border-style: solid;
+    border-width: 5px;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-width: 1px;
-    box-shadow:5px 5px 0px #00000071;
-}
+    }
 }
 
 .container{
-    background-color: #424b4c25;
-    border-style: solid none;
-    border-color: #00ceff;
     margin: 50px auto;
     margin-bottom: 10px;
-    padding-bottom: 10px;
-    box-shadow: 0px 0px 10px#00ceff;
-
+    padding-bottom: 0px;
 }
 
 .box{
@@ -135,12 +130,13 @@ body{
 
 .coverImage {
     color: #00ceff;
+    border-style: solid;
+    border-width: 5px;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-width: 1px;
-    box-shadow:5px 5px 0px #00000071;
 }
 
 .coverImage:hover {
@@ -150,11 +146,11 @@ body{
     -o-transition: all 0.02s;
     -ms-transition: all 0.02s;
     transition: all 0.02s;
-    box-shadow:5px 5px 0px #00000000;
 }
 
 .boxTitle {
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 2px;
     font-family: 'Player';
     font-size: xx-large;
@@ -162,7 +158,7 @@ body{
     justify-content: center;
     color: #00ceff;
     text-shadow: 0px 2px 0px #007e9e;
-    background: linear-gradient(to right, #424b4c00, #424b4c00, #171b1c, #424b4c00, #424b4c00);
+    
 }
 
 #newsBox {
@@ -223,8 +219,7 @@ body{
 .box:hover{
     transform:scale(1.05);
     z-index:2;
-    filter: drop-shadow(0px 0px 10px #00ceff);
-    border-radius: 10px;
+    filter: drop-shadow(0px 0px 30px #00ceff);
     cursor: pointer;
 }
 

@@ -12,46 +12,46 @@ body {
     margin-top: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #171b1c;
 }
 
 #title {
-    border-style: solid;
-    border-color: #00ceff;
     cursor: pointer;
     display: block;
     padding-top: 15px;
     padding-bottom: 5px;
     text-align: center;
-    font-size: 150px;
-    font-family: 'stuck';
+    font-size: 75px;
+    font-family: 'Player';
     color: white;
 }
 
 #main {
     width: 950px;
-    background-color: #000000;
+    background-color:#8fa7ad;
     display: table;
     margin-left: auto;
     margin-right: auto;
 }
 
 #container{
-    border-style: solid;
-    border-color: #00ceff;
-    width: 950px;
-    background-color: rgba(0, 0, 0, 0.397);
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+  background-color:#8fa7ad;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 0;
     
 }
 
 #slide {
-    width: 950px;
+
+  display: table;
+  width: 600px;
+  max-width: 940px;
+  margin: 7px auto 23px auto;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-word;
+  background-color: #ffffff;
 }
 
 .box {
@@ -70,31 +70,17 @@ body {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
 }
 
-span.jobtitle {
-    display: block;
-    text-align: center;
-    font-size: 15px;
-    padding-bottom: 5px;
+h2 {
     text-decoration: underline;
-    color: white;
 }
-
-span.name {
+.names {
     margin-top: 15px;
-    font-size: 20px;
-    text-decoration: underline;
-    color: white;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
 }
 
 .content {
-    background-color: #004352;
-    box-shadow: 5px 5px 0px #009bbe;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 10px 0px 10px 10px;
-    width: 670px;
+    margin: 10px 0px;
 }
 .image {
     padding-left: 10px;
