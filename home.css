@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #171b1c;
+    background-color: #1c1717;
     background-size: cover;
     margin: auto;
 }
@@ -37,7 +37,7 @@ body{
     .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    background-color: #007e9e;
+    background-color: #9e0000;
     color: white;
     margin-top: 0px;
     margin-bottom: 0;
@@ -47,7 +47,7 @@ body{
     cursor: default;
     }
     #storiesBox {
-    background-color: #171b1c;
+    background-color: #1c1717;
     width: 50%;
     padding: 0px;
     margin: 0px;
@@ -83,7 +83,7 @@ body{
     .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    background-color: #007e9e;
+    background-color: #9e0000;
     color: white;
     margin-top: 0px;
     margin-bottom: 0;
@@ -93,7 +93,7 @@ body{
     cursor: default;
     }
     #storiesBox {
-        background-color: #171b1c;
+        background-color: #1c1717;
         width: 100%;
         padding: 20px;
         margin: 10px auto;
@@ -103,7 +103,7 @@ body{
         justify-content: center;
     }
     .coverImage {
-    color: #00ceff;
+    color: #ff0000;
     border-style: solid;
     border-width: 5px;
     display: block;
@@ -129,7 +129,7 @@ body{
 
 
 .coverImage {
-    color: #00ceff;
+    color: #ff0000;
     border-style: solid;
     border-width: 5px;
     display: block;
@@ -156,13 +156,13 @@ body{
     font-size: xx-large;
     display: flex;
     justify-content: center;
-    color: #00ceff;
-    text-shadow: 0px 2px 0px #007e9e;
+    color: #ff0000;
+    text-shadow: 0px 2px 0px #9e0000;
     
 }
 
 #newsBox {
-    background-color: #2a3233;
+    background-color: #332a2a;
     padding: 20px;
     margin: auto;
     max-width: 940px;
@@ -199,7 +199,7 @@ body{
     font-family: 'Player';
     font-size: 20px;
     display: inline;
-    text-shadow: 0px 2px 0px #007e9e;
+    text-shadow: 0px 2px 0px #7d5454;
     margin: auto;
 }
 
@@ -219,7 +219,7 @@ body{
 .box:hover{
     transform:scale(1.05);
     z-index:2;
-    filter: drop-shadow(0px 0px 30px #00ceff);
+    filter: drop-shadow(0px 0px 30px #ff0000);
     cursor: pointer;
 }
 
@@ -238,7 +238,7 @@ span.foot {
     background-color:#000000;
     padding: 10px 10px;
     border-radius: 25px;
-    box-shadow: 0px 0px 5px #00ceff;
+    box-shadow: 0px 0px 5px #ff0000;
 }
 
 a {

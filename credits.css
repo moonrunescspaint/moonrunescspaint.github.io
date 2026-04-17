@@ -12,7 +12,7 @@ body {
     margin-top: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    background-color: #171b1c;
+    background-color: #1c1717;
 }
 
 #title {
@@ -28,14 +28,14 @@ body {
 
 #main {
     width: 950px;
-    background-color:#8fa7ad;
+    background-color:#ad8f8f;
     display: table;
     margin-left: auto;
     margin-right: auto;
 }
 
 #container{
-  background-color:#8fa7ad;
+  background-color:#ababab;
   margin-left: auto;
   margin-right: auto;
   padding: 7px 0;
@@ -63,10 +63,10 @@ body {
     width: auto;
     height: auto;
     border-style: solid;
-    border-color: #00ceff;
+    border-color: #ff0000;
     margin: 10px;
     padding-bottom: 10px;
-    background-color: #20b8daa8;
+    background-color: #da2020a8;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
 }
 
@@ -93,11 +93,11 @@ h2 {
     width: auto;
     height: auto;
     border-style: solid;
-    border-color: #00ceff;
+    border-color: #ff0000;
     margin: 10px;
     padding-bottom: 10px;
-    background-color: #004352;
-    box-shadow: 5px 5px 0px #009bbe;
+    background-color: #520000;
+    box-shadow: 5px 5px 0px #be0000;
 }
 
 img {
@@ -120,7 +120,7 @@ span{
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    background-color: #00ceff;
+    background-color: #ff0000;
     color: white;
     margin-top: -5px;
     margin-bottom: 0;
