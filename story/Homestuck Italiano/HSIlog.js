@@ -49,7 +49,7 @@ async function renderLog(page, pageNum){
     const pageCommand = page.c;
     const pageLink = document.createElement('a');
     pageLink.className = "comicLinks"
-    pageLink.href = `homestuckitaliano.html?p=${pageNum}`;
+    pageLink.href = `homestuckItaliano.html?p=${pageNum}`;
     pageLink.textContent = pageCommand;
     console.log(pageLink)
 
