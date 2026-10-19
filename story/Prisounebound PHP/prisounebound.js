@@ -105,7 +105,6 @@ function parseBBCode(code) {
     return e;
 }
 
-
 async function fetchData() {
 
     try {
@@ -323,7 +322,6 @@ function comments(commentBoxes) {
     }
 }
 
-
 function backlinks(line, posterId, replyId, postNums){
 
     if (line.includes(replyId) && replyId == postNums) {
@@ -332,9 +330,6 @@ function backlinks(line, posterId, replyId, postNums){
 
     
 }
-                
-
-
 
 function commentIndicators(comments) {
     

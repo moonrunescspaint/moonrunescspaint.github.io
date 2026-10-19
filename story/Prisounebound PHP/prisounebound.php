@@ -38,7 +38,7 @@
     <!-- Main Comic  -->
     <div class="main">
       <div class="titlecard"><img src="https://file.garden/ZXENUjtcLzaPWMyp/PRISON.png"></div>
-      <div class="header"><a href="/index.html">HOME</a> || MERCH || <a href="https://mspfa.com/?s=54371&p=1">MSPFA</a> || <a href='/credits.html'>CREDITS</a> || <a href='https://www.patreon.com/c/PRISOUNEBOUND'>DONATE</a></div>
+      <div class="header"><a href="/index.html">HOME</a> || MERCH || <a href="https://mspfa.com/?s=54371&p=1">MSPFA</a> || <a href='/credits.html'>CREDITS</a> || <a href='https://www.patreon.com/c/PRISOUNEBOUND'>DONATE</a> || <a href='/Rules.html'>RULES</a></div>
       <div id="container">
         <div id="slide">
           <div id="command"></div>
@@ -116,14 +116,12 @@
         const infoButton = document.getElementById('info')
         console.log(infoButton)
         infoButton.addEventListener('click', () => {
-            window.alert(`Welcome to the alpha version of CSPA's comment system!\n\n\ 
+            window.alert(`Welcome to the alpha version of CSPA's comment system! Please read the Rules page before posting.\n 
+
             This comment system is made entirely from scratch and is still a work in progress, and will be improved upon overtime.\n\n\ 
             List of planned features:\n\n\ 
             -Working reply system\n\ 
             -Floating comment form\n\n\
-            Rules of Commenting:\n\n\
-            1. You will not upload, post, discuss, request, or link to anything that violates local or United States law.\n\
-            2. You will not post or request personal information ("dox") or calls to invasion ("raids")\n\
             `)
         });
   </script>    
