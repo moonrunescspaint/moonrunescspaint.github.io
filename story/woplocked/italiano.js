@@ -252,7 +252,7 @@ async function renderPage(pages) {
         div.append('> ');
         const link = document.createElement('a')
         link.className = "comicLinks"
-        link.href = `homestuckItaliano.html?p=${pageNum + 1}`
+        link.href = `woplocked.html?p=${pageNum + 1}`
         link.textContent = nextPage.c;
         div.append(link);
     }
